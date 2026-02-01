@@ -13,7 +13,7 @@
 
 翻了一下知乎已有的回答，偏负面。其实我对这事蛮不解的，在微信的群里也是负面，真正讨论其架构特征和竞争力的并不多，满满都是从各种奇怪角度的质疑。
 
-![](../images/988e605a34645826edb59872b3c1ab63.jpg)![](../images/988e605a34645826edb59872b3c1ab63.jpg)![](../images/60360a97a12f9dba4edf1539f8dbc897.jpg)![](../images/60360a97a12f9dba4edf1539f8dbc897.jpg)
+![](./images/988e605a34645826edb59872b3c1ab63.jpg)![](./images/988e605a34645826edb59872b3c1ab63.jpg)![](./images/60360a97a12f9dba4edf1539f8dbc897.jpg)![](./images/60360a97a12f9dba4edf1539f8dbc897.jpg)
 
 **这就是中国做自研芯片的环境吗？**
 
@@ -39,7 +39,7 @@
 
 ---
 
-![](../images/8269fbc278610af7da08a0f3eba44be1.jpg)![](../images/8269fbc278610af7da08a0f3eba44be1.jpg)
+![](./images/8269fbc278610af7da08a0f3eba44be1.jpg)![](./images/8269fbc278610af7da08a0f3eba44be1.jpg)
 
 这是一句很重要的话。呵呵，如果你对某些深埋于过去的故事有所了解话，这句话表达了mike洪相当的执念：是的，我苦苦修炼了三年的时间，我回来证明自己了。
 
@@ -59,7 +59,7 @@
 
 如何获得这个力量，我在去年写一个帖子的时候心里就有了答案（没有讲出来）。
 
-[讲个恐怖故事](https://zhuanlan.zhihu.com/p/404666570)![](../images/7ab224a019a0e86b0e7ae41b88103a3c.jpg)![](../images/7ab224a019a0e86b0e7ae41b88103a3c.jpg)
+[讲个恐怖故事](https://zhuanlan.zhihu.com/p/404666570)![](./images/7ab224a019a0e86b0e7ae41b88103a3c.jpg)![](./images/7ab224a019a0e86b0e7ae41b88103a3c.jpg)
 
 帖子的末尾我给了一个指标，其实考虑到国内能力指标放水了，应该是**7nm下～500mm2 &～300W达成500Tflops。**两颗die合封就是1P，壁仞达成了。
 
@@ -69,7 +69,7 @@
 
 所以你认真再看看壁仞的发布指标，最高1000Tflops算力是BF16，没有FP16，朝上依次低一档是TF32和FP32（巨大的trick）
 
-![](../images/9a2af982c3434d6b5835f48d20adb033.jpg)![](../images/9a2af982c3434d6b5835f48d20adb033.jpg)
+![](./images/9a2af982c3434d6b5835f48d20adb033.jpg)![](./images/9a2af982c3434d6b5835f48d20adb033.jpg)
 
 AI是一个新业务，算法在不断演进。到底什么样的精度是最佳的？并无定论。
 
@@ -95,7 +95,7 @@ nvidia只是梭哈FP16，所以放弃了FP32，你要是把FP16当做AI的真理
 
 再说mike肯定不是傻子架构师，你看到的，什么HBM带宽不足啊什么的，人家也都看到的。
 
-![](../images/55e82a7e76f24fb8c81d41e9a6aaf437.jpg)![](../images/55e82a7e76f24fb8c81d41e9a6aaf437.jpg)
+![](./images/55e82a7e76f24fb8c81d41e9a6aaf437.jpg)![](./images/55e82a7e76f24fb8c81d41e9a6aaf437.jpg)
 
 什么blink、NOC、L2计算加速什么的，在我看都是基操（那什么L2共享私有双模，纯粹是NOC带宽做不高的副作用），我讲一个很有意思的点（如上）。我并不知道壁仞具体实现细节，有可能和我要说的结构相似吧，但如果不是，那当我多讲了一个秘密，你还多一条超越的路径。
 
@@ -115,7 +115,7 @@ tensor做太大会影响利用率，太小会影响能效（数据需要更多�
 
 我只能看到新闻稿，不知道内部情况，但即使是新闻稿，问题是有的，一个巨大的潜在的风险。
 
-![](../images/0b038d1b889e39a53325adf555b72e49.jpg)![](../images/0b038d1b889e39a53325adf555b72e49.jpg)
+![](./images/0b038d1b889e39a53325adf555b72e49.jpg)![](./images/0b038d1b889e39a53325adf555b72e49.jpg)
 
 **无缝运行，无缝，(●°u°●) 」**
 
@@ -131,7 +131,7 @@ NV什么时候开始提起诉讼？还是说中美这个情况下，如果NV真�
 
 不过，如果要进信创市场，里面有大量nvidia的专利和控制点，行吗？
 
-![](../images/7f5d59309e024109a43728b3ab4d4397.jpg)![](../images/7f5d59309e024109a43728b3ab4d4397.jpg)
+![](./images/7f5d59309e024109a43728b3ab4d4397.jpg)![](./images/7f5d59309e024109a43728b3ab4d4397.jpg)
 
 ---
 

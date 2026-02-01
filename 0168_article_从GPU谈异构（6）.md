@@ -37,7 +37,7 @@ DSA：domain specific architecture
 
 **水无形而常有形。** 受过中国文化教育的我想都很容易理解这个问题。
 
-![](../images/c887ccf2c0a201a57edf580b3da7c48d.jpg)![](../images/c887ccf2c0a201a57edf580b3da7c48d.jpg)
+![](./images/c887ccf2c0a201a57edf580b3da7c48d.jpg)![](./images/c887ccf2c0a201a57edf580b3da7c48d.jpg)
 
 所以**domain**其实是是一个度的范畴。
 
@@ -55,7 +55,7 @@ apple A14 CPU的为AI加速AMX coprocessor是不是DSA呢？
 
 **以Patterson大神的DSA黄金十年宣言为起点**：
 
-![](../images/fea984b925607b6c2a19bed584994929.jpg)![](../images/fea984b925607b6c2a19bed584994929.jpg)
+![](./images/fea984b925607b6c2a19bed584994929.jpg)![](./images/fea984b925607b6c2a19bed584994929.jpg)
 
 专用处理器的ISA擅长在domain刚起步的初期就迅速起步（没有历史负担），通过超越通用处理器的PPA收益和时间，换取在超越其定制化开销之外的额外收益，快速崛起。如果这个市场空间足够诱人，并且存在赢者通吃的可能性时，那是一定要第一时间投资专用处理器去抢头啖汤的。
 
@@ -65,7 +65,7 @@ apple A14 CPU的为AI加速AMX coprocessor是不是DSA呢？
 
 这个世界，如循环，生生不灭。
 
-![](../images/6b1b8f64ebc6315d3b8d0a3bebbb33a7.jpg)![](../images/6b1b8f64ebc6315d3b8d0a3bebbb33a7.jpg)
+![](./images/6b1b8f64ebc6315d3b8d0a3bebbb33a7.jpg)![](./images/6b1b8f64ebc6315d3b8d0a3bebbb33a7.jpg)
 
 **延伸到第二个话题，如何设计一个恰当的DSA?**
 
@@ -77,7 +77,7 @@ apple A14 CPU的为AI加速AMX coprocessor是不是DSA呢？
 
 是时候掏出裤裆里最大的宝贝了。
 
-![](../images/6608fa92f90eb7923da93e55e6fa5c80.jpg)![](../images/6608fa92f90eb7923da93e55e6fa5c80.jpg)
+![](./images/6608fa92f90eb7923da93e55e6fa5c80.jpg)![](./images/6608fa92f90eb7923da93e55e6fa5c80.jpg)
 
 这张图我觉得价值百万(ಡωಡ)
 
@@ -111,11 +111,11 @@ RISC-V的计算类DSA扩展是vector向量机结构（源自CRAY），不是SIMD
 
 **这里的总结是：如果倾向于极致专用的domain，并且DSA计算粒度中等偏上，最好选择独立做后端load/store/buffer结构；如果倾向于面对的domain更广，DSA计算粒度中偏小，在传统CPU内扩展DSA并复用CPU的存储系统更加便捷。**
 
-![](../images/74ac386ca49475a20241ee30bd0c83da.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
+![](./images/74ac386ca49475a20241ee30bd0c83da.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
 
 大致的情况是这个样子，其实具体需要思考的细节还蛮多的，我放个假也不容易，没法像写论文一样再展开。但是呢，不得不说的是，当下体系结构中**做DSA的顶尖大师们**的思路，则都是意识到上面所讲的取舍之后，选择在边界上反复横跳(ಡωಡ) ， 就是那种，在做死的边缘反复试探的赶脚来获取最大的利益。
 
-![](../images/4daaef29f0a4d9b54639d86568732d90.jpg)![](../images/4daaef29f0a4d9b54639d86568732d90.jpg)
+![](./images/4daaef29f0a4d9b54639d86568732d90.jpg)![](./images/4daaef29f0a4d9b54639d86568732d90.jpg)
 
 例如ARM的矩阵计算指令SME，那基本上是踩在context switch的悬崖边上的杰作，能算矩阵也能支持richOS。但是apple的AMX却更加精彩，表面上它是在ARM ISA上做的扩展，但是它硬是突破了context switch的边界做到了宏指令级别获得更巨大的PPA收益，虽然依旧复用原CPU的cache，但有独立的跨越cacheline尺度的读写能力。要问为啥apple可以这样横跳? 很简单也不简单，apple有两个大核，其中一个核做AMX计算时，另一个核负责响应中断或context switch，OS调度把握在apple手上，还是得服。
 
@@ -129,7 +129,7 @@ AI训练这个domain，从当下来看，几乎不存在基于X86/ARM扩展DSA�
 
 端午节被错误的天气预报困在家里，回首一看，居然写了这么多内容…………
 
-![](../images/71fbf57f41b056fd41248a23495e2e8e.jpg)![](../images/71fbf57f41b056fd41248a23495e2e8e.jpg)
+![](./images/71fbf57f41b056fd41248a23495e2e8e.jpg)![](./images/71fbf57f41b056fd41248a23495e2e8e.jpg)
 
 ---
 

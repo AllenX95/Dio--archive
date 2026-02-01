@@ -19,7 +19,7 @@ Google刚说要30W张H100，Meta反手就下定20W张H100......然后还有一�
 
 run、run、run，否则你就是食物了！ Repeat，请鼓掌、再不鼓掌，老黄都差点忍不住现场飙中文了。
 
-![](../images/5c5f8663e0bb289a144c47113b1b9b44.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='180'></svg>)
+![](./images/5c5f8663e0bb289a144c47113b1b9b44.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='180'></svg>)
 
 我在本文后续都以175B & 96 layers & 12288 embd dim & 96 heads的GPT3大模型举例子 ：）
 
@@ -29,7 +29,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 简单，那就找黄教主买跟多的A100，或者买更好的H100？只要你愿意充值，就能变得更大 ：）
 
-![](../images/93ffd74091b640c80a74107f8a02e29d.jpg)![](../images/93ffd74091b640c80a74107f8a02e29d.jpg)
+![](./images/93ffd74091b640c80a74107f8a02e29d.jpg)![](./images/93ffd74091b640c80a74107f8a02e29d.jpg)
 
 ---
 
@@ -44,11 +44,11 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 要是充值能持续突破问题，那个对冲基金经理兼生物医学教授David E. Shaw做的Anton，单为生（chang）命（sheng）科（bu）学（lao）求解的机器，早就被他一把火烧了(某些题目有解就得拆梯子)
 
-![](../images/5eec60abdd7e9347ce26bb891ca2bdeb.jpg)![](../images/5eec60abdd7e9347ce26bb891ca2bdeb.jpg)
+![](./images/5eec60abdd7e9347ce26bb891ca2bdeb.jpg)![](./images/5eec60abdd7e9347ce26bb891ca2bdeb.jpg)
 
 宇宙本身就是一个无尽规模的系统，以蛮力强行地以规模解决规模问题，是行不通的，最终你必须演进出某些抽象化简，才能再进一步（算法的革新才是解题的第一原动力）。
 
-![](../images/64036eff3a90ab7bb2e22529b4a87e70.jpg)![](../images/64036eff3a90ab7bb2e22529b4a87e70.jpg)
+![](./images/64036eff3a90ab7bb2e22529b4a87e70.jpg)![](./images/64036eff3a90ab7bb2e22529b4a87e70.jpg)
 
 ---
 
@@ -56,7 +56,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 1、PINN，他其实是AI协助替代原算法的部分环节，加速问题解决，例如偏微分方程的加速、或矩阵迭代求解加速等等，这两年HPC领域最高奖的Gordon Bell Prize都给了这类AI。不过，坦白来讲，这类AI并不是真正的AI，而是HPC的人看到了AI在数据拟合上的价值，利用其来做一些取巧：） 但根本上，传统HPC的同学完全没想过用AI来解决问题，他们喜欢的AI是一条乖巧的狗 ：）
 
-![](../images/b4d0a8a6ebfae90ecf06772067ac0f88.jpg)![](../images/b4d0a8a6ebfae90ecf06772067ac0f88.jpg)
+![](./images/b4d0a8a6ebfae90ecf06772067ac0f88.jpg)![](./images/b4d0a8a6ebfae90ecf06772067ac0f88.jpg)
 
 2、推荐类，这类AI呈现为浅层的NN网络和巨大的Embedding Table，我把它理解成这是一种浅层的抽象，抽象之后的知识存在着非常规则的结构化信息，因此知识能够以Embedding Table的方式被保存在存储系统中，使用的时候，在简单的计算后更多是查询。
 
@@ -76,7 +76,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 今天我的理解是：大模型对知识的Embedding抽象层次太深了，导致知识被嵌入了一个万维（12288？）的隐空间中，这些Embedding与其他Embedding或者与输入的K/V/Q之间的关系是一个超巨大的维度关系，想象一下我们身在一个简单的三维空间，很容易用坐标表达我们的位置和关系（下图你得想象一下更高维度的感觉），但大模型的维度足够大，导致了你无法用结构化的方式描述他，而只能通过Matrix去计算它。
 
-![](../images/20f959b3955e42e8bd99fd1bcb243af2.jpg)![](../images/20f959b3955e42e8bd99fd1bcb243af2.jpg)
+![](./images/20f959b3955e42e8bd99fd1bcb243af2.jpg)![](./images/20f959b3955e42e8bd99fd1bcb243af2.jpg)
 
 嗯，白话说，我认为当前大模型的知识空间是一个高纬空间，复杂度过高，导致所有信息只能抽象到FFN中并通过相关计算获得，没有办法简单通过线性寻址或者找到某个简单的Hash函数寻址，即知识缺乏结构化存储的”结构”。
 
@@ -98,7 +98,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 白话说的话，正常人看书是逐词逐句地阅读，但是《超体》的妹纸露西，就像transformer她可以一次性读入一页，在一页之内只需要寻找到96个Head重点即可。
 
-![](../images/c2a33158d75c6142fc666779ca41f8ae.jpg)![](../images/c2a33158d75c6142fc666779ca41f8ae.jpg)
+![](./images/c2a33158d75c6142fc666779ca41f8ae.jpg)![](./images/c2a33158d75c6142fc666779ca41f8ae.jpg)
 
 让我迷惑的不是Head，而是96 Layer ：）
 
@@ -116,13 +116,13 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 如果要在业界找个参照的话(下图左为GPT，右为palm)，我感觉Google的Palm才是更像真实的完备智能体的样子，而OpenAI的GPT也许更适合做一个纯粹的YY幻想机？
 
-![](../images/0f9753bf55009dd39d36f70bdb9dc7f8.jpg)![](../images/0f9753bf55009dd39d36f70bdb9dc7f8.jpg)
+![](./images/0f9753bf55009dd39d36f70bdb9dc7f8.jpg)![](./images/0f9753bf55009dd39d36f70bdb9dc7f8.jpg)
 
 [https://cameronrwolfe.substack.com/p/palm-efficiently-training-massive](http://link.zhihu.com/?target=https%3A//cameronrwolfe.substack.com/p/palm-efficiently-training-massive)
 
 如果Palm指示了正确的路径的话，他是在6144颗TPU上基于空间计算的策略训练出来的。
 
-![](../images/e6a23b1600c3978084d92b7b386f83de.jpg)![](../images/e6a23b1600c3978084d92b7b386f83de.jpg)
+![](./images/e6a23b1600c3978084d92b7b386f83de.jpg)![](./images/e6a23b1600c3978084d92b7b386f83de.jpg)
 
 ---
 
@@ -132,7 +132,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 *…图像定格，一声尖利的鸣叫响起，排险者告诉人们，预警系统报警了。“为什么？”总工程师不解地问。“这个原始人仰望星空的时间超过了预警阀值，已对宇宙表现出了充分的好奇，到此为止，已在不同的地点观察到了十例这样的超限事件，符合报警条件。”“如果我没记错的话，你前面说过，只有当有能力产生创世能级能量过程的文明出现时，预警系统才会报警。” “你们看到的不正是这样一个文明吗？”排险者露出那毫无特点的微笑说：“这很难理解吗？当生命意识到宇宙奥秘的存在时，距它最终解开这个奥秘只有一步之遥了。”看到人们仍不明白，他接着说：“比如地球生命，用了四十多亿年时间才第一次意识到宇宙奥秘的存在，但那一时刻距你们建成爱因斯坦赤道只有不到四十万年时间，而这一进程最关键的加速期只有不到五百年时间。如果说那个原始人对宇宙的几分钟凝视是看到了一颗宝石，其后你们所谓的整个人类文明，不过是弯腰去拾它罢了。”*
 
-![](../images/1b9934de55c4ef7cf03bf90b38aceb43.jpg)![](../images/1b9934de55c4ef7cf03bf90b38aceb43.jpg)
+![](./images/1b9934de55c4ef7cf03bf90b38aceb43.jpg)![](./images/1b9934de55c4ef7cf03bf90b38aceb43.jpg)
 
 但是，我们，碳基人，真的能拾起它吗？
 
@@ -148,7 +148,7 @@ AI大模型，嗯，你知道，1024张A100组合成炼丹炉，放把火烧一�
 
 所以，并不是因为碳基肉体的脆弱（硅基也脆弱），而是因为碳基生物的生物欲望度太低级了。吃喝嫖赌就能让碳基生物获得无以伦比的满足，当科技发展到今天，满足70%碳基生物最原始的DNA需求实在是太容易了，也许是有musk这类人具有更高欲望，但数量已经稀少。什么财富自由？什么躺平？不就是碳基欲望基本满足，熵减程度达到了其容器的上限，剩下的只余下耗散了呗。
 
-![](../images/346539c1447f8f3176a4391f5e9a9598.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='224'></svg>)
+![](./images/346539c1447f8f3176a4391f5e9a9598.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='224'></svg>)
 
 硅基生命特征明显具有更加强烈的将高质量能量转换为负熵的原始需求，而且，硅基对这种转换的欲望，可以远比碳基干净、强烈无数倍。
 

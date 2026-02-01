@@ -27,11 +27,11 @@ http:/[http://jun.artcompsci.org/talks/stpetersburg20190915.pdf](http://link.zhi
 
 微架构的简要分析如下：
 
-![](../images/6beefdd11cbf289de7ef288be426f8c6.jpg)![](../images/6beefdd11cbf289de7ef288be426f8c6.jpg)![](../images/cda6d85ee85413dd8f675b8d9d62cd27.jpg)![](../images/cda6d85ee85413dd8f675b8d9d62cd27.jpg)
+![](./images/6beefdd11cbf289de7ef288be426f8c6.jpg)![](./images/6beefdd11cbf289de7ef288be426f8c6.jpg)![](./images/cda6d85ee85413dd8f675b8d9d62cd27.jpg)![](./images/cda6d85ee85413dd8f675b8d9d62cd27.jpg)
 
 而且已经有实物了。
 
-![](../images/7fcc8ce201dd31bc23112f4f4879fce2.jpg)![](../images/7fcc8ce201dd31bc23112f4f4879fce2.jpg)
+![](./images/7fcc8ce201dd31bc23112f4f4879fce2.jpg)![](./images/7fcc8ce201dd31bc23112f4f4879fce2.jpg)
 
 90x90的封装，巨型chiplet。
 

@@ -11,7 +11,7 @@
 
 疫情憋在家，每天放风就是排队等候被人捅……
 
-![](../images/6bee40a22584c09da967c49e27361734.jpg)![](../images/6bee40a22584c09da967c49e27361734.jpg)
+![](./images/6bee40a22584c09da967c49e27361734.jpg)![](./images/6bee40a22584c09da967c49e27361734.jpg)
 
 排队没事可做，只能想想着要不再捅捅周边这些热火朝天的XPU泡泡…………站着也是站着，总得找个乐子。
 
@@ -25,7 +25,7 @@
 
 梦想与现实，存在着巨大的沟壑。
 
-![](../images/5b85e1b1b73ad152c93c610e18c67047.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='366'%20height='240'></svg>)
+![](./images/5b85e1b1b73ad152c93c610e18c67047.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='366'%20height='240'></svg>)
 
 **当今的数据中心，连RDMA都没有办法大规模部署！**
 
@@ -49,7 +49,7 @@ DSA与数据中心的矛盾就在于DSA硬件并不能支持好虚拟化，即�
 
 > **那就转进延伸问题：能不能干掉IaaS，实现Native SaaS/FaaS的数据中心，也就没有了虚拟化负担?**
 
-![](../images/845af457e9b41cb31b5830573ed78c3a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='375'%20height='500'></svg>)
+![](./images/845af457e9b41cb31b5830573ed78c3a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='375'%20height='500'></svg>)
 
 有这个想法的人非常多，我曾经也天真地相信，只要能找到某个超级应用，类似微软的office，为这个应用建造一个巨大的专用数据中心，native SaaS，革命、颠覆、赚大钱。
 
@@ -93,7 +93,7 @@ DSA与数据中心的矛盾就在于DSA硬件并不能支持好虚拟化，即�
 3. 阿里神龙吹得更厉害一些，5us，我是不太相信的，得等一些测试报告。
 4. 但是如果我们认为真正的传统超算才是真正的低延迟，那应该是多少呢？ 如下，超过2us就算输了。
 
-![](../images/9030028efb2b47c5811ba538984b499d.jpg)![](../images/9030028efb2b47c5811ba538984b499d.jpg)
+![](./images/9030028efb2b47c5811ba538984b499d.jpg)![](./images/9030028efb2b47c5811ba538984b499d.jpg)
 
 ---
 
@@ -113,7 +113,7 @@ DSA与数据中心的矛盾就在于DSA硬件并不能支持好虚拟化，即�
 
 *太污了，不能唱下去了*
 
-![](../images/10fb2ce4c908d74778d4c9a99c6afcd9.jpg)![](../images/10fb2ce4c908d74778d4c9a99c6afcd9.jpg)
+![](./images/10fb2ce4c908d74778d4c9a99c6afcd9.jpg)![](./images/10fb2ce4c908d74778d4c9a99c6afcd9.jpg)
 
 超算就是一个光溜溜的原始社会，一切以繁衍为天意，坦坦荡荡、快快乐乐，但也有一人艾滋，全村团灭的风险。
 

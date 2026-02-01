@@ -15,7 +15,7 @@
 
 嗯，我菊也在做自动驾驶，MDC610…… 昇腾的编号是什么？ (ﾟoﾟ; ascend610么?
 
-![](../images/5320920556f99fca9b120df25c2faadf.jpg)![](../images/5320920556f99fca9b120df25c2faadf.jpg)
+![](./images/5320920556f99fca9b120df25c2faadf.jpg)![](./images/5320920556f99fca9b120df25c2faadf.jpg)
 
 这芯片，哥也是architect之一，虽然只参与了前期较短的时间，对其中的知识结构理解也不深入，但因为哥画了第一版的架构图，从而决定了整个架构文档的配色！！！
 
@@ -25,7 +25,7 @@
 
 不谈这颗芯片及我菊的产品，谨慎谨慎。
 
-![](../images/a722d8388c7b1397d6343b921d811e66.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
+![](./images/a722d8388c7b1397d6343b921d811e66.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
 
 瞎扯一下我对自动驾驶本身的一些很低级的迷惑。
 
@@ -41,7 +41,7 @@
 
 我一度认为这个问题是有解的，曾几何时，大家的出行工具都是马车，但也就五年不到的时间，内燃机几乎百分百地完成了马车的替代。相信很多startup都给VC讲过这个故事。(ಡωಡ) 。同理，如果触发了某个trigger，大街上70%~80%甚至更多的车都切换成了自动驾驶，类似于群体免疫的效果，所有车都遵从规则，各行其道，相互协商完成道路的切换，完美的世界。
 
-![](../images/9e6716bbe3cf48c76db33fcd7081c961.jpg)![](../images/9e6716bbe3cf48c76db33fcd7081c961.jpg)
+![](./images/9e6716bbe3cf48c76db33fcd7081c961.jpg)![](./images/9e6716bbe3cf48c76db33fcd7081c961.jpg)
 
 但一个突发的问题打乱了我的逻辑，这车是华为的还是小米的?
 
@@ -59,7 +59,7 @@
 
 瞎猜瞎猜。
 
-![](../images/060cf821a8c815f651b8e7e680db05c6.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
+![](./images/060cf821a8c815f651b8e7e680db05c6.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
 
 ---
 

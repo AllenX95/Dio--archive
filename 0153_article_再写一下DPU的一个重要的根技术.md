@@ -23,7 +23,7 @@
 
 念念不忘，必有回响，有一口气，点一盏灯，有灯就有人。
 
-![](../images/fa45212e81b81d8290e696afe567700a.jpg)![](../images/fa45212e81b81d8290e696afe567700a.jpg)
+![](./images/fa45212e81b81d8290e696afe567700a.jpg)![](./images/fa45212e81b81d8290e696afe567700a.jpg)
 
 嗯，今天再讲一个DPU芯片非常重要的点，实在是忍不住，不讲出来赶脚死得憋屈。
 
@@ -41,7 +41,7 @@
 
 以太网，特别是在接口位置，需要的是**确定性行为**以保证其throuput和QoS。而CPU却是一种latency sensitive的PE，这注定了其业务表现存在随机性和长尾效应。一大堆CPU，如果无忧无虑地自由发挥，那真的是让你明白一种米养百样人是个什么感觉。一个小小的蝴蝶扇动翅膀，可能会在BUS、CACHE、反压等各种环节被放大到足以影响业务运行的程度。你可以通过设计保证一个模块在受到扰动时的振荡趋于收敛（即衰减振荡而不是发散振荡），但永远无法保证一个多核系统能够收敛（所以啊，用一堆小核来做DPU，是愚蠢的）。
 
-![](../images/19eb4e09d4d94880aa37c350b2a96371.jpg)![](../images/19eb4e09d4d94880aa37c350b2a96371.jpg)
+![](./images/19eb4e09d4d94880aa37c350b2a96371.jpg)![](./images/19eb4e09d4d94880aa37c350b2a96371.jpg)
 
 再说，如果用DPU的CPU卸载host的CPU……有啥能效收益呢？ 是，以前intel的CPU每个CORE卖得贵，但现在AMD和ARM砸场子之后，host的CPU早已变得廉价了。
 
@@ -73,7 +73,7 @@ nvidia的blufield是做得最完美的，用HAC做A，用ASAP2（替代P4）做B
 
 是，你拼劲力气凑齐了四颗龙珠呼唤神龙，想要许下一统江湖的愿望……
 
-![](../images/5afd8aa4c5f885e3da3b480ab7722052.jpg)![](../images/5afd8aa4c5f885e3da3b480ab7722052.jpg)
+![](./images/5afd8aa4c5f885e3da3b480ab7722052.jpg)![](./images/5afd8aa4c5f885e3da3b480ab7722052.jpg)
 
 却发现，阿西吧，好像语言不通哇 ⊙ω⊙
 
@@ -85,7 +85,7 @@ nvidia的blufield是做得最完美的，用HAC做A，用ASAP2（替代P4）做B
 
 说到这里，你会看出这个业界有且只有一个男人真正知道这个根技术的重要性，NVIDIA的黄师傅。虽说有根的不一定就是真男人，但没根的肯定不是男人，核弹在手皮衣在身，黄师傅还是想做真男人的。
 
-![](../images/02a6eaf49190c595bd55be80b24cf8f4.jpg)![](../images/02a6eaf49190c595bd55be80b24cf8f4.jpg)
+![](./images/02a6eaf49190c595bd55be80b24cf8f4.jpg)![](./images/02a6eaf49190c595bd55be80b24cf8f4.jpg)
 
 **DOCA！**
 
@@ -101,7 +101,7 @@ nvidia采用了每层都细化DSA的结构，但开创性地将四种DSA的接�
 
 如果我们打开今年hotchip，DOCA的定义已经相当完美了（有空的同学翻翻NV历史上的胶片，DOCA的描述是逐步完善的）。
 
-![](../images/32390e84591638f15e226f8e2abb9d6a.jpg)![](../images/32390e84591638f15e226f8e2abb9d6a.jpg)
+![](./images/32390e84591638f15e226f8e2abb9d6a.jpg)![](./images/32390e84591638f15e226f8e2abb9d6a.jpg)
 
 **DOCA是NVIDIA DPU的唯一编程框架**
 
@@ -121,7 +121,7 @@ nvidia采用了每层都细化DSA的结构，但开创性地将四种DSA的接�
 
 这需要招聘互联领域（相比AI都是网络）的陈天奇、李沐、贾扬清……而业界相关的人才其实没几个，又早被被火热的AI吸引过去了…………
 
-![](../images/ee8366cff9544b2f8826bce2418b365f.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='190'%20height='190'></svg>)
+![](./images/ee8366cff9544b2f8826bce2418b365f.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='190'%20height='190'></svg>)
 
 ---
 

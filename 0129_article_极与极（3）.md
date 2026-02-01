@@ -9,7 +9,7 @@
 
 ---
 
-![](../images/fb45c1097661f93beb064d9285666cae.jpg)![](../images/fb45c1097661f93beb064d9285666cae.jpg)
+![](./images/fb45c1097661f93beb064d9285666cae.jpg)![](./images/fb45c1097661f93beb064d9285666cae.jpg)
 
 经历和感悟，也是一位合格的架构师所必须经历的历程。因为很多时候所谓的架构及其演进，往往是伴随着某些过去的边界条件发生的变化而触发的。
 
@@ -27,7 +27,7 @@
 
 那么，当今最大的图灵机和最小的图灵机，都是图灵机，差别能有多大？
 
-![](../images/c987d9fe26c0a378eb93708eb0294328.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='300'></svg>)
+![](./images/c987d9fe26c0a378eb93708eb0294328.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='300'></svg>)
 
 ---
 
@@ -37,7 +37,7 @@ IBM的小型机是Power系列，大型机是Z系列，他们的每台巨大的�
 
 如果单看CPU Core的数量，两者相差不大，Z系的计算规模，其实嘛，某些时候P系列甚至X86普通服务器也能组装出近似甚至某些地方超越（例如P系列线程数量高）。但实际上Z系列在单线程性能、安全性、可靠性上远胜于P系列和X86，所以通常来讲大型机的Z系列是最大型图灵机的顶峰，即使力量能赶上，但身体的强健和耐操不是一个等级。
 
-![](../images/0c05151ea6da8e613debb752117bdc14.jpg)![](../images/0c05151ea6da8e613debb752117bdc14.jpg)
+![](./images/0c05151ea6da8e613debb752117bdc14.jpg)![](./images/0c05151ea6da8e613debb752117bdc14.jpg)
 
 上面就是Z15的系统，Z16芯片也是出来了，但系统还刚问世，很多信息还不齐备。
 
@@ -49,13 +49,13 @@ IBM的小型机是Power系列，大型机是Z系列，他们的每台巨大的�
 
 *题外话：不知道中美之间走下去，会不会有一天小型机、大型机也被禁了啊？ 如果到那一天，是否到时软件也都能分布式化？还是不能？ 如果不能，嗯，也许光刻机被人解决了，大型机谁来做呢？ 好吧，我也许算是最接近可能解的人了，至少知道可能的答案在什么地方。但虽然做这东西实在是没法赚到钱，要我做的话，还是得加钱吧。*
 
-![](../images/fa6a5bfa0ea394f7eb8636c0c24d6986.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='196'></svg>)
+![](./images/fa6a5bfa0ea394f7eb8636c0c24d6986.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='196'></svg>)
 
 ---
 
 最小的图灵机。。。。。。妈的，那是Tenstorrent
 
-![](../images/9af5b75876e8f62107d271fd607e7fba.jpg)![](../images/9af5b75876e8f62107d271fd607e7fba.jpg)
+![](./images/9af5b75876e8f62107d271fd607e7fba.jpg)![](./images/9af5b75876e8f62107d271fd607e7fba.jpg)
 
 他的Core叫tensix，表面上看上去是没什么特别的，实际上，这个很小的core，包含了一整个图灵完备的CPU+MEM+IO完整系统。
 
@@ -73,7 +73,7 @@ AI撞墙了 ：） 这是最近很火的话题。
 
 如帖子所述，在我看来，Nvidia的GPU救不了AI，但也许Tenstorrent，它更像人脑，更像能够独立工作的无数神经元的组合，我赌五毛钱Tenstorrent可能可以。
 
-![](../images/08b2aca087486303921ed916e59a1c66.jpg)![](../images/08b2aca087486303921ed916e59a1c66.jpg)
+![](./images/08b2aca087486303921ed916e59a1c66.jpg)![](./images/08b2aca087486303921ed916e59a1c66.jpg)
 
 ---
 

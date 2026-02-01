@@ -21,7 +21,7 @@ L哥突然说了一句话**：NV在技术上的每一个选择，都体现了它
 
 *PS：举个栗子，下图其实就是一种对未来充满不安全感的表现，你想想是不是？*
 
-![](../images/1157a063fcdd0c738d1231ee9a794835.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='224'></svg>)
+![](./images/1157a063fcdd0c738d1231ee9a794835.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='224'></svg>)
 
 ---
 
@@ -44,7 +44,7 @@ L哥突然说了一句话**：NV在技术上的每一个选择，都体现了它
 
 **NV所行，乃王者之道。**
 
-![](../images/5bc05c4b0e23eaa829d7887b5a04c532.jpg)![](../images/5bc05c4b0e23eaa829d7887b5a04c532.jpg)
+![](./images/5bc05c4b0e23eaa829d7887b5a04c532.jpg)![](./images/5bc05c4b0e23eaa829d7887b5a04c532.jpg)
 
 ---
 
@@ -58,7 +58,7 @@ L哥突然说了一句话**：NV在技术上的每一个选择，都体现了它
 
 而云计算当前困难，如我在这个帖子所述，**是算力的增长依赖于DSA后在云上如何高效部署的困难。**
 
-<https://zhuanlan.zhihu.com/p/473102686>![](../images/c114105d1a239f5315312363679d80b8.jpg)![](../images/c114105d1a239f5315312363679d80b8.jpg)
+<https://zhuanlan.zhihu.com/p/473102686>![](./images/c114105d1a239f5315312363679d80b8.jpg)![](./images/c114105d1a239f5315312363679d80b8.jpg)
 
 这里首先要纠正一个误解，很多人在讲数据中心做异构的时候，总是认为异构计算的主要矛盾在于如何隐藏异构的差异性，并且通过某些框架或调度，让最合适的DSA算最合适的算子，用户对此并不感知。
 
@@ -82,7 +82,7 @@ L哥突然说了一句话**：NV在技术上的每一个选择，都体现了它
 
 像下面这张图，讲得就很突兀…
 
-![](../images/3e84397cfc62f8582a61a0c219e89331.jpg)![](../images/3e84397cfc62f8582a61a0c219e89331.jpg)
+![](./images/3e84397cfc62f8582a61a0c219e89331.jpg)![](./images/3e84397cfc62f8582a61a0c219e89331.jpg)
 
 看完GTC，你是否有很多问号。NV为何从不解释DPU和IPU之间的关系？NV搞这么个grace是要卖给谁？数据中心连RDMA都没部署起来，DPU的direct搞来干嘛？以太网交换机和IB交换机微架构差别巨大（前者共享buffer后者不是），NV为啥花这么大代价维持两个团队？
 
@@ -94,7 +94,7 @@ L哥突然说了一句话**：NV在技术上的每一个选择，都体现了它
 
 DC as a computer，异构计算云，disaggregated computing，这几个名字他都是。
 
-![](../images/2319b7f03e50ea4e5b8f2dd8608eec9b.jpg)![](../images/2319b7f03e50ea4e5b8f2dd8608eec9b.jpg)
+![](./images/2319b7f03e50ea4e5b8f2dd8608eec9b.jpg)![](./images/2319b7f03e50ea4e5b8f2dd8608eec9b.jpg)
 
 关键的一个点，其实IPU和DPU是并存的，并不存在一体两面或者什么大融合之类说法，它真的就会成为实际并存的两个东西。其实当年我写DPU的困扰时就想说，它们也许是并存的，只是国内的startups并没有主张。
 
@@ -124,7 +124,7 @@ Grace+dpu，可以实现BMS或者iaas下GPU池化，并不需要支持完备iaas
 
 Intel购买的公司就没一个成的，但是Nvidia在它完整的战略规划下，它成功或者不成功购买的公司，都形成了其完整蓝图的战略控制点，并且为其他公司的市场留下了足够的空间。
 
-![](../images/6133fd822c9585150573f07ee39a57f8.jpg)![](../images/6133fd822c9585150573f07ee39a57f8.jpg)
+![](./images/6133fd822c9585150573f07ee39a57f8.jpg)![](./images/6133fd822c9585150573f07ee39a57f8.jpg)
 
 ps：国内的IPU是成功不了的，因为每家cloud vendor都为其客户在OVS上深度定制了安全和隔离带机制，这本身就是cloud vendor的秘密和利益空间。
 
@@ -134,7 +134,7 @@ ps:国内做DPU也是成功不了的，因为Nvidia做DPU那是为了卖他家�
 
 我Nvidia，和Intel并不敌对，你有你的未来我有我的，只是我相信的未来，会更加强大。
 
-![](../images/a123d712a9740ad366d1270299c5c975.jpg)![](../images/a123d712a9740ad366d1270299c5c975.jpg)
+![](./images/a123d712a9740ad366d1270299c5c975.jpg)![](./images/a123d712a9740ad366d1270299c5c975.jpg)
 
 ---
 
@@ -152,7 +152,7 @@ ps:国内做DPU也是成功不了的，因为Nvidia做DPU那是为了卖他家�
 
 也许我们也都应该有这样的气度，尊重过往，尊重你建立的即有规则，即使你不断制造障碍，但面对新时代的挑战，我对我将创造的未来充满信心。
 
-![](../images/629c35d4157575d614adbed52f95b00f.jpg)![](../images/629c35d4157575d614adbed52f95b00f.jpg)
+![](./images/629c35d4157575d614adbed52f95b00f.jpg)![](./images/629c35d4157575d614adbed52f95b00f.jpg)
 
 ---
 

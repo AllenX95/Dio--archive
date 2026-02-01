@@ -9,7 +9,7 @@
 
 ---
 
-![](../images/6cd8dbe32ce6b04d6efd7cca73487988.jpg)![](../images/6cd8dbe32ce6b04d6efd7cca73487988.jpg)
+![](./images/6cd8dbe32ce6b04d6efd7cca73487988.jpg)![](./images/6cd8dbe32ce6b04d6efd7cca73487988.jpg)
 
 理解能力不足，请教一下OS的同志们，这个PS是什么意思?
 

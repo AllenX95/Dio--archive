@@ -23,7 +23,7 @@
 
 但是，打工人，打工魂，打工都是人上人，打工人当然有必要把自己YY成世界的老板，为国为民操操心的。
 
-![](../images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)![](../images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)
+![](./images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)![](./images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)
 
 ---
 
@@ -77,13 +77,13 @@
 
 科技个税收不下去了。
 
-![](../images/973b91ed7fdac90442b0ed56170fa85d.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='390'%20height='124'></svg>)
+![](./images/973b91ed7fdac90442b0ed56170fa85d.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='390'%20height='124'></svg>)
 
 固然，苹果更高了，采摘的代价变大了，但更重要的问题自由市场制度太缺乏节制(我国相当大部分产业也是市场经济)，经济规律被玩坏了。
 
 记得一张图吗？
 
-![](../images/ae29e672804375e899ef2f849a2839a7.jpg)![](../images/ae29e672804375e899ef2f849a2839a7.jpg)
+![](./images/ae29e672804375e899ef2f849a2839a7.jpg)![](./images/ae29e672804375e899ef2f849a2839a7.jpg)
 
 ---
 
@@ -107,7 +107,7 @@
 
 如果这个世界处于了这样的变局，我们是得坐下来认真想一想要不要换一个打工的姿势。
 
-![](../images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)![](../images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)
+![](./images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)![](./images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)
 > 弱水三千，要只取一瓢饮哦…………
 
 ---

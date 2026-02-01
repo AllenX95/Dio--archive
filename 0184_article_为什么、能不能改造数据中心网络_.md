@@ -13,7 +13,7 @@
 
 好，我只是一个平民，请让我对这事来盘一盘逻辑。
 
-![](../images/e3cdfe4caf965a097b8f656645cff897.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='240'></svg>)
+![](./images/e3cdfe4caf965a097b8f656645cff897.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='240'></svg>)
 
 ## 灵魂第一问：**你相信世界未来算力的核心是数据中心（data center）吗?**
 
@@ -23,7 +23,7 @@
 
 ## 灵魂第二问：未来数据中心的主要形态是IaaS or PaaS or SaaS or serverless?
 
-![](../images/e207ed09ba3f584dad2f13f50f028108.jpg)![](../images/e207ed09ba3f584dad2f13f50f028108.jpg)
+![](./images/e207ed09ba3f584dad2f13f50f028108.jpg)![](./images/e207ed09ba3f584dad2f13f50f028108.jpg)
 
 现阶段，当我们谈到云计算时，没办法，主要是指IaaS甚至于裸金属形态，因为这是目前云盈利的最主要的空间。
 
@@ -43,7 +43,7 @@ IaaS希望用户看到的是与自己私有（如果有）的IT设施是一模�
 
 理想很丰满，CPU、DRAM、Storage、GPU、DPU……etc解耦为独立计算资源，每种资源独立池化，不仅仅可以增强DC管理者的灵活度和掌控力，每种资源还能独立快速演进，摩尔定律演进变缓的当下，只有DSA才能充分进一步以异构方式发挥出下一阶的算力升级，算力升级的体验才能引导客户逐渐摆脱IaaS的束缚。很明显，要做DSA，池化是必须的，否则你每台CPU插一排卡? 不现实啊。这些解耦的计算资源只需要一个低延迟高带宽的网络把他们互联起来，那么逻辑就顺了，传统以太网这么个无连接不可靠的妖艳贱货怎么可能负担起这么重要的职责? 必须要改造！
 
-![](../images/5b469d6ddb647c85488329a3872f6687.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
+![](./images/5b469d6ddb647c85488329a3872f6687.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
 
 事实很骨感，其实disaggregate从数据中心诞生就开始做了，最早做的是storage的池化，原因很简单，CPU访问storage的延迟是10us~1000us，带宽是1～5Gbps，这种级别的需求，拉根电力线都能做，不过即使如此，我拜访微软时依旧看到azure机柜的每个机框内补充了M.2作为hot storage补充。
 
@@ -51,7 +51,7 @@ IaaS希望用户看到的是与自己私有（如果有）的IT设施是一模�
 
 所以，所谓disaggregate是存在程度的差异的，即当前业界无法实现fully disaggregate，退而求其次走向异构计算资源（CPU、GPU、DPU）的partial disaggregate看上去更加靠谱一点。
 
-![](../images/22ed11aee39a580482c9778ea0e72a9f.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='320'></svg>)
+![](./images/22ed11aee39a580482c9778ea0e72a9f.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='320'></svg>)
 
 先不说网络，partial的问题是数据上下文。假设CPU在北京，GPU在南京，DRAM不能池化的话，如果一个业务小粒度不断来回切换CPU和GPU算力，这数据搬来搬去……用网络还不如卡车运硬盘呢。
 
@@ -67,7 +67,7 @@ IaaS希望用户看到的是与自己私有（如果有）的IT设施是一模�
 
 即使失败，也当用鲜血为后继者画出正确的导航图！方不负Valkyrie之名！
 
-![](../images/f3e249188235d34b03fd9a53c10e8f38.jpg)![](../images/f3e249188235d34b03fd9a53c10e8f38.jpg)
+![](./images/f3e249188235d34b03fd9a53c10e8f38.jpg)![](./images/f3e249188235d34b03fd9a53c10e8f38.jpg)
 
 ---
 

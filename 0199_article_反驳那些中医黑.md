@@ -23,7 +23,7 @@
 
 阿弥陀佛，代码永无BUG！
 
-![](../images/9e79876c99d376a518c89aabf72f056b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='348'%20height='290'></svg>)
+![](./images/9e79876c99d376a518c89aabf72f056b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='348'%20height='290'></svg>)
 
 名言2收尾：
 

@@ -23,7 +23,7 @@ CPU是美国的? 存储是韩国的?
 
 就问你高不高兴，开不开心。
 
-![](../images/8b1bb97c30377a406487c34ddb96421a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='351'%20height='452'></svg>)
+![](./images/8b1bb97c30377a406487c34ddb96421a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='351'%20height='452'></svg>)
 
 ---
 

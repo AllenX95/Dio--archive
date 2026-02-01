@@ -29,11 +29,11 @@
 
 ps：注意看hotchip上壁仞讲多个tensor组合的等价性。
 
-![](../images/b6974c71d8afa6570ca94d5ce64bce58.jpg)![](../images/b6974c71d8afa6570ca94d5ce64bce58.jpg)
+![](./images/b6974c71d8afa6570ca94d5ce64bce58.jpg)![](./images/b6974c71d8afa6570ca94d5ce64bce58.jpg)
 
 *ps：壁仞的tensor展开结构大致和NV在SM内部的4Tensor展开结构是类似的（4变16），但因为内部已经有2group………*
 
-![](../images/d070dfcc3cd55e1bee70b4b19defebc9.jpg)![](../images/d070dfcc3cd55e1bee70b4b19defebc9.jpg)
+![](./images/d070dfcc3cd55e1bee70b4b19defebc9.jpg)![](./images/d070dfcc3cd55e1bee70b4b19defebc9.jpg)
 
 不过，我的答案也算是给出了另一个超越NV的微架构路径，外积虽然输入矩阵大，但好在扩展性更好，嗯，知道SME的同学应该明白我说得意思………
 
@@ -45,11 +45,11 @@ ps：注意看hotchip上壁仞讲多个tensor组合的等价性。
 
 **BR100的T-core个数是32SPC x 16 EU = 512**
 
-![](../images/81f1c828217fe2155e45aabdab23672f.jpg)![](../images/81f1c828217fe2155e45aabdab23672f.jpg)
+![](./images/81f1c828217fe2155e45aabdab23672f.jpg)![](./images/81f1c828217fe2155e45aabdab23672f.jpg)
 
 **H100的图tensorcore数量是8GPC x ～16SM（16/18的PG）x 4 = ～512。**
 
-![](../images/538a53ccf02be730704433c423e241e5.jpg)![](../images/538a53ccf02be730704433c423e241e5.jpg)
+![](./images/538a53ccf02be730704433c423e241e5.jpg)![](./images/538a53ccf02be730704433c423e241e5.jpg)
 
 两者相当。
 
@@ -87,7 +87,7 @@ NV的Tcore是4x8x16 = 512 FMAC
 
 所以NV是故意卖个破绽让别人超越他吗？
 
-![](../images/8ce2e74e9b46c33b60abb11be080ea97.jpg)![](../images/8ce2e74e9b46c33b60abb11be080ea97.jpg)
+![](./images/8ce2e74e9b46c33b60abb11be080ea97.jpg)![](./images/8ce2e74e9b46c33b60abb11be080ea97.jpg)
 
 ---
 

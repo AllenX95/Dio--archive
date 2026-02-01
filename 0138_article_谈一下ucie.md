@@ -13,7 +13,7 @@
 
 楼下的洗脚店都关了，没得爽，下楼只能排队做核酸玩。
 
-![](../images/a7e534a161e9975c4d5b804ec4205352.jpg)![](../images/a7e534a161e9975c4d5b804ec4205352.jpg)
+![](./images/a7e534a161e9975c4d5b804ec4205352.jpg)![](./images/a7e534a161e9975c4d5b804ec4205352.jpg)
 
 不知道再过几年，在人类进化的选择压力下，捅一捅是否也会成为一件让人感到快乐的事情……
 
@@ -29,7 +29,7 @@ UCIE能带来世界和平吗？
 
 作为chiplet的先驱（下面这篇论文的架构，那是2016年定的），你要做chiplet的话，真的值得看。
 
-![](../images/cebb5257e1e0d6f5606fcfb446ea754f.jpg)![](../images/cebb5257e1e0d6f5606fcfb446ea754f.jpg)
+![](./images/cebb5257e1e0d6f5606fcfb446ea754f.jpg)![](./images/cebb5257e1e0d6f5606fcfb446ea754f.jpg)
 
 所以，大概两年前就有人在问我，chiplet的接口能不能做成标准化?
 
@@ -41,17 +41,17 @@ UCIE能带来世界和平吗？
 
 **第一，chiplet的接口物理层依旧处于持续演进七国八制阶段，暂无一个具有王者风范的路径现世。**
 
-![](../images/a1d847346e892b83db4bbdf6955568ed.jpg)![](../images/a1d847346e892b83db4bbdf6955568ed.jpg)
+![](./images/a1d847346e892b83db4bbdf6955568ed.jpg)![](./images/a1d847346e892b83db4bbdf6955568ed.jpg)
 
 先放一张现有的几个摆在台面上的已有商用的chiplet接口协议，包括intel、AMD、TSMC都在内，无论是带宽密度、延迟、能耗，差别巨大，因为他们各自在进化路径中都选择了其各自不同的进化路径。他们之间是无可能互联的。
 
 除开接口规格，chiplet本身的封装形式带来的物理约束也相差甚大。下图是TSMC的cowos产品全家桶，表面上很舒适，价格规格随便选，但是呢，这三种技术能够封装的ball pitch是不一样的，cowos-s可以做到最小20um pitch，这也是apple最近的M1 ultra获得2.5TB互联密度的关键，但是cowos-L的pitch就会更大一号，而cowos-R，那pitch直奔40-55um去了。再退一步，回到基板本身合封能力（MCM）的话，pitch就到了130-150um。
 
-![](../images/cac7650b3dda1b144b6e81d0fc70543a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='331'%20height='225'></svg>)
+![](./images/cac7650b3dda1b144b6e81d0fc70543a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='331'%20height='225'></svg>)
 
 你说你做一个die，想跟其他人对接。即使大家都在TSMC，物理上尺寸不对啊。
 
-![](../images/41abd247541e702c378626f67290dc5f.jpg)![](../images/41abd247541e702c378626f67290dc5f.jpg)
+![](./images/41abd247541e702c378626f67290dc5f.jpg)![](./images/41abd247541e702c378626f67290dc5f.jpg)
 
 然后我们打开UCIE，这事解决了吗？ 并没有。
 
@@ -59,7 +59,7 @@ UCIE能带来世界和平吗？
 
 如下图，最关键的pitch项目，从25-55um，从100-130um，都可以！都可以！都可以！ 玩我呢
 
-![](../images/d354718bec36c018609c47f794f2c1e9.jpg)![](../images/d354718bec36c018609c47f794f2c1e9.jpg)
+![](./images/d354718bec36c018609c47f794f2c1e9.jpg)![](./images/d354718bec36c018609c47f794f2c1e9.jpg)
 
 这代表啥，我在第三点，UCIE正确的使用方法上详述。
 
@@ -107,7 +107,7 @@ PS：ponte vecchio这颗芯片真的不简单，他是intel前进真正的path f
 
 嗯，要是我在外面某个startup，例如做DPU，我才不费时费力地license ARM core呢，我买X86 DIE再集成就好。不就是给intel当狗嘛，要不谈理想，只是赚钱的话，我给intel做舔狗有信心做成忠犬八公！
 
-![](../images/d3d1e29f2a47e7d9555ada16da42a2ca.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='220'%20height='220'></svg>)
+![](./images/d3d1e29f2a47e7d9555ada16da42a2ca.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='220'%20height='220'></svg>)
 
 而不在这条主路径上的人，当然你依旧可以获得全产业链成熟的收益，也能通过附庸UCIE协议获得接口设计简化、复用PCIE成熟生态的收益，但UCIE并不会减少太多物理层七国八制的困扰。蛋糕也能吃，稍微难一些，也值得吃。
 
@@ -119,7 +119,7 @@ PS：ponte vecchio这颗芯片真的不简单，他是intel前进真正的path f
 
 没有NVIDIA，是不是？ 老黄是个真男人啊！hold on！不要从！干它！
 
-![](../images/7b02c2a67740741c13fb82b344908779.jpg)![](../images/7b02c2a67740741c13fb82b344908779.jpg)
+![](./images/7b02c2a67740741c13fb82b344908779.jpg)![](./images/7b02c2a67740741c13fb82b344908779.jpg)
 
 AMD，我只能理解AMD是intel摆脱不了的，就当交反垄断税了吧。
 
@@ -139,7 +139,7 @@ ARM我就完全看不懂了，你图啥? 买CPU IP的客户要分流了啊，哦
 
 国产DPU，如果集成了intel制造的CPU DIE，还是国产DPU吗？
 
-![](../images/33443b218cfa13da697cfb62d60204c7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='120'%20height='120'></svg>)
+![](./images/33443b218cfa13da697cfb62d60204c7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='120'%20height='120'></svg>)
 
 ---
 

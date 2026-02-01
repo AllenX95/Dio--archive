@@ -19,7 +19,7 @@
 
 举个栗子，下图是AMD的ZEN2处理器架构，如果AMD愿意开放MCM的IF接口，并且销售其7nm的CPU DIE，有谁愿意买？能形成什么形态？ AMD这块CPU DIE有8颗CPU，具有Specint2006接近200分的性能，这个性能大约是xeon 4系列CPU的水准了！ 与某些特定的其他DSA逻辑组合在一起，到底能产生什么样的化学变化化？
 
-![](../images/a4489639f060924f22eddbb928af14a9.jpg)![](../images/a4489639f060924f22eddbb928af14a9.jpg)
+![](./images/a4489639f060924f22eddbb928af14a9.jpg)![](./images/a4489639f060924f22eddbb928af14a9.jpg)
 
 不说COWOS或者FANOUT这样先进的技术，MCM的合封并不是太复杂，国内封装厂都能做！
 
@@ -27,11 +27,11 @@
 
 我以前本科同学有不少在投资界，这半年和他们聊天，国家想要超车，到处找地方投资，但为什么没有人想过这个？老是在一些小器件死磕。这种想象力空间很大的故事，我都能帮你写胶片了！忽悠投资不是成功率会很高么⊙ω⊙？
 
-![](../images/a301ea83ba2c8bd3ad8e5f8a10fd13a7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='259'%20height='251'></svg>)
+![](./images/a301ea83ba2c8bd3ad8e5f8a10fd13a7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='259'%20height='251'></svg>)
 
 再回到我前面的帖子，我能讲的就是已经公开的鲲鹏和昇腾，涉及到totem、vitruvian、nimbus三个DIE，分别是CPU、NPU、PCIE及网口，其实功能都很单纯，而且编程也标准化。我也常常想，如果能开放？ 谁会要，能搭配什么组合成什么样的SOC？
 
-![](../images/f4a3b76ba484dfdf5f3e9cfa85da1c22.jpg)![](../images/f4a3b76ba484dfdf5f3e9cfa85da1c22.jpg)
+![](./images/f4a3b76ba484dfdf5f3e9cfa85da1c22.jpg)![](./images/f4a3b76ba484dfdf5f3e9cfa85da1c22.jpg)
 
 ---
 

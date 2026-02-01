@@ -13,7 +13,7 @@
 
 从故事性来讲，其中充满了各种际遇巧合，XXX和YYY恰巧的相遇，YYY和ZZZ恰好的互补，犹如苹果砸在了牛顿的头上，天时地利人和，缺一不可，都是上帝的安排。
 
-![](../images/47ec381aab29f1e94bc4c584e1f10294.jpg)![](../images/47ec381aab29f1e94bc4c584e1f10294.jpg)
+![](./images/47ec381aab29f1e94bc4c584e1f10294.jpg)![](./images/47ec381aab29f1e94bc4c584e1f10294.jpg)
 
 但要认真一盘，你会发现核心的原因除开数据爆炸带来的大数据背景，就是硬件算力(GPU)恰好突破了某个阈值，让其计算形态能够获得非常好的加速，犹如催化剂一般带来了巨大的飞轮效应，后面的大家都看到了。其实，没有alexNet，也终会出现kaiserNet。
 
@@ -21,7 +21,7 @@
 
 麻痹，做硬件不能博爱一点吗？
 
-![](../images/8f978f46c9d7ede38689e78a2ce44d90.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='144'></svg>)
+![](./images/8f978f46c9d7ede38689e78a2ce44d90.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='144'></svg>)
 
 我很久以前有一个预言，TPU的存在会影响AI网络的算法演进方向。
 
@@ -57,7 +57,7 @@
 
 王侯将相宁有种乎。
 
-![](../images/6a4869240532a5b3ac06509f5132b571.jpg)![](../images/6a4869240532a5b3ac06509f5132b571.jpg)
+![](./images/6a4869240532a5b3ac06509f5132b571.jpg)![](./images/6a4869240532a5b3ac06509f5132b571.jpg)
 
 ---
 

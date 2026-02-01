@@ -11,7 +11,7 @@
 
 人生天地之间，若白驹之过隙，忽然而已，却又是一年过去了。
 
-![](../images/75bd8eca4111aead428cb90edf8f5ec6.jpg)![](../images/75bd8eca4111aead428cb90edf8f5ec6.jpg)
+![](./images/75bd8eca4111aead428cb90edf8f5ec6.jpg)![](./images/75bd8eca4111aead428cb90edf8f5ec6.jpg)
 
 我常说我这人挺怀旧，这不，一不小心就翻出了曾经写过的小作文。
 

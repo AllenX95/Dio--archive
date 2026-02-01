@@ -13,7 +13,7 @@
 
 贾同学有意无意忽视了空间计算最大的优势点，token/$。
 
-![](../images/3e8e2ff56ed9375ed78bfd7a8f23cb5a.jpg)![](../images/3e8e2ff56ed9375ed78bfd7a8f23cb5a.jpg)
+![](./images/3e8e2ff56ed9375ed78bfd7a8f23cb5a.jpg)![](./images/3e8e2ff56ed9375ed78bfd7a8f23cb5a.jpg)
 
 至于空间计算到底怎么样，嗯，以前写的帖子回头看还不错呢。
 

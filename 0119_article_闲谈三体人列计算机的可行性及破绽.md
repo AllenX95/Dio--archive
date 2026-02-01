@@ -23,7 +23,7 @@
 
 下图就是三体动画片的人体计算机了，规模宏大，让人震撼不已。嗯，我们不要纠结于动画和书本的差异，以动画中人的形态组成的描述为基础，我一直在讲，他这个计算机，存在一个结构上的逻辑Bug ：） 是什么呢？
 
-![](../images/d051bea4a8fe25ac6a55faf113e7bed0.jpg)![](../images/d051bea4a8fe25ac6a55faf113e7bed0.jpg)
+![](./images/d051bea4a8fe25ac6a55faf113e7bed0.jpg)![](./images/d051bea4a8fe25ac6a55faf113e7bed0.jpg)
 
 ---
 
@@ -55,7 +55,7 @@
 
 人体计算机并没有展示他的时钟结构怎么实现，你一定要说心灵感应那我没辙，但那就不是人列计算机了啊。而以人作为复杂器件替代了传统电路中的简单器件，我有两个方案：1、用巨大的锣鼓，以可广阔扩散的声音作为全局同步的机制，当然，你要说声音衰减太大到不了这么大规模，那可以逐级中继嘛，真实电路的时钟也是可以随路扩散的。2、浪漫一点，用烟花，高空炸开的效果可以传递到地平线范围，每一个烟花运行一个Cycle，也符合中国文化的浪漫主义，更有磅礴和悲壮的味道。
 
-![](../images/46af4f08b6011a44fa8b322995d7301c.jpg)![](../images/46af4f08b6011a44fa8b322995d7301c.jpg)
+![](./images/46af4f08b6011a44fa8b322995d7301c.jpg)![](./images/46af4f08b6011a44fa8b322995d7301c.jpg)
 
 无论战鼓或烟花，都可以增加不同的模式花样，传递运行、停止、单步调试等更丰富的全局或局部的同步信息。
 
@@ -67,7 +67,7 @@
 
 首先我们看人体计算机的基本结构，如下图，所谓与门：两个人都举“白灯”时，代表“出”的士兵才举“白灯”，其余情况他都举“红灯”。
 
-![](../images/e149c350e044cd34bab53be1263f0c45.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='406'%20height='171'></svg>)![](../images/29cf95a41ac82955a2dd4d8dc40af825.jpg)![](../images/29cf95a41ac82955a2dd4d8dc40af825.jpg)
+![](./images/e149c350e044cd34bab53be1263f0c45.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='406'%20height='171'></svg>)![](./images/29cf95a41ac82955a2dd4d8dc40af825.jpg)![](./images/29cf95a41ac82955a2dd4d8dc40af825.jpg)
 
 问题是，传统的集成电路的互联是电互联，说白了所有的Cell都是瞎子，靠连接了电线，通过电刺激产生上图所示的反应。而人体计算机，按动画的显示，以红、白牌为1/0的信息，那么说明其信息的传递是通过视觉，也就是光互联。
 
@@ -75,13 +75,13 @@
 
 但这里的逻辑bug是，电路的互联结构是非常复杂，如果把Cell摆放成横纵整齐的队列，简单讲，每个Cell都是2进1出，用数学思维稍一思考你就能发现其互联关系不可能局限与相邻的Cell之间的关系，大多数Cell都需要跨过若干Cell进行互联，而人列计算机通过光进行互联，也就是人与人之间需要视觉互联，但是无论是平面还是如下图的金字塔结构，都是违反视觉互联源自的，金字塔正面的人，绝无可能看到金字塔北门的人的out flag。
 
-![](../images/a3fbc01c39f4f76ee8452604bbdea85e.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='406'%20height='171'></svg>)
+![](./images/a3fbc01c39f4f76ee8452604bbdea85e.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='406'%20height='171'></svg>)
 
 正确的逻辑，是向地下挖坑，通过深坑保证坑内的光互联的链接关系，即保证每一个人都尽可能地能够看到尽量多的人(可能的互联关系)。
 
 是的，动画应该画成一个巨大的陨石坑 ：） 或者至少说，每一个CPU Core一个大坑（我不是在黑CPU Core啊）
 
-![](../images/482eb22db284bab2b982218bdc9f50ea.jpg)![](../images/482eb22db284bab2b982218bdc9f50ea.jpg)
+![](./images/482eb22db284bab2b982218bdc9f50ea.jpg)![](./images/482eb22db284bab2b982218bdc9f50ea.jpg)
 
 ---
 

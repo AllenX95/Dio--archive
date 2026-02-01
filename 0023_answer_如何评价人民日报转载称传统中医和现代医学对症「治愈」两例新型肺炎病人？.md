@@ -13,7 +13,7 @@
 
 但是嘛……
 
-![](../images/749f28e574cd1d3fac185bd0cf205bea.jpg)![](../images/749f28e574cd1d3fac185bd0cf205bea.jpg)![](../images/380878484c6a47cd5f801a454c1c25ae.jpg)![](../images/380878484c6a47cd5f801a454c1c25ae.jpg)
+![](./images/749f28e574cd1d3fac185bd0cf205bea.jpg)![](./images/749f28e574cd1d3fac185bd0cf205bea.jpg)![](./images/380878484c6a47cd5f801a454c1c25ae.jpg)![](./images/380878484c6a47cd5f801a454c1c25ae.jpg)
 
 ---
 

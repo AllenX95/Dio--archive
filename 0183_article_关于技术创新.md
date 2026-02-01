@@ -37,7 +37,7 @@
 
 刚好看到OPPO的一张图，挺好。
 
-![](../images/defb3f7632de2ddec67e11a987651852.jpg)![](../images/defb3f7632de2ddec67e11a987651852.jpg)
+![](./images/defb3f7632de2ddec67e11a987651852.jpg)![](./images/defb3f7632de2ddec67e11a987651852.jpg)
 
 ---
 

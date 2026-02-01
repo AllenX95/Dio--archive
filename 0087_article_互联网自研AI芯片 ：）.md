@@ -25,7 +25,7 @@
 
 天使和恶魔，在耳边拔河。
 
-![](../images/26df9bc00f058d4467210fa9fe6d1618.jpg)![](../images/26df9bc00f058d4467210fa9fe6d1618.jpg)
+![](./images/26df9bc00f058d4467210fa9fe6d1618.jpg)![](./images/26df9bc00f058d4467210fa9fe6d1618.jpg)
 
 ---
 
@@ -131,7 +131,7 @@ Telsa也罢，蔚小理也罢，其实新能源车不会比汽油车便宜很多
 
 无论天使也罢，恶魔也罢，时代的轮子一直向前，嗯，大家都有美好的生活也说不定。
 
-![](../images/fa9ff4bbabbb23e37ec0c90a1da0e4c9.jpg)![](../images/fa9ff4bbabbb23e37ec0c90a1da0e4c9.jpg)
+![](./images/fa9ff4bbabbb23e37ec0c90a1da0e4c9.jpg)![](./images/fa9ff4bbabbb23e37ec0c90a1da0e4c9.jpg)
 
 ---
 

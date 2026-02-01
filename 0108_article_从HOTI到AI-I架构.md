@@ -17,7 +17,7 @@
 
 当然，也可能随着人到中年，随着普遍性的认知提升，小时候觉得好吃的薯片，也变得。。。。。。。
 
-![](../images/e1ce29d3b4143593b9e44195c632cd94.jpg)![](../images/e1ce29d3b4143593b9e44195c632cd94.jpg)
+![](./images/e1ce29d3b4143593b9e44195c632cd94.jpg)![](./images/e1ce29d3b4143593b9e44195c632cd94.jpg)
 
 ---
 
@@ -51,19 +51,19 @@ OK，你看完了，大多数同学就能很简单地分清楚黑白，这是Nvi
 
 所以，在如果你先已经建立了对HOTI的状况认知，容我先问几个问题。
 
-![](../images/01bb34c1081d7ae2762dbeb04295cc1b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='292'%20height='256'></svg>)
+![](./images/01bb34c1081d7ae2762dbeb04295cc1b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='292'%20height='256'></svg>)
 
 1. 如果Nvidia是EtherNOT的，那他怎么销售他家的spectrum-x（[NVIDIA Spectrum-X Networking Platform](http://link.zhihu.com/?target=https%3A//www.nvidia.com/en-us/networking/spectrumx/)）交换机呢？ 这不打自己脸吗？
 2. Bill Dally真的是毫无不顾及他的Reputation地来推广Dragonfly？传统数据中心的网络怎么办？拆了吗？
 3. 金钱是不撒谎的，除开黄家万亿帝国，你怎么解释这波AI浪潮把Broadcom给带起来的？
 
-![](../images/d67089a98e2610cad7652ad37d8782cd.jpg)![](../images/d67089a98e2610cad7652ad37d8782cd.jpg)
+![](./images/d67089a98e2610cad7652ad37d8782cd.jpg)![](./images/d67089a98e2610cad7652ad37d8782cd.jpg)
 
 所以啊，这里面有一个天大的误差，车速飙得太快了，导致很多同学，包括HotI上Pannel的一些大佬，都没有跟上车，还是容我来把整个故事捋一捋，把逻辑盘圆了。
 
 得，老司机带大家上车，上车。
 
-![](../images/bafc39485570e43b0a784d59c324d137.jpg)![](../images/bafc39485570e43b0a784d59c324d137.jpg)
+![](./images/bafc39485570e43b0a784d59c324d137.jpg)![](./images/bafc39485570e43b0a784d59c324d137.jpg)
 
 ---
 
@@ -75,7 +75,7 @@ OK，你看完了，大多数同学就能很简单地分清楚黑白，这是Nvi
 
 PS：这张图描述的是一个逻辑上的单GPU的尺度。
 
-![](../images/c97f71b1ae995134dbc5548e6d3eae9e.jpg)![](../images/c97f71b1ae995134dbc5548e6d3eae9e.jpg)
+![](./images/c97f71b1ae995134dbc5548e6d3eae9e.jpg)![](./images/c97f71b1ae995134dbc5548e6d3eae9e.jpg)
 > 看明白这张图，那我们应该争论的，就不再是事物的黑白了。这个世界是彩色的，我们需要更多考虑的是边界在什么地方？能否存在妥协和融合的空间？ Nvidia的框框的位置和大小，对不对？
 
 ---
@@ -162,7 +162,7 @@ HOTI上，Bill Dally毫无疑问在讲最赚钱的AI Factory ：） 但是他讲
 
 写了半天，其实哥也就是个云玩家 ：） 哈哈，且行且看且从容吧 。。。。。。。
 
-![](../images/2a9014bda1faf07822dc0ae82515d36e.jpg)![](../images/2a9014bda1faf07822dc0ae82515d36e.jpg)
+![](./images/2a9014bda1faf07822dc0ae82515d36e.jpg)![](./images/2a9014bda1faf07822dc0ae82515d36e.jpg)
 
 ---
 

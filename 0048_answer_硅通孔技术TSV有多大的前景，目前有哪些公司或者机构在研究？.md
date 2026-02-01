@@ -31,7 +31,7 @@
 
 晶晶：怪我喏
 
-![](../images/49009741a26a0096ec4d486296d3c9ed.jpg)![](../images/49009741a26a0096ec4d486296d3c9ed.jpg)
+![](./images/49009741a26a0096ec4d486296d3c9ed.jpg)![](./images/49009741a26a0096ec4d486296d3c9ed.jpg)
 
 ---
 

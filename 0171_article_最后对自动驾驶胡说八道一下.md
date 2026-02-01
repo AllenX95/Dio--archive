@@ -15,13 +15,13 @@
 
 先上两只股票……
 
-![](../images/d4463144446b51899a2de5be0753c526.jpg)![](../images/d4463144446b51899a2de5be0753c526.jpg)![](../images/35f30df975604c70b844570d3ca7fb27.jpg)![](../images/35f30df975604c70b844570d3ca7fb27.jpg)
+![](./images/d4463144446b51899a2de5be0753c526.jpg)![](./images/d4463144446b51899a2de5be0753c526.jpg)![](./images/35f30df975604c70b844570d3ca7fb27.jpg)![](./images/35f30df975604c70b844570d3ca7fb27.jpg)
 
 个人位低权轻，当然更多是因为穷，所以没法炒股。但是听那些故事再看到这两支妖股的时候确实有点颠覆认知。疯了，疯了。
 
 看着两个百亿级别的公司，就因为和华为一起定制了两款车，股价就能三个月翻三倍。嗯，表面上很淡定，内心是方的……(#ﾟДﾟ)
 
-![](../images/479dd032865eedfea18d9529331c9c73.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='357'%20height='198'></svg>)
+![](./images/479dd032865eedfea18d9529331c9c73.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='357'%20height='198'></svg>)
 
 倒不是觉得错过了赚钱的机会，而是深刻认识到，汽车这个行业，真的在洗牌。嗯，虽然和我架构师本身工作没关系，闲得蛋疼。
 
@@ -39,7 +39,7 @@
 
 我认为，**胜利者是在洗牌过程中成功重建汽车行业从高到低价格体系或者说价值观的公司。**
 
-![](../images/a53d1f86a013a6bb90d0b333f8495ea9.jpg)![](../images/a53d1f86a013a6bb90d0b333f8495ea9.jpg)
+![](./images/a53d1f86a013a6bb90d0b333f8495ea9.jpg)![](./images/a53d1f86a013a6bb90d0b333f8495ea9.jpg)
 
 唉，继续向下讲有点不好深入，不敢多讲，讲多了可能会被要求删帖，不过故事其实没离开我前面两篇帖子讲述的内容。整个逻辑中，确实，菊花的存在是蛮重要的。
 
@@ -59,7 +59,7 @@ AMD是万万不敢这么干的（想一想这是为什么），高通据说曾�
 
 拭目以待。
 
-![](../images/bfb457febd05a4aa3319c3619fb2b220.jpg)![](../images/bfb457febd05a4aa3319c3619fb2b220.jpg)
+![](./images/bfb457febd05a4aa3319c3619fb2b220.jpg)![](./images/bfb457febd05a4aa3319c3619fb2b220.jpg)
 
 ---
 

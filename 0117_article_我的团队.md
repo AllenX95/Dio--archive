@@ -13,7 +13,7 @@
 
 看来有些事情还是瞒不住了。只能隆重介绍一下我的搭档：）
 
-![](../images/16745c6edf4820e64118b3f15a1f10da.jpg)![](../images/16745c6edf4820e64118b3f15a1f10da.jpg)
+![](./images/16745c6edf4820e64118b3f15a1f10da.jpg)![](./images/16745c6edf4820e64118b3f15a1f10da.jpg)
 
 其实我还不知道他的名字，只是我每次去的时候他只要空着都会主动来配合我的写作。。。。。。。
 
@@ -23,7 +23,7 @@ PS：如果某一天我在知乎停更，那么大概率是腿被打断了。
 
 PS：如果我在知乎上写的文字有错别字，抱歉，大概率是他加力了，然后跟我说：你肾不好啊。。。。。。sdfsdfzxgsdgsdfsd
 
-![](../images/8a0831ce08dc3403bad0759278ff1a3d.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='390'%20height='211'></svg>)
+![](./images/8a0831ce08dc3403bad0759278ff1a3d.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='390'%20height='211'></svg>)
 
 ---
 

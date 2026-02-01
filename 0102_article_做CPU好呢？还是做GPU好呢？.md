@@ -11,7 +11,7 @@
 
 我有一个在Startup做芯片的朋友……… 他在最近面对职业の大道之时，心魔大盛，虽不至于陨落，但看着似有道心蒙尘、修为难以寸进之忧。
 
-![](../images/25ade16b00138f1ad02aeec028e1217b.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'></svg>)
+![](./images/25ade16b00138f1ad02aeec028e1217b.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'></svg>)
 
 当然不是我寄几啦，我这种脚踩两条道的花心男………对于这种问题，最多是用左拳打自己右脸，再左脸打自己右拳罢了。
 
@@ -23,7 +23,7 @@
 
 那是GPU的成功几率比CPU大多了？ 当然不是……
 
-![](../images/0ff826f290db9ae1b2c257497ed2f820.jpg)![](../images/0ff826f290db9ae1b2c257497ed2f820.jpg)
+![](./images/0ff826f290db9ae1b2c257497ed2f820.jpg)![](./images/0ff826f290db9ae1b2c257497ed2f820.jpg)
 
 还都是看着英伟达那3万亿蛋糕，想着怎么能薅条蚊子腿肉都能吃饱吧……
 
@@ -43,7 +43,7 @@
 
 先把GPU领头羊Nvidia财报拿出来看看……扑街啦，毛利78%，净利57%………这么暴利的垄断位，其他人怎么活啊。
 
-![](../images/786f2598512727332537533130eee7e2.jpg)![](../images/786f2598512727332537533130eee7e2.jpg)
+![](./images/786f2598512727332537533130eee7e2.jpg)![](./images/786f2598512727332537533130eee7e2.jpg)
 
 - Nvidia今年将成为单芯片族最大研发投入，而研发投入占比仅仅10%，注意这是历史新低，Nvidia历史上爆科技时期是能把研发投入拉到30%以上的………记忆好的同学不妨算算那是多少（算算能招聘多少个你我），而且Fabless的模式还减免了非常大的工艺投资。
 
@@ -59,7 +59,7 @@
 
 做CPU不挣钱……其实看AMD的财报就知道了，毛利47%（看着还行），但是净利润基本上就是0%，要不是返税，AMD能给干成负的。。。。。。。
 
-![](../images/6a0ad984eb5b1d157ee77082366ea07f.jpg)![](../images/6a0ad984eb5b1d157ee77082366ea07f.jpg)
+![](./images/6a0ad984eb5b1d157ee77082366ea07f.jpg)![](./images/6a0ad984eb5b1d157ee77082366ea07f.jpg)
 
 - CPU是诞生于《这个世界是平的》那个时代的，他与GPU最大的差别是水平分层，理解水平和垂直的差异，是选择CPU或GPU的一个核心。
 
@@ -85,7 +85,7 @@
 
 ：） 本文纯属一时兴起，写着玩的。
 
-![](../images/8f68ea322fa10cb84a6f53aebfaca29b.jpg)![](../images/8f68ea322fa10cb84a6f53aebfaca29b.jpg)
+![](./images/8f68ea322fa10cb84a6f53aebfaca29b.jpg)![](./images/8f68ea322fa10cb84a6f53aebfaca29b.jpg)
 
 ---
 

@@ -23,7 +23,7 @@ Winnie大姐姐发了一个DPU的读后感。
 
 有的！ 举手发言
 
-![](../images/2be40c6492b813f129a78e51cd9947e0.jpg)![](../images/2be40c6492b813f129a78e51cd9947e0.jpg)
+![](./images/2be40c6492b813f129a78e51cd9947e0.jpg)![](./images/2be40c6492b813f129a78e51cd9947e0.jpg)
 
 其实这个逻辑很简单。
 
@@ -81,7 +81,7 @@ DPU不好做啊……
 
 嗯，下次一定，下次一定写建设性的。
 
-![](../images/ad4e913dadca3afbb9782bb141d52077.jpg)![](../images/ad4e913dadca3afbb9782bb141d52077.jpg)
+![](./images/ad4e913dadca3afbb9782bb141d52077.jpg)![](./images/ad4e913dadca3afbb9782bb141d52077.jpg)
 
 ---
 

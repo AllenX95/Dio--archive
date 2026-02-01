@@ -11,7 +11,7 @@
 
 最近的热点是啥呢？
 
-![](../images/648500125a3e8911b2476b1890132712.jpg)![](../images/648500125a3e8911b2476b1890132712.jpg)
+![](./images/648500125a3e8911b2476b1890132712.jpg)![](./images/648500125a3e8911b2476b1890132712.jpg)
 
 阿里的CIPU。
 
@@ -29,13 +29,13 @@
 
 其实这句话说的不全对，例如AWS的nitro卡就通过SRD支持了数据中心的RDMA部署，但是为什么又说不行呢，那是因为AWS的RDMA延迟是15us。而在HPC超算中心的RDMA延迟是2us啊。
 
-![](../images/63b6508bd5d9bbe50dc7ad164dc06bf0.jpg)![](../images/63b6508bd5d9bbe50dc7ad164dc06bf0.jpg)
+![](./images/63b6508bd5d9bbe50dc7ad164dc06bf0.jpg)![](./images/63b6508bd5d9bbe50dc7ad164dc06bf0.jpg)
 
 ---
 
 所以这个热点就很有意思了，在2us to 15us之间，阿里给出了5.5us的一个答案。
 
-![](../images/aef9b12c02b45096f326ff76bea0c54d.jpg)![](../images/aef9b12c02b45096f326ff76bea0c54d.jpg)
+![](./images/aef9b12c02b45096f326ff76bea0c54d.jpg)![](./images/aef9b12c02b45096f326ff76bea0c54d.jpg)
 
 首先，为什么会有2us和15us两种值呢？
 
@@ -47,7 +47,7 @@
 
 这个分层在计算侧和网络侧都存在，如下图。
 
-![](../images/890e24afa96f67769ace9b8c8ac0cedf.jpg)![](../images/890e24afa96f67769ace9b8c8ac0cedf.jpg)
+![](./images/890e24afa96f67769ace9b8c8ac0cedf.jpg)![](./images/890e24afa96f67769ace9b8c8ac0cedf.jpg)
 
 上面两层正常来讲是客户可见可变，云服务商很难把控的。
 
@@ -81,7 +81,7 @@ RDMA本身是一个网络协议。
 
 **如果不考虑成本和能效，很有可能FPGA就是DPU真正可行的答案。**
 
-![](../images/693bbfc9a2f8ac09b3a2e70428262ebe.jpg)![](../images/693bbfc9a2f8ac09b3a2e70428262ebe.jpg)
+![](./images/693bbfc9a2f8ac09b3a2e70428262ebe.jpg)![](./images/693bbfc9a2f8ac09b3a2e70428262ebe.jpg)
 
 **题外话：broadcom收购VMware，想的是把计算侧的虚拟化和网络侧的虚拟化两个分离的层次融合到一起来进攻数据中心基础设施呢。**
 

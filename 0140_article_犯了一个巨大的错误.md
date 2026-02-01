@@ -21,7 +21,7 @@ graphcore采用了一个跨时代的技术，做了一颗非常厉害的芯片�
 
 如果单独看Wafer2wafer，或者DTC深沟电容，都没有什么特别的，但是这两者融合到一起的时候，发挥了化学反应般的收益。
 
-![](../images/a3757fa18ebd5d5b652090e9dd4618ce.jpg)![](../images/a3757fa18ebd5d5b652090e9dd4618ce.jpg)
+![](./images/a3757fa18ebd5d5b652090e9dd4618ce.jpg)![](./images/a3757fa18ebd5d5b652090e9dd4618ce.jpg)
 
 他相当于在数字电路的旁边，最近的位置，最短的距离（你可以在GC的视频得到信息，这个W2W采用了1um pitch做bonding）放置了高密度电池组，以前我们谈什么**存算一体**（例如PTG的），而这是新的**能算一体**架构，你把电泵放到了家里！
 
@@ -31,7 +31,7 @@ graphcore采用了一个跨时代的技术，做了一颗非常厉害的芯片�
 
 更为令人震撼的是，这个技术将成为TSMC可以公开提供的服务，是的，你不需要太多设计复杂度（原设计可以完全不改），只需要付钱，你的高密度计算类芯片就可以凭空获得可观的（可能没有graphcore多），**差不多一代工艺的能效收益。**
 
-![](../images/1f56444aab7edd7cd752fed6d60cc915.jpg)![](../images/1f56444aab7edd7cd752fed6d60cc915.jpg)
+![](./images/1f56444aab7edd7cd752fed6d60cc915.jpg)![](./images/1f56444aab7edd7cd752fed6d60cc915.jpg)
 
 国内的AI/GPU startup公司们……请多多关注这一个事情，很有可能，你如果多加点钱，这是你能迅速追上比你更快的对手并最终活下去的捷径。当然，也许到最后，你充钱不一定能赢，但你要不充钱一定会输…………
 
@@ -39,7 +39,7 @@ graphcore采用了一个跨时代的技术，做了一颗非常厉害的芯片�
 
 还好，我认怂的速度和我装逼的速度一样快！
 
-![](../images/ea65114b4bf7db1b1b2cae46f490ccb0.jpg)![](../images/ea65114b4bf7db1b1b2cae46f490ccb0.jpg)
+![](./images/ea65114b4bf7db1b1b2cae46f490ccb0.jpg)![](./images/ea65114b4bf7db1b1b2cae46f490ccb0.jpg)
 
 ---
 

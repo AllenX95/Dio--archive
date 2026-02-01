@@ -17,11 +17,11 @@
 
 其实认真想想也没错，当下最典型的特征不就是～～～穷～～～嘛，没有比RISC-V创业更便宜的了吧。
 
-![](../images/a8e5827c42f937b27bc4b047f6b8f0de.jpg)![](../images/a8e5827c42f937b27bc4b047f6b8f0de.jpg)
+![](./images/a8e5827c42f937b27bc4b047f6b8f0de.jpg)![](./images/a8e5827c42f937b27bc4b047f6b8f0de.jpg)
 
 **然后呢，今年就总是有人问我，“我有个朋友在做RISC-V的项目，你觉得做出来进数据中心靠谱不？”**
 
-![](../images/d774abf8e2fd46b7ac608e7d97600ef0.jpg)![](../images/d774abf8e2fd46b7ac608e7d97600ef0.jpg)
+![](./images/d774abf8e2fd46b7ac608e7d97600ef0.jpg)![](./images/d774abf8e2fd46b7ac608e7d97600ef0.jpg)
 
 其实我理解，如果换一个问法，就是RISC-V能否重复ARM，做通用处理器然后进入数据中心的故事？
 
@@ -61,11 +61,11 @@
 
 **ARM一次性完整地（注意这个完整性说法）把64b、虚拟化、SMP扩展、ACPI、server级RAS和SECURITY的框架发布了，其中有很多特性很不完备，是的，留白的，但ARM作为生态的唯一主导者做出的最大贡献，就是先把一个人该有的骨架全搭好了**，如下图。
 
-![](../images/e14ef1b495d4379568abbf1055772e0e.jpg)![](../images/e14ef1b495d4379568abbf1055772e0e.jpg)
+![](./images/e14ef1b495d4379568abbf1055772e0e.jpg)![](./images/e14ef1b495d4379568abbf1055772e0e.jpg)
 
 而RISC-V的主线，源自Patterson教授对DSA的预期，并无一个宏观视角下对server领域的全局主线。以GC为最小基本面，各领域随意延展，放飞自我，RISC-V的发展其实是如下图的样子，不过也许这本身就是Patterson教授对初心？
 
-![](../images/31c0b7c5c3bc8abb941273daf987005b.jpg)![](../images/31c0b7c5c3bc8abb941273daf987005b.jpg)
+![](./images/31c0b7c5c3bc8abb941273daf987005b.jpg)![](./images/31c0b7c5c3bc8abb941273daf987005b.jpg)
 
 ---
 
@@ -91,7 +91,7 @@ ARM从v8发布开始，就伴随了非常多的机缘巧合的事和人，这些
 
 这就是民主啊！大人。
 
-![](../images/6ba0784fdc15c17227932f4a5233f73e.jpg)![](../images/6ba0784fdc15c17227932f4a5233f73e.jpg)
+![](./images/6ba0784fdc15c17227932f4a5233f73e.jpg)![](./images/6ba0784fdc15c17227932f4a5233f73e.jpg)
 
 不过话说回来，谁的人生不都是一出戏嘛。谁又能假定风起云涌的今天，RISC-V明天就有一遇风云便化龙的际遇呢？ 再说，野蛮生长也是一种繁衍之道。
 
@@ -99,7 +99,7 @@ ARM从v8发布开始，就伴随了非常多的机缘巧合的事和人，这些
 
 三、罗马不是一天建成的。
 
-![](../images/2ef1cf9c8f4cb038fe3baa087243134e.jpg)![](../images/2ef1cf9c8f4cb038fe3baa087243134e.jpg)
+![](./images/2ef1cf9c8f4cb038fe3baa087243134e.jpg)![](./images/2ef1cf9c8f4cb038fe3baa087243134e.jpg)
 
 指令集不是、虚拟化不是、RAS不是、security不是………
 
@@ -119,7 +119,7 @@ ARM从v8发布开始，就伴随了非常多的机缘巧合的事和人，这些
 
 但如果真有一天，我们达成一致，一定、必须要在数据中心把RISC-V扶成主流。
 
-![](../images/1d33af989db104eb6c1d8ddca6b7095c.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='240'></svg>)
+![](./images/1d33af989db104eb6c1d8ddca6b7095c.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='240'%20height='240'></svg>)
 
 就需要启动隐藏的第二层或者第三层逻辑：
 
@@ -129,7 +129,7 @@ ARM从v8发布开始，就伴随了非常多的机缘巧合的事和人，这些
 
 **下一步是nano machine吧**
 
-![](../images/b2e5409eced5a3067e315fb46737f6ec.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='263'%20height='295'></svg>)
+![](./images/b2e5409eced5a3067e315fb46737f6ec.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='263'%20height='295'></svg>)
 
 ---
 

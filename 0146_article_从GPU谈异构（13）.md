@@ -21,7 +21,7 @@
 
 AI DSA的一切起点，都源自NVIDIA bill dally的一些数字。
 
-![](../images/0d90fb1a628c00384aa461537266b92b.jpg)![](../images/0d90fb1a628c00384aa461537266b92b.jpg)
+![](./images/0d90fb1a628c00384aa461537266b92b.jpg)![](./images/0d90fb1a628c00384aa461537266b92b.jpg)
 
 **上图只是一个参考，不同工艺、电压、不同厂商设计能力都会带来一定差异，但我还是归一化方便后续理解，这是计算架构的大方向，容得了偏差，如下RULES:**
 
@@ -32,17 +32,17 @@ AI DSA的一切起点，都源自NVIDIA bill dally的一些数字。
 
 我们基于如上四点来看AI的DSA架构该怎么做，下面一幅图是MIT还是谁的画的AI DSA能效比较地图，所有的AI DSA 秘密都在其中隐含了。
 
-![](../images/a65a774be08c144327ba67ca0cfb705a.jpg)![](../images/a65a774be08c144327ba67ca0cfb705a.jpg)
+![](./images/a65a774be08c144327ba67ca0cfb705a.jpg)![](./images/a65a774be08c144327ba67ca0cfb705a.jpg)
 
 AI算力爆发的起点，是matrix计算单元。为什么矩阵运算能获得能效收益，如rule 3，一个数据从片上SRAM读N次的功耗，与一个数据读1次计算N次的功耗是相当的。那么如果你有大量的计算是matrix，那设计**一个NxN的matrix计算单元（读一次数算N次），除了额外增加了面积，从能效上来讲，相比传统vector计算，你凭空获得了N倍的计算算力**。这就是一切AI DSA剧本的开始。
 
-![](../images/294b6059bfc40e4fbf76f8f1d7207a8e.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'></svg>)
+![](./images/294b6059bfc40e4fbf76f8f1d7207a8e.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='300'></svg>)
 
 更主动一点的故事，莫过于三板斧: 降低数据精度、减少数据搬运、更大matrix尺寸。
 
 精度的事情我不再多讲，首先是matrix尺寸问题，nvidia 在volta架构引入了tensor core，但是这个tensor的尺寸是4\*4\*4，也就是数据复用尺度为4，这是一个相当小的尺寸，虽然有利于tiling的灵活性，但能效是不够看的，原因是什么，就是因为nvidia是GPGPU，它需要保证CUDA的兼容性，因此必须基于cuda的load/store能力做扩展，即使到了ampere时代，load/store专门做了优化，也就只能做到8\*8\*4。那么事情就很简单了，很明显Nvidia被GPGPU的GP给拖累了，要超越NVIDIA，放弃CUDA的GP做更大的matrix不就得了? 最简单的，华为的davinci架构选择了16\*16\*16，即一个数据复用16次，从单细胞的思维角度看，单看计算单元这是ampere的2倍能效收益。但如果我们再看google，TPU选择了128\*128，为什么它选择这么大他在其设计理念的介绍中说得非常清楚，值得推荐。
 
-![](../images/dd0305c3b37d83d30f68bca7936cf763.jpg)![](../images/dd0305c3b37d83d30f68bca7936cf763.jpg)
+![](./images/dd0305c3b37d83d30f68bca7936cf763.jpg)![](./images/dd0305c3b37d83d30f68bca7936cf763.jpg)
 
 [http://pages.cs.wisc.edu/~markhill/seminar2020/jouppi2020\_10\_tpu-v2-v3.pdf](http://link.zhihu.com/?target=http%3A//pages.cs.wisc.edu/%7Emarkhill/seminar2020/jouppi2020_10_tpu-v2-v3.pdf)
 
@@ -52,7 +52,7 @@ AI算力爆发的起点，是matrix计算单元。为什么矩阵运算能获得
 
 写到这里，我把我画的一张图放出来吧，他是全面的对比图的进一步延伸。
 
-![](../images/3546ba0367fca0b8353694daca38e4a1.jpg)![](../images/3546ba0367fca0b8353694daca38e4a1.jpg)
+![](./images/3546ba0367fca0b8353694daca38e4a1.jpg)![](./images/3546ba0367fca0b8353694daca38e4a1.jpg)
 
 不谈数据精度，相比GPGPU，要获得更高的计算能效，就必须放弃一定的灵活性，然后选择更大的matrix、CIM（PIM）、manycore（spatial computing）进一步减少数据move的功耗。
 
@@ -72,7 +72,7 @@ AI算力爆发的起点，是matrix计算单元。为什么矩阵运算能获得
 
 但是CIM的毛病是什么呢？ 成也精度，败也精度。没有浮点就只能做inference，但是因为cell本身的特征，计算相比IEEE大概率存在误差，这种误差会出现啥问题呢？ 引用前面GOOGLE TPU设计理念: **所训即所推。**这也是TPU同时兼顾训练和推理两种功能的原因。CIM做不到啊，所以，还是难呢。
 
-![](../images/98bdfbe1f3f2f64a4abe560ae2be4fd9.jpg)![](../images/98bdfbe1f3f2f64a4abe560ae2be4fd9.jpg)
+![](./images/98bdfbe1f3f2f64a4abe560ae2be4fd9.jpg)![](./images/98bdfbe1f3f2f64a4abe560ae2be4fd9.jpg)
 
 总结一下，如果单看tensor算力，我把计算架构大方向上的设计空间都列了一下，还画了张图。但这并不能真正成为AI DSA的竞争力体现，因为任何一颗AI DSA芯片都不是简单的FMAC堆积。有一句俗话，很多没做AI DSA的人都没有理解(๑> <๑）。**AI的网络中，有90%以上的计算是矩阵，即90%的计算量是可以被MATRIX计算单元加速的，但实际上这90%的计算（被加速后）只占了整个计算过程的10%的时间，而90%的时间都在花在了剩下10%非tensor的计算上。**
 

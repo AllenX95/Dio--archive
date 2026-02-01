@@ -13,7 +13,7 @@
 
 我先得承认我从来没做过AI的算法，我就是个造铲子的硅匠。看着江湖上这火热的场面，虽说也是浑水捞了点小钱钱，但你说这人哪，总是管不住这嘴想从打硅铺里探出头来说，啊，大姐姐你这个姿势可能不对哦。。。。。。。
 
-![](../images/8313dc9ae0b505cbec4c4dac88fcd21f.jpg)![](../images/8313dc9ae0b505cbec4c4dac88fcd21f.jpg)
+![](./images/8313dc9ae0b505cbec4c4dac88fcd21f.jpg)![](./images/8313dc9ae0b505cbec4c4dac88fcd21f.jpg)
 
 ---
 
@@ -33,7 +33,7 @@ Attention的问题在于时空力场，时空自有时空的民科，在HPC里�
 
 贴子所述，我作为一个造铲子的硅匠，也能深刻地理解并认同AI算法那令人充满梦想的可能性，是真的有金子，甚至于，得顶礼膜拜，搞得不好这更是一条通天之路。
 
-![](../images/38f8ae42e3365d9af96092d3f842ad61.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='414'%20height='486'></svg>)
+![](./images/38f8ae42e3365d9af96092d3f842ad61.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='414'%20height='486'></svg>)
 
 根据《圣经·旧约·创世记》篇章记载，当时人类在示拿之地联合起来兴建希望能通往天堂的高塔；为了阻止人类的计划，上帝让人类说不同的语言，使人类相互之间不能沟通，计划因此失败，人类自此各散东西。此事件为世上出现不同语言和种族提供解释。而东方也有类似的记载，《山海经》不周山。
 
@@ -47,14 +47,14 @@ Attention的问题在于时空力场，时空自有时空的民科，在HPC里�
 
 当我们所有人都在品鉴一颗GPU是800TFlops、1P Flops算力时，这个Flops，它的计量单位，大多数人理解的可能都是乘法，或者融合乘加（fused multiply-add-FMA），你看下面这位大神的原话。
 
-![](../images/86c71adc77f53d8fae3fd8810a8a5172.jpg)![](../images/86c71adc77f53d8fae3fd8810a8a5172.jpg)[Kimi创始人杨植麟最新分享：关于OpenAI o1新范式的深度思考](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMjc1NjM3MjY2MA%3D%3D%26mid%3D2691550914%26idx%3D1%26sn%3D01c8caf300548189720ca16b764cf5a9%26chksm%3Da8be383884fea5a50ce1ea86de3ba6231fada1706d08472afbd88d8485e053cae7cfbf9eb4a1%26mpshare%3D1%26scene%3D24%26srcid%3D09148UqrF9YVzKMDtI79SKbE%26sharer_shareinfo%3D2d58c080651cb8ac80c1363c712f6204%26sharer_shareinfo_first%3D8fe272adf60182bbc80bd7ba4feba894%26ascene%3D14%26devicetype%3Dandroid-31%26version%3D2800325b%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26countrycode%3DCN%26exportkey%3Dn_ChQIAhIQubZ7SO9FclgoSsScQdOxWBL0AQIE97dBBAEAAAAAAHk6M%252Fd3BaQAAAAOpnltbLcz9gKNyK89dVj0sKEkfEYENA3Gd%252FxMyRtAbuj9n7lr%252F6qUW2NTZel%252BGpCoPJ04AacFnfmDhdqGtjh3LNJ%252FsDUm87wzzx0xmugySyRY5Iqmz%252FXKrTzm%252BgLCcFxP7TcTpkkzz59GkewOV28RdIPtmC8b0%252FLnvNGI43xH%252BewYX8XjhM%252FWZ5zVEVQFEfEV0KIC16oXCRgfDOyYg8gjemWwkyPUKwyjcWYc6aSrWXGzFtceypfnn5f6tGzmry%252FlZsI3vHNecnMfuCfZRoC1ygWSR4T1j8OV1vTnWMc%253D%26pass_ticket%3DSkeWO3WUbZhKMIRNED8fvN9kQD%252BNKopnn5QVEmi9H3tuYcPFA2Zv4lDFt0k6Npl5%26wx_header%3D3)
+![](./images/86c71adc77f53d8fae3fd8810a8a5172.jpg)![](./images/86c71adc77f53d8fae3fd8810a8a5172.jpg)[Kimi创始人杨植麟最新分享：关于OpenAI o1新范式的深度思考](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMjc1NjM3MjY2MA%3D%3D%26mid%3D2691550914%26idx%3D1%26sn%3D01c8caf300548189720ca16b764cf5a9%26chksm%3Da8be383884fea5a50ce1ea86de3ba6231fada1706d08472afbd88d8485e053cae7cfbf9eb4a1%26mpshare%3D1%26scene%3D24%26srcid%3D09148UqrF9YVzKMDtI79SKbE%26sharer_shareinfo%3D2d58c080651cb8ac80c1363c712f6204%26sharer_shareinfo_first%3D8fe272adf60182bbc80bd7ba4feba894%26ascene%3D14%26devicetype%3Dandroid-31%26version%3D2800325b%26nettype%3DWIFI%26abtest_cookie%3DAAACAA%253D%253D%26lang%3Dzh_CN%26countrycode%3DCN%26exportkey%3Dn_ChQIAhIQubZ7SO9FclgoSsScQdOxWBL0AQIE97dBBAEAAAAAAHk6M%252Fd3BaQAAAAOpnltbLcz9gKNyK89dVj0sKEkfEYENA3Gd%252FxMyRtAbuj9n7lr%252F6qUW2NTZel%252BGpCoPJ04AacFnfmDhdqGtjh3LNJ%252FsDUm87wzzx0xmugySyRY5Iqmz%252FXKrTzm%252BgLCcFxP7TcTpkkzz59GkewOV28RdIPtmC8b0%252FLnvNGI43xH%252BewYX8XjhM%252FWZ5zVEVQFEfEV0KIC16oXCRgfDOyYg8gjemWwkyPUKwyjcWYc6aSrWXGzFtceypfnn5f6tGzmry%252FlZsI3vHNecnMfuCfZRoC1ygWSR4T1j8OV1vTnWMc%253D%26pass_ticket%3DSkeWO3WUbZhKMIRNED8fvN9kQD%252BNKopnn5QVEmi9H3tuYcPFA2Zv4lDFt0k6Npl5%26wx_header%3D3)
 > **但实际上，当前所有ai芯片的Flop仅仅是指Blas3的GEMM算力（这货的计量单位其实不是乘法），根本就不能按Flop算。**
 
 其实原本大家谈算力都是HPC算力，Nvidia最初设计GPGPU也都是为HPC设计的。这个算力也并不仅仅是Scalar的FMA，而是BLAS算力（Basic Linear Algebra Subprograms），包括Blas1、Blas2、Blas3，简单说明的话，Blas1包括向量与向量的很多计算算子，Blas2就塌陷为向量与矩阵的几个算子了，到Blas3则完全收敛为矩阵和矩阵的单一内积算子。
 
 但到了AI的时代，主要算力（90%）几乎就是Blas3的GEMM，大家讲算力的时候，默认都是收敛为单一矩阵内积乘的算力了。GEMM是一个非常单调的算子，矩阵x矩阵原本并无意义，更多时候是Parallel的GEMV或DOT（内积）。如下蓝黄相乘，消耗了1次8 Flops的内积算力得到Cij，这个算力的是一个最小粒度的向量内积算力，你并不能把他拆分成8次1 Flops的FMA算力。
 
-![](../images/20e22e5020fc974dc6fd9903ff35659f.jpg)![](../images/20e22e5020fc974dc6fd9903ff35659f.jpg)
+![](./images/20e22e5020fc974dc6fd9903ff35659f.jpg)![](./images/20e22e5020fc974dc6fd9903ff35659f.jpg)
 > **DOT，即Distance = Vector \* Vector，两个向量对应位相乘再求和的内积计算，在N维欧式空间中，他代表A点与B点坐标的夹角和投影距离。几乎整个AI算法都是在用这个算子来求解某个欧式空间中两个Embedding（即Knowledge）之间的距离，通常认为夹角代表相似度，模长代表重要性。**
 
 问题就在这里，内积是欧式空间的特征，所以AI Embedding所在的高纬空间，要么就是个高纬欧式空间，要么算是由若干局部欧式空间拼接成的高纬非欧式空间。
@@ -85,7 +85,7 @@ Attention的问题在于时空力场，时空自有时空的民科，在HPC里�
 - 最简单的莫过于Dropout、数据分类等等，这都是改善，不能根治。
 - 也有人放弃模长，只计算余弦相似度，因为模长往往用于表达单词的频次，这会导致信息量丢失，但更麻烦的是，放弃模长的的欧式空间余弦距计算的计算复杂度远大于内积。其实Softmax就是一个余弦距计算，做过的都知道，其消耗的算力是内积的~10倍而能够使能的算力只有内积的~1/10，差了两个数量级。
 
-![](../images/7715aa7f13c921ad6eced68dd4ee026f.jpg)![](../images/7715aa7f13c921ad6eced68dd4ee026f.jpg)
+![](./images/7715aa7f13c921ad6eced68dd4ee026f.jpg)![](./images/7715aa7f13c921ad6eced68dd4ee026f.jpg)
 
 - 嗯，数学家的你，手上也许有更好的非欧式空间定义，和更好的向量相似性算法，但是，很扯淡，我当前能给你的铲子就是内积，便宜管饱，其他的？保证又贵又吃不饱。
 

@@ -17,7 +17,7 @@
 
 生态，那是比女人还难拿捏，能玩死你的。
 
-![](../images/e8cfb08482dda0ac1b6c1899a49ac03b.jpg)![](../images/e8cfb08482dda0ac1b6c1899a49ac03b.jpg)
+![](./images/e8cfb08482dda0ac1b6c1899a49ac03b.jpg)![](./images/e8cfb08482dda0ac1b6c1899a49ac03b.jpg)
 
 ---
 
@@ -31,7 +31,7 @@
 4. **ibm有一篇论文讲power+nvlink performance的论文，google上搜索作者ibm npu team即可看到（艹，家里手机翻不了墙）。**
 5. **基于3+4挖掘的信息，是ibm在cpu侧的nvlink端口上模拟了pcie device（模块名叫npu，哈哈），但功能不完备，只有80%左右，有限能用，这个模块叫做npu，ibm还为此专门成立了一个team，但是这个team在summit超算之后再无音讯，大概率是完犊子了。**
 
-![](../images/c0127bd1450c21d6a1a71a05ae5bc7a9.jpg)![](../images/c0127bd1450c21d6a1a71a05ae5bc7a9.jpg)
+![](./images/c0127bd1450c21d6a1a71a05ae5bc7a9.jpg)![](./images/c0127bd1450c21d6a1a71a05ae5bc7a9.jpg)
 
 **事情变得更复杂了。**
 
@@ -41,7 +41,7 @@
 
 **猜不到啊！**
 
-![](../images/3c0bd6dc050c6436e09e114c5336ea08.jpg)![](../images/3c0bd6dc050c6436e09e114c5336ea08.jpg)
+![](./images/3c0bd6dc050c6436e09e114c5336ea08.jpg)![](./images/3c0bd6dc050c6436e09e114c5336ea08.jpg)
 
 ---
 

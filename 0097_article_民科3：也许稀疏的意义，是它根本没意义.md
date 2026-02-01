@@ -11,7 +11,7 @@
 
 民科文，知音故事会，不具有任何代表意义 ：）
 
-![](../images/35a22947c890bbd034e07acffdb0ea6e.jpg)![](../images/35a22947c890bbd034e07acffdb0ea6e.jpg)
+![](./images/35a22947c890bbd034e07acffdb0ea6e.jpg)![](./images/35a22947c890bbd034e07acffdb0ea6e.jpg)
 
 曾经，我茫然前行，打硅的路上，AI风，刺痛着灵魂。。。。。。方向感突然一恍，想讲一讲。
 
@@ -35,7 +35,7 @@ Silicon base这个东西，天生就有蛮多反常识的东西的蛤。
 
 例如，我们随手打开一个典型Nvidia H100/A100的Spec来看，如下。
 
-[https://www.notebookcheck.net/Nvidia-unveils-H100-Hopper-compute-GPU-and-Grace-superchip-architectures.609352.0.html](http://link.zhihu.com/?target=https%3A//www.notebookcheck.net/Nvidia-unveils-H100-Hopper-compute-GPU-and-Grace-superchip-architectures.609352.0.html)![](../images/4cb73b4eac3e017316fce0e042796e73.jpg)![](../images/4cb73b4eac3e017316fce0e042796e73.jpg)
+[https://www.notebookcheck.net/Nvidia-unveils-H100-Hopper-compute-GPU-and-Grace-superchip-architectures.609352.0.html](http://link.zhihu.com/?target=https%3A//www.notebookcheck.net/Nvidia-unveils-H100-Hopper-compute-GPU-and-Grace-superchip-architectures.609352.0.html)![](./images/4cb73b4eac3e017316fce0e042796e73.jpg)![](./images/4cb73b4eac3e017316fce0e042796e73.jpg)
 
 整个表花里胡哨，我们就看H100的FP16算力一个东西（中间列），这个算力又分了Tensor和Non-Tensor两个值（后者大家一般都忽略的）。其中Tensor也就是Matrix的FP16算力是1000TFlops（去掉结构化稀疏），而 Non-Tensor也就是Vector的FP16算力是120TFlops，相差了~8x。
 
@@ -152,7 +152,7 @@ AI有没有稀疏？
 
 就拿MoE来看，我的理解是它是通过训练获得了一层隐空间的聚类，我也很好奇，有没有可能训练出多层隐空间，至少碳基的逻辑推理是存在多层递进的（虽然碳基学习的过程也挺难）。多层的MoE，更加的稀疏，从碳基的眼里看上去更像碳基 ：）
 
-![](../images/0469b9ec4b1e95d4bb66865d86697a50.jpg)![](../images/0469b9ec4b1e95d4bb66865d86697a50.jpg)
+![](./images/0469b9ec4b1e95d4bb66865d86697a50.jpg)![](./images/0469b9ec4b1e95d4bb66865d86697a50.jpg)
 
 **如果走这一步，也许有超越M阶数值得改变算法的Dense2Sparse计算范式诞生，但至今未出现。**
 

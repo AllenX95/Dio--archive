@@ -29,13 +29,13 @@
 
 曾经的我，也错误地理解RISC-V。Patterson大佬有一段时间到处宣讲关于DSA的黄金十年，摩尔定律停滞了，未来是DSA的天下。哔哔哔逼，这些都没错啦，鼓掌，但是patterson教授你为啥每次讲DSA讲着讲着就转到RISC-V ? 这个逻辑是怎么转折的? 是我英语太差吗？
 
-![](../images/581fe649b687b8df79adf8cbb9ef5305.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='410'%20height='273'></svg>)
+![](./images/581fe649b687b8df79adf8cbb9ef5305.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='410'%20height='273'></svg>)
 
 我相信应该不止我一个人这么迷惑吧。讲DSA，和RISC-V是个什么关系啊? 很长一段时间，我把patterson大佬讲DSA带RISC-V的事认为是他夹带私货……
 
 直到我慢慢学习慢慢理解，我才发现……
 
-![](../images/c9a8142718b11adfbf7328b295cfada3.jpg)![](../images/c9a8142718b11adfbf7328b295cfada3.jpg)
+![](./images/c9a8142718b11adfbf7328b295cfada3.jpg)![](./images/c9a8142718b11adfbf7328b295cfada3.jpg)
 
 所以讲结论吧：
 
@@ -83,7 +83,7 @@
 
 世间安得双全法，不负如来不负卿?
 
-![](../images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)![](../images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)
+![](./images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)![](./images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)
 
 答案就是patterson的DSA黄金十年的第二个谜底：**2、基于RISC-V扩展DSA，有可能同时兼顾通用和专用。**
 
@@ -99,7 +99,7 @@
 
 没有关系，时间会解决所有的问题。基于RISC-V的matrix ISA for DL在制定中，很快会出来的。基于RISC-V的rendering ISA也将要发布了，性能还不够好，时间会解决。此外，还有更多……更多……
 
-<https://zhuanlan.zhihu.com/p/349060389>![](../images/cd6c99c09d59a5b6dbed38a2fdba9a6b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
+<https://zhuanlan.zhihu.com/p/349060389>![](./images/cd6c99c09d59a5b6dbed38a2fdba9a6b.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='349'%20height='129'></svg>)
 
 所以，作为ARM架构师，我同时也是RISC-V的死忠粉。
 
@@ -109,7 +109,7 @@ ARM购买ARM公司IP即可，而RISC-V，甚至都不需要购买，直接到业
 
 **ARM+RISC-V，双剑合璧，天下无敌。**
 
-![](../images/457b771a34884c4546f391c460c56fa8.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='240'></svg>)
+![](./images/457b771a34884c4546f391c460c56fa8.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='320'%20height='240'></svg>)
 
 ---
 

@@ -19,7 +19,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 投片太贵了，如果要做一个成功的DSA，你必须找到一个足够大的蛋糕（市场空间），毕竟杀人的生意有人做，赔钱的生意没人做。
 
-![](../images/08d33e95f6bf72c063b4219c172b57cd.jpg)![](../images/08d33e95f6bf72c063b4219c172b57cd.jpg)
+![](./images/08d33e95f6bf72c063b4219c172b57cd.jpg)![](./images/08d33e95f6bf72c063b4219c172b57cd.jpg)
 
 当下这个世界上最大的DSA市场是什么？
 
@@ -27,7 +27,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 **全新事物，全新的空间，所有的规则我来定义！**
 
-![](../images/fee5a6337a22c28403c037ba756ba402.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='391'%20height='378'></svg>)
+![](./images/fee5a6337a22c28403c037ba756ba402.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='391'%20height='378'></svg>)
 
 站在汽车本身的角度，自动驾驶是在车之上的一个扩展功能。汽车的本质还是一个个人高效空间移动用的工具，自动驾驶的DSA增强让这个事物更加高效。
 
@@ -37,7 +37,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 事物的变化也许不合理，但必有原因。
 
-![](../images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)![](../images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)
+![](./images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)![](./images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)
 
 同样的故事，PC的发展、手机的发展，是不是都似曾相识?
 
@@ -49,7 +49,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 真是美滋滋的一个大市场。
 
-![](../images/d17f8cee4ac4d48138a1c23615e07674.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='279'></svg>)
+![](./images/d17f8cee4ac4d48138a1c23615e07674.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='279'></svg>)
 
 如果事情发生到这里，确实就这样了。
 
@@ -75,7 +75,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 不过真要走向互联网这个级别，可能还需要一点时间，需要自动驾驶真正解放乘客的注意力，还有，乘客不能晕车……
 
-![](../images/b431079e72cc981e012732a3a19cb3c6.jpg)![](../images/b431079e72cc981e012732a3a19cb3c6.jpg)
+![](./images/b431079e72cc981e012732a3a19cb3c6.jpg)![](./images/b431079e72cc981e012732a3a19cb3c6.jpg)
 
 ---
 

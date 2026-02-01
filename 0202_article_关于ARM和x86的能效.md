@@ -21,7 +21,7 @@
 
 下图是我桌上的wafer纪念品，一个MPW的，不是鲲鹏CPU的，仅供尺寸上做感官的参照。
 
-![](../images/e7396bb465e89889e976105c71712e9f.jpg)![](../images/e7396bb465e89889e976105c71712e9f.jpg)
+![](./images/e7396bb465e89889e976105c71712e9f.jpg)![](./images/e7396bb465e89889e976105c71712e9f.jpg)
 
 wafer的成本是一定的，虽然各家foundry最终出货到CPU制造商手中有差异（intel可能便宜），但从产业链健康发展的角度来看，各家最终wafer的合理价格是理应相当的。
 
@@ -45,7 +45,7 @@ AMD的L3 cache很大，可能有人觉得不公平，但AMD把DDR PHY放到了IO
 
 over
 
-![](../images/a3fe4ab3296e06b6be1cbd2ee9c3d52a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='152'%20height='200'></svg>)
+![](./images/a3fe4ab3296e06b6be1cbd2ee9c3d52a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='152'%20height='200'></svg>)
 
 ---
 

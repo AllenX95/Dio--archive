@@ -9,13 +9,13 @@
 
 ---
 
-![](../images/9479196e5b78fec52832c7c8ee7fe919.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='140'%20height='133'></svg>)
+![](./images/9479196e5b78fec52832c7c8ee7fe919.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='140'%20height='133'></svg>)
 
 最近被打脸的次数有点多，脸都肿了……
 
 apple M1 ultra面世差不多一周了，2.5TB的chiplet带宽，做过chiplet的人才能感受到其中令人绝望的力量，硬生生把物理上的两个die做成了逻辑上的一个die，残暴！壕无人性！
 
-![](../images/45927d9474bdb09eddb25a64e1ab8b1f.jpg)![](../images/45927d9474bdb09eddb25a64e1ab8b1f.jpg)
+![](./images/45927d9474bdb09eddb25a64e1ab8b1f.jpg)![](./images/45927d9474bdb09eddb25a64e1ab8b1f.jpg)
 
 apple怎么做的，从第一天开始，研发的竞分就展开了，非常迅速。25um pitch互联是其中最关键的一环，IO密度基本等价于带宽。
 
@@ -37,7 +37,7 @@ apple怎么做的，从第一天开始，研发的竞分就展开了，非常迅
 
 他该不是悍跳狼跳预言家吧！
 
-![](../images/277168ce7c38bb41c724105426e3ad1a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='158'%20height='106'></svg>)
+![](./images/277168ce7c38bb41c724105426e3ad1a.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='158'%20height='106'></svg>)
 
 专利这个东西从来就不是用作产品特性的对照的，谁家写专利按照产品规格写啊，不能这么做，这里面有坑的！
 
@@ -59,11 +59,11 @@ apple怎么做的，从第一天开始，研发的竞分就展开了，非常迅
 
 **然后我们再打开一个TSMC的一个产品，INFO-LSI，标注得很清晰，25um pitch! 尺寸也能对上，M1 ultra两个die尺寸加起来刚好800多，1X reticle size。**
 
-![](../images/89602165f06885fd93bd768ec3684b1b.jpg)![](../images/89602165f06885fd93bd768ec3684b1b.jpg)
+![](./images/89602165f06885fd93bd768ec3684b1b.jpg)![](./images/89602165f06885fd93bd768ec3684b1b.jpg)
 
 那么，亲爱的暴民们。你们相信apple是砸钱高密级和TSMC搞了一个Cowos-s的第五代优化呢？ 还是用了INFO-LSI呢？ 投票啦
 
-![](../images/799c95a38330e47d0016d03cacd65f1b.jpg)![](../images/799c95a38330e47d0016d03cacd65f1b.jpg)
+![](./images/799c95a38330e47d0016d03cacd65f1b.jpg)![](./images/799c95a38330e47d0016d03cacd65f1b.jpg)
 
 ---
 

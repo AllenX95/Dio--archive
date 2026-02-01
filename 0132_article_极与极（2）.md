@@ -9,7 +9,7 @@
 
 ---
 
-![](../images/8bfa7821605c32b2040a7079a92f1501.jpg)![](../images/8bfa7821605c32b2040a7079a92f1501.jpg)
+![](./images/8bfa7821605c32b2040a7079a92f1501.jpg)![](./images/8bfa7821605c32b2040a7079a92f1501.jpg)
 
 经历和感悟，也是一位合格的架构师所必须经历的历程。因为很多时候所谓的架构及其演进，往往是伴随着某些过去的边界条件发生的变化而触发的。
 
@@ -71,7 +71,7 @@ Chiplet技术是把soc die拆分成多个partition die，然后再基于silicon 
 
 是的，第一个变态apple，他变态之极在于，他完全不想承受上诉的三个困难的任何一个。
 
-![](../images/c076c2d9bbfbe79a62b92690ef0faf19.jpg)![](../images/c076c2d9bbfbe79a62b92690ef0faf19.jpg)
+![](./images/c076c2d9bbfbe79a62b92690ef0faf19.jpg)![](./images/c076c2d9bbfbe79a62b92690ef0faf19.jpg)
 
 Apple先选择在片上总线使用~2um的signal pitch（也可能是1um左右），这个是最高层metal走线的pitch，这个选项wire latency可以做到最低。与其对应，0.1um to 2um的fanout会前移到CPU to BUS之间。然后 apple选择了最极端的并口策略，并到极致。也就是选择了2um的 chiplet signal pitch。也就是一句话：**Apple的chiplet interface和内部bus一样宽一样快。**嗯，没有fanout，也没有speedup，实际上两个同样的die，基于某些同步技术他连synchronize也去掉了。
 
@@ -85,11 +85,11 @@ Apple先选择在片上总线使用~2um的signal pitch（也可能是1um左右�
 
 另一个变态，是Nvidia，他选择的是极致的串口，100Gbps serdes，总共900GB带宽。
 
-![](../images/7b40ab58ccf902ede1e91fe731fc86d3.jpg)![](../images/7b40ab58ccf902ede1e91fe731fc86d3.jpg)
+![](./images/7b40ab58ccf902ede1e91fe731fc86d3.jpg)![](./images/7b40ab58ccf902ede1e91fe731fc86d3.jpg)
 
 曾经有人跟我说nvidia用的是12G的并口，我也无从查证，但是从nvidia的GTC官方稿件看，他在表述上更多地是表达了其serdes属性（按时钟是内嵌而不是随路来看），更倾向于是一个串口。
 
-[https://nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration](http://link.zhihu.com/?target=https%3A//nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration)![](../images/02a8ea10444eb2ad710bd86d0e416e8c.jpg)![](../images/02a8ea10444eb2ad710bd86d0e416e8c.jpg)
+[https://nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration](http://link.zhihu.com/?target=https%3A//nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration)![](./images/02a8ea10444eb2ad710bd86d0e416e8c.jpg)![](./images/02a8ea10444eb2ad710bd86d0e416e8c.jpg)
 
 而且，还有一个隐藏的逻辑，也就是io pitch越小，其驱动能力越有限，对，IO驱动力和pitch是负相关。如果nvidia的chiplet io能够支撑从WSE到COWOS到PCB，那它的IO驱动力至少要满足PCB级诉求，pitch小不了，不可能是40um及以下级别。所以，我更倾向nvidia采用的是**112G可变驱动（可变功耗）pitch 150um以上的IO，PAM4但短距可去掉FEC。**
 
@@ -105,7 +105,7 @@ Nvidia只用了72 lane大约10mm边长获得了900GB带宽，嗯，如果用满2
 
 **综上，做个小结。**
 
-![](../images/df35be042638f32095ebf27381604fb9.jpg)![](../images/df35be042638f32095ebf27381604fb9.jpg)
+![](./images/df35be042638f32095ebf27381604fb9.jpg)![](./images/df35be042638f32095ebf27381604fb9.jpg)
 
 **apple的极致并口和NV的极致串口，给了我们一个从上天到入海的广阔空间，而AMD、Intel（EMIB或UCIE）则是在广阔的天地之间，再寻找了其自身最恰当的选择。**
 
@@ -127,7 +127,7 @@ Nvidia只用了72 lane大约10mm边长获得了900GB带宽，嗯，如果用满2
 
 **平凡，不是平庸，而是人间烟火气，最抚凡人心。**
 
-![](../images/15c88193a5864c0d654352044f540445.jpg)![](../images/15c88193a5864c0d654352044f540445.jpg)
+![](./images/15c88193a5864c0d654352044f540445.jpg)![](./images/15c88193a5864c0d654352044f540445.jpg)
 
 ---
 

@@ -15,7 +15,7 @@ Nvidia的GTC发布会差不多已经一周了，但我这周感觉还能继续�
 
 从几年前的不温不火，到今天的万众瞩目，毕竟全世界IC TOP1市值。IC业界谁也无法忽视这位愈发耀眼的皮衣刀客，核弹狂魔的表演了。
 
-![](../images/63e6b814c24181791c23efacdc00b12a.jpg)![](../images/63e6b814c24181791c23efacdc00b12a.jpg)
+![](./images/63e6b814c24181791c23efacdc00b12a.jpg)![](./images/63e6b814c24181791c23efacdc00b12a.jpg)
 
 以前hotchip和ISSCC是最大的盛会，后来Nvidia搞GTC了，Intel搞TECH DAY了，AMD搞独立发布会了。以前的春晚大家乐，变成了黄师傅、苏妈妈、Raja的网红秀。
 
@@ -23,7 +23,7 @@ Nvidia的GTC发布会差不多已经一周了，但我这周感觉还能继续�
 
 话说intel为啥这两年打不过AMD和Nvidia，说白了很大一个原因就是缺一个顶流网红，intel的raja那是明显拉胯(还得CEO来，不过新CEO身材有点不够份量啊)，你看黄师傅和苏妈妈两位顶级网红一上场带货，虎背熊腰的，自带霸王色霸气，场上一跺脚，股价是嗖嗖地涨啊。像不像，白胡子死了，凯多和大妈就没人压得住了啊。
 
-![](../images/79cd8eb9024e0340d3e3bdbeef356b55.jpg)![](../images/79cd8eb9024e0340d3e3bdbeef356b55.jpg)
+![](./images/79cd8eb9024e0340d3e3bdbeef356b55.jpg)![](./images/79cd8eb9024e0340d3e3bdbeef356b55.jpg)
 
 网红经济是大势所趋。
 
@@ -33,7 +33,7 @@ Nvidia的GTC发布会差不多已经一周了，但我这周感觉还能继续�
 
 GTC的疑问一：带宽的数字
 
-![](../images/1053c18236049b886cb11d7826e0e5b7.jpg)![](../images/1053c18236049b886cb11d7826e0e5b7.jpg)
+![](./images/1053c18236049b886cb11d7826e0e5b7.jpg)![](./images/1053c18236049b886cb11d7826e0e5b7.jpg)
 
 上面这张图，很多人看着个数字，30x，就很嗨，也没错啦，但是这些数字其实不是一个纬度的。
 
@@ -91,7 +91,7 @@ LPDDR天生是为mobile而生，设备的reliability天生就与enterprise的DDR
 
 此外LPDDR还有一个巨大的问题，就是可维护性了。以前，CPU是socket，DDR是条子，GPU是OAM，坏啥换啥，搞好点还能热插拔。现在这全部融成一块板，咋搞? 一换就是几W刀的成本啊。
 
-![](../images/348c7910dd47a5583764fd1de7314aa7.jpg)![](../images/348c7910dd47a5583764fd1de7314aa7.jpg)
+![](./images/348c7910dd47a5583764fd1de7314aa7.jpg)![](./images/348c7910dd47a5583764fd1de7314aa7.jpg)
 
 ………………
 
@@ -111,7 +111,7 @@ LPDDR天生是为mobile而生，设备的reliability天生就与enterprise的DDR
 
 这个点其实不是找GTC茬，不过看到老黄和微软不和，是件好事。毕竟，敌人的敌人，就是朋友。
 
-![](../images/b5e6c10dfd190e0cb916565e68835fff.jpg)![](../images/b5e6c10dfd190e0cb916565e68835fff.jpg)
+![](./images/b5e6c10dfd190e0cb916565e68835fff.jpg)![](./images/b5e6c10dfd190e0cb916565e68835fff.jpg)
 
 疑问五：omniverse
 

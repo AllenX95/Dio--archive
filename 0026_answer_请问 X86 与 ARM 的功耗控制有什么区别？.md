@@ -29,7 +29,7 @@ OK，回到正题，参考同工艺AMD和ARM的情况，如果能抛弃一些负
 
 首先当然是工艺，intel的14nm工艺是落后TSMC 7 nm一代的。如AMD苏阿姨所说（下图），工艺带来的收益可以占到40%。
 
-![](../images/4b8804a4d248afcf65cd4e103af2dc22.jpg)![](../images/4b8804a4d248afcf65cd4e103af2dc22.jpg)
+![](./images/4b8804a4d248afcf65cd4e103af2dc22.jpg)![](./images/4b8804a4d248afcf65cd4e103af2dc22.jpg)
 
 但是还是奇怪，算上工艺差异之后还有一个巨大margin，要知道开始说了intel的功耗控制能力是领先ARM的。这个margin是我一直没有完全确定原因的空隙。从某些线索猜测，intel的实现流程和EDA tool有问题！！！ 曾经rockchip享受过intel的代工(ಡωಡ)。结果大家都看到了，呵呵。跟李诗勤不够熟，不好意思问他来完善这个拼图。
 

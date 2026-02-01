@@ -11,7 +11,7 @@
 
 > **先说答案，我认为 是！**
 
-![](../images/1f4a0af982a45d1667975c36b722f80d.jpg)![](../images/1f4a0af982a45d1667975c36b722f80d.jpg)
+![](./images/1f4a0af982a45d1667975c36b722f80d.jpg)![](./images/1f4a0af982a45d1667975c36b722f80d.jpg)
 
 今年来google公布了两篇重量级的信息。
 
@@ -31,7 +31,7 @@ TPUv4有一篇论文，论文的标题是《TPU v4: a optically reconfigurable s
 
 要开VPN
 
-[https://cloud.google.com/blog/products/compute/introducing-a3-supercomputers-with-nvidia-h100-gpus](http://link.zhihu.com/?target=https%3A//cloud.google.com/blog/products/compute/introducing-a3-supercomputers-with-nvidia-h100-gpus)![](../images/9cfd11859fd8959fcbd6084f49e3761e.jpg)![](../images/9cfd11859fd8959fcbd6084f49e3761e.jpg)
+[https://cloud.google.com/blog/products/compute/introducing-a3-supercomputers-with-nvidia-h100-gpus](http://link.zhihu.com/?target=https%3A//cloud.google.com/blog/products/compute/introducing-a3-supercomputers-with-nvidia-h100-gpus)![](./images/9cfd11859fd8959fcbd6084f49e3761e.jpg)![](./images/9cfd11859fd8959fcbd6084f49e3761e.jpg)
 
 Google不仅仅在研究玩票的TPU上玩OXC，而且在真正生产力及外卖的H100GPU上部署了OXC。
 
@@ -39,7 +39,7 @@ Google不仅仅在研究玩票的TPU上玩OXC，而且在真正生产力及外�
 
 那首先OXC是什么?
 
-![](../images/b2dbda0b746d3985e51899a6ab4b01c6.jpg)![](../images/b2dbda0b746d3985e51899a6ab4b01c6.jpg)
+![](./images/b2dbda0b746d3985e51899a6ab4b01c6.jpg)![](./images/b2dbda0b746d3985e51899a6ab4b01c6.jpg)
 
 就是光互联交换系统。
 
@@ -49,7 +49,7 @@ Google不仅仅在研究玩票的TPU上玩OXC，而且在真正生产力及外�
 - 光交换的问题是什么？切换速度慢！毕竟是光，你可以用铁路和公路的差别来理解，光路就如铁道线，A to B要改成A to C，得切道岔，很慢，ms级别延迟，没法处理城市公路那样的频繁复杂交互。
 - 光交换原理是什么？ 其实是一堆反射镜。把一束输入光反射到某一个输出口上，网上介绍很多，如下图。不可以出现多束光打到一个出口的情况，所以管理比较复杂。
 
-![](../images/7a7f72f4bbdf101e9b35383b67fd3895.jpg)![](../images/7a7f72f4bbdf101e9b35383b67fd3895.jpg)
+![](./images/7a7f72f4bbdf101e9b35383b67fd3895.jpg)![](./images/7a7f72f4bbdf101e9b35383b67fd3895.jpg)
 
 ---
 
@@ -116,7 +116,7 @@ OXC切换慢在AIDC毫无问题，而更大的交换规模可以大幅降低GPU�
 
 最后，问题来了？
 
-![](../images/bf7e0502ca48ed9ea3bcbdabcf7173c7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
+![](./images/bf7e0502ca48ed9ea3bcbdabcf7173c7.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='400'%20height='400'></svg>)
 > 国内的各大GPU云，谁家有部署OXC的技术能力呢？
 
 ---

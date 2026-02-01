@@ -15,7 +15,7 @@
 
 一边看，一边就有一种古藤老树昏鸦，那乌鸦凄凉地嘎嘎飞过的既视感，ε=(´ο｀\*)))唉，做不下去喏？
 
-![](../images/02f3e5472510e5934780ded3e07b97af.jpg)![](../images/02f3e5472510e5934780ded3e07b97af.jpg)
+![](./images/02f3e5472510e5934780ded3e07b97af.jpg)![](./images/02f3e5472510e5934780ded3e07b97af.jpg)
 
 DSA
 
@@ -33,7 +33,7 @@ DSA
 
 如果我们再把David Patterson教授2018年12月在UC berkeley的演讲材料打开看，一些事物的发展固然和他预测存在偏差，但大的基本面没有出现重大问题。
 
-![](../images/c050223dbb142a34d92c249c5c28e9b5.jpg)![](../images/c050223dbb142a34d92c249c5c28e9b5.jpg)
+![](./images/c050223dbb142a34d92c249c5c28e9b5.jpg)![](./images/c050223dbb142a34d92c249c5c28e9b5.jpg)
 
 ***Patterson说：Only performance path left is Domain Specific Architectures (DSAs)***
 
@@ -110,7 +110,7 @@ AI通用大模型，如果我们把这个问题比拟成哥伦布寻找新大陆
 
 写到最后，再点燃一点火花吧。
 
-![](../images/66755d91123df363c6068f5eb87deb8b.jpg)![](../images/66755d91123df363c6068f5eb87deb8b.jpg)
+![](./images/66755d91123df363c6068f5eb87deb8b.jpg)![](./images/66755d91123df363c6068f5eb87deb8b.jpg)
 
 算法是一切的起点，当我们看到老黄赠送OpenAI设备的时候内心应该多想几步棋的。
 

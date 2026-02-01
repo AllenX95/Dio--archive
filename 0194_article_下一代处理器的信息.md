@@ -17,7 +17,7 @@
 
 有经验的架构师都会定期到软件的社区翻一翻，看看最近有些什么最新的model、parameter、driver在上传，都能获得一些有趣的信息，例如下面这个，就不是我泄密了。
 
-![](../images/f7521ad4190857df43dd1eddfa9875c5.jpg)![](../images/f7521ad4190857df43dd1eddfa9875c5.jpg)
+![](./images/f7521ad4190857df43dd1eddfa9875c5.jpg)![](./images/f7521ad4190857df43dd1eddfa9875c5.jpg)
 
 不过，真正厉害的话，应该是从ISA、protocol的提案和布局，research的布局等，分析目标厂商的CPU的路标规划，这部分能力，还有待进一步提升，努力！！！
 

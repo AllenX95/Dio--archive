@@ -23,7 +23,7 @@ jim讲了很多关于他的个人特质和对工作的理解，很多地方让�
 
 但唯有最后一点我对他的选择稍有异议，也许是没缺乏他那种自由自在的资本和游侠精神吧。要取得最后的胜利，并不仅仅是初始令人兴奋的冲锋，此后的固守、拉锯、攻坚，直至登顶，也许伤痕累累，亦得咬牙坚持啊。世事如此。
 
-![](../images/e6c4041ac59b0cad6cc664224db55114.jpg)![](../images/e6c4041ac59b0cad6cc664224db55114.jpg)
+![](./images/e6c4041ac59b0cad6cc664224db55114.jpg)![](./images/e6c4041ac59b0cad6cc664224db55114.jpg)
 
 随感而发，还是回到技术上吧，JIM谈到了他目前正在做的新东西，看他在新的一张白纸上画了啥? 一个CPU+DSA的架构的摸索。我们应该看一下这个，才可以更方便理解他在采访中表达的技术点背后的含义。
 
@@ -33,11 +33,11 @@ jim讲了很多关于他的个人特质和对工作的理解，很多地方让�
 
 wormhole有点像graphcore及cerebras的产品，空间级模型并行，相比前者在核的尺寸上更大，相比后者增加了主存，并且用某些技巧减少了片间的数据带宽（即不用wafer scale）。这款芯片已经回片，预计在2021年年中将把sample给到客户（有谁知道他们的客户到底是谁吗？ 完全没听说）。
 
-![](../images/bde818fec98facefbca9ecc932c8bd01.jpg)![](../images/bde818fec98facefbca9ecc932c8bd01.jpg)![](../images/2db74033c13b5479038202a60fe6d3db.jpg)![](../images/2db74033c13b5479038202a60fe6d3db.jpg)
+![](./images/bde818fec98facefbca9ecc932c8bd01.jpg)![](./images/bde818fec98facefbca9ecc932c8bd01.jpg)![](./images/2db74033c13b5479038202a60fe6d3db.jpg)![](./images/2db74033c13b5479038202a60fe6d3db.jpg)
 
 die photo长的是下面这个样子
 
-![](../images/a7a8c24189161ea2f02ee5b9b78227c7.jpg)![](../images/a7a8c24189161ea2f02ee5b9b78227c7.jpg)
+![](./images/a7a8c24189161ea2f02ee5b9b78227c7.jpg)![](./images/a7a8c24189161ea2f02ee5b9b78227c7.jpg)
 
 主要特征解读一下：
 
@@ -47,7 +47,7 @@ die photo长的是下面这个样子
 
 3、tensix core比其他graphcore和cerebras的都大，这也许就是他在采访中提到的，AI的计算单元不应该像GPU那么小的说法。这个core很像是CPU的结构上改的，因为算下来每个core的算力大约是2TFlops/GHz的样子，很像是每个cycle两个64B cacheline，也就是32x32的FP16矩阵乘法。
 
-![](../images/781c608a3fe697c6f43912a2e85c435e.jpg)![](../images/781c608a3fe697c6f43912a2e85c435e.jpg)
+![](./images/781c608a3fe697c6f43912a2e85c435e.jpg)![](./images/781c608a3fe697c6f43912a2e85c435e.jpg)
 
 4、芯片floorplan是up/down出IO，和介绍中的2D MESH组网并不相同，很奇怪逻辑上如何映射。
 
@@ -61,11 +61,11 @@ die photo长的是下面这个样子
 
 9、RISC-V你赢了，JIM确实喜欢RISC-V。基于第7点，tenstorrent需要性能更好的CPU来完善其tensix core的不完备，所以他们在下一代将放弃ARC架构的CPU，而选择RISC-V，嗯就是最近风口浪尖的sifive的x280 core。
 
-[https://www.sifive.com/press/tenstorrent-selects-sifive-intelligence-x280-for-next-generation1](http://link.zhihu.com/?target=https%3A//www.sifive.com/press/tenstorrent-selects-sifive-intelligence-x280-for-next-generation1)![](../images/1791b805f4ca8e9e55819e64e8fdae98.jpg)![](../images/1791b805f4ca8e9e55819e64e8fdae98.jpg)
+[https://www.sifive.com/press/tenstorrent-selects-sifive-intelligence-x280-for-next-generation1](http://link.zhihu.com/?target=https%3A//www.sifive.com/press/tenstorrent-selects-sifive-intelligence-x280-for-next-generation1)![](./images/1791b805f4ca8e9e55819e64e8fdae98.jpg)![](./images/1791b805f4ca8e9e55819e64e8fdae98.jpg)
 
 嗯，断章取义的自媒体你赢了。
 
-![](../images/b99c6c434086a49472a019e7fc4bc50a.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='308'%20height='269'></svg>)
+![](./images/b99c6c434086a49472a019e7fc4bc50a.gif)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='308'%20height='269'></svg>)
 
 ---
 

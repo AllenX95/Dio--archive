@@ -15,7 +15,7 @@
 
 是啊，怎么扯着扯着又涉及到我CPU的本职工作了? 这突然让我隐约嗅到一丝危险的气息。
 
-![](../images/4eb50510c5762f5b54b2791d27439011.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='299'%20height='229'></svg>)
+![](./images/4eb50510c5762f5b54b2791d27439011.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='299'%20height='229'></svg>)
 
 最后写一把RISC-V就收手，写GPU、GPU……
 
@@ -57,7 +57,7 @@ RISC-V的简化意味着放弃一部分domain，这也是RISC-V是一个合适DS
 
 最后吐槽一下IaaS下的虚拟化、安全、VXLAN，你看看ARM为了在IaaS下的安全，在ARMV9加了多少状态转换（下图）? 这复杂度，需要多少设计和验证? 值吗？
 
-![](../images/ff44642454d1377a2d3a8f253a202c04.jpg)![](../images/ff44642454d1377a2d3a8f253a202c04.jpg)
+![](./images/ff44642454d1377a2d3a8f253a202c04.jpg)![](./images/ff44642454d1377a2d3a8f253a202c04.jpg)
 
 **CPU设计的简化和RISC-V的商业模式有关系吗？ 有！**
 
@@ -89,7 +89,7 @@ PS：港真啊，换一个角度来看的话，ARM其实是apple自家的设计�
 
 为大客户提供贴身的定制DSA服务，这是一个走向差异化服务的时代。对的，“只要钱给够，皮鞭也罢、制服也罢，什么姿势我都会啊”，这就是下一波半导体的金矿了。
 
-![](../images/e40bbd84af130cbfccef7b756d9ed961.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='284'%20height='284'></svg>)
+![](./images/e40bbd84af130cbfccef7b756d9ed961.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='284'%20height='284'></svg>)
 
 所以，你猜intel为什么基于IDM2.0，收购了拥有定制ISA能力的x280 CPU（闭源）并附送MLIR作者Chris Lattner的SIFIVE ?
 

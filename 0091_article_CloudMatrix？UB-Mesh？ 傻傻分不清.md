@@ -31,11 +31,11 @@ CloudMatrix？ UB-Mesh？傻傻分不清。这是一件事吗？ 确实也有传
 
 在爷爷的坟前认真地阅读了这两篇文章之后，金桑发现有好几个关键信息指向这两个东西是相互独立的。喔，搞不好中国的菊花司也是个草台班子，里面的两拨人并没有想清楚怎么配合。
 
-![](../images/cf3b28c9060cc1b13d1b2dd5d9d57c2a.jpg)![](../images/cf3b28c9060cc1b13d1b2dd5d9d57c2a.jpg)
+![](./images/cf3b28c9060cc1b13d1b2dd5d9d57c2a.jpg)![](./images/cf3b28c9060cc1b13d1b2dd5d9d57c2a.jpg)
 
 CloudMatrix机柜图
 
-![](../images/b8030084a86e963246ac17280279fd11.jpg)![](../images/b8030084a86e963246ac17280279fd11.jpg)
+![](./images/b8030084a86e963246ac17280279fd11.jpg)![](./images/b8030084a86e963246ac17280279fd11.jpg)
 
 UB-Mesh机柜图
 
@@ -65,7 +65,7 @@ SemiAnalysis的分析师无疑都非常专业，比中国那些为了炒HWJ或�
 - 其次令人不安的是，传言Nvidia在scale up的策略上在GH200系统中使用光纤联结256颗Hopper GPU的失败而坚决转向了NVL72的全电互联，但看上去CloudMatrix在384颗910C用光互联做Scale-Up却成功商用了。这是否表明有可能这个UB协议相比Nvlink协议解决了光路传播上的可靠性等问题更强，而获得了更远更灵活的互联能力，虽然光纤增加了系统整体的功耗和成本，但光纤拉远降低了集成复杂度，cloudmatrix ～50KW的Rack相比NVL72那145KW的Rack，对Data Center的部署无疑具有更高的友好度，甚至于50KW量级的Rack是可以做到风冷部署的。
 - 但最大的阴霾，还是黄仁勋对光模块的成本和功耗的那种负面的态度（下图），历史上，上一个可类比的不相信光的是Elon Musk在tesla上对激光雷达的负面态度，确实，在musk造车的早期激光雷达昂贵无比，但musk绝对没有想到激光雷达能够被中国人卷成今天几百块钱的白菜价，今天再继续坚持纯视觉比激光雷达+camera更优不过是嘴巴硬罢了。同理，光模块这种东西，是最适合中国人把它卷到白菜价的，目标就是让国产光模块加上那关税也比老黄在美国买的便宜就好了呗，这个东西并不需要EUV光刻机，打开看优化空间也非常大。要记得，华为也卷过激光雷达，那么光模块……为什么不呢？
 
-![](../images/0e2f11f9eefecd8ffab002d7ad4b22be.jpg)![](../images/0e2f11f9eefecd8ffab002d7ad4b22be.jpg)
+![](./images/0e2f11f9eefecd8ffab002d7ad4b22be.jpg)![](./images/0e2f11f9eefecd8ffab002d7ad4b22be.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ SemiAnalysis的分析师无疑都非常专业，比中国那些为了炒HWJ或�
 
 还记得知乎的一位朋友在一篇文章中还描述过在分级中的一些取舍得失，能感受到这位朋友的朋友的患得患失的心情。
 
-[Dio-晶：站在AI Scale-Up域的一个岔路口](https://zhuanlan.zhihu.com/p/707355769?utm_psn=1897224481753260339)![](../images/727e7931458205bbd490c04c77e57c74.jpg)![](../images/727e7931458205bbd490c04c77e57c74.jpg)
+[Dio-晶：站在AI Scale-Up域的一个岔路口](https://zhuanlan.zhihu.com/p/707355769?utm_psn=1897224481753260339)![](./images/727e7931458205bbd490c04c77e57c74.jpg)![](./images/727e7931458205bbd490c04c77e57c74.jpg)
 
 今天再回头看，PlanB不就是cloudmatrix的组网么？而且，Nvidia的rubin ultra，其实也走向了PlanB呢（只是紫色的光换成纯电）。
 
@@ -119,7 +119,7 @@ SemiAnalysis的分析师无疑都非常专业，比中国那些为了炒HWJ或�
 
 Mesh，这个词还是逃不掉的。在互联Topology中Mesh作为一种非对称拓扑，始终不是一个讨喜的词，解释起来都像那孔乙己涨红了脸，“Mesh不能简单算非对称拓扑……Mesh！……这互联的事情”，聊天群内外充满了快活的空气。试问谁又不爱简单的全对称的Clos呢？
 
-![](../images/0f0abfd8d6f0beaa2a0dd4a3a1ab12fe.jpg)![](../images/0f0abfd8d6f0beaa2a0dd4a3a1ab12fe.jpg)
+![](./images/0f0abfd8d6f0beaa2a0dd4a3a1ab12fe.jpg)![](./images/0f0abfd8d6f0beaa2a0dd4a3a1ab12fe.jpg)
 
 毫无疑问，UB-Mesh这篇论文最大的破绽就是完全没有仿真其运行DeepSeek的性能，尤其是Mesh面对DeepSeek独特的All2All流量（全对称适应性好）时的挑战。
 
@@ -127,7 +127,7 @@ Mesh，这个词还是逃不掉的。在互联Topology中Mesh作为一种非对�
 
 但论文中有张图是可以做一些推断的。
 
-![](../images/d2f008cfc111bafb995b6499ae1ba861.jpg)![](../images/d2f008cfc111bafb995b6499ae1ba861.jpg)
+![](./images/d2f008cfc111bafb995b6499ae1ba861.jpg)![](./images/d2f008cfc111bafb995b6499ae1ba861.jpg)
 
 看上去在UB-MESH描述中的NPU，也不是昇腾910C的样子了，论文中的NPU是自带了switch功能的（并未听闻910C有这个能力，所以这是910C next？）。就像图中绿色、紫色、蓝色的路径，如果这个switch做得足够好，即在系统中的每个NPU都包含了一个分布式switch，那么所谓的mesh拓扑即使物理上是非对称mesh，但并不会存在点到点无法直达的情况（分布式转发甚至比一级clos延迟更小），所以在逻辑视角UB-Mesh有可能是可以非常好的支持all2all的逻辑流量的。
 
@@ -139,7 +139,7 @@ Mesh，这个词还是逃不掉的。在互联Topology中Mesh作为一种非对�
 
 最终一切以菊花家官方信息发布为准。
 
-![](../images/0011930bdc43aa0e74795a6110e1a1cf.jpg)![](../images/0011930bdc43aa0e74795a6110e1a1cf.jpg)
+![](./images/0011930bdc43aa0e74795a6110e1a1cf.jpg)![](./images/0011930bdc43aa0e74795a6110e1a1cf.jpg)
 
 ---
 

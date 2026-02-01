@@ -45,7 +45,7 @@
 
 **这两件事不是矛盾的吗？**
 
-![](../images/fb04eabf566a3fa5d3f6e891a33817f4.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='327'%20height='375'></svg>)
+![](./images/fb04eabf566a3fa5d3f6e891a33817f4.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='327'%20height='375'></svg>)
 
 **一句话总结：静默错误无法避免，如果分布式系统的容错机制没有考虑处理静默错误，那么其系统定义的初始假设是有破绽的。**
 

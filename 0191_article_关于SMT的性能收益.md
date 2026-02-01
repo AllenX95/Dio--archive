@@ -17,7 +17,7 @@
 
 [https://webee.technion.ac.il/Sites/People/kolodny/ftp/Zvika%20Guz%20Tech%20report%20McMt%20719.pdf](http://link.zhihu.com/?target=https%3A//webee.technion.ac.il/Sites/People/kolodny/ftp/Zvika%2520Guz%2520Tech%2520report%2520McMt%2520719.pdf)
 
-![](../images/2355c1bf99062c1929b7098dd5e37970.jpg)![](../images/2355c1bf99062c1929b7098dd5e37970.jpg)![](../images/12cdd45e2e72b845e891de26c25e299f.jpg)![](../images/12cdd45e2e72b845e891de26c25e299f.jpg)
+![](./images/2355c1bf99062c1929b7098dd5e37970.jpg)![](./images/2355c1bf99062c1929b7098dd5e37970.jpg)![](./images/12cdd45e2e72b845e891de26c25e299f.jpg)![](./images/12cdd45e2e72b845e891de26c25e299f.jpg)
 
 SMT是否有性能收益，源于系统整体的平衡度及最终形成的凹型曲线。
 

@@ -15,15 +15,15 @@
 
 所以这次从GPU开始写，我咋写都有理，大不了一句，‘我又不懂，你说得对’，就好处理了。
 
-![](../images/7b378bd4657ec1a1a37cef2b80406d5c.jpg)![](../images/7b378bd4657ec1a1a37cef2b80406d5c.jpg)
+![](./images/7b378bd4657ec1a1a37cef2b80406d5c.jpg)![](./images/7b378bd4657ec1a1a37cef2b80406d5c.jpg)
 
 嗯，我这两年工作重心从general purpose CPU逐渐分散了些到HPC和Graphic，坊间俗称兼职做GPU或者兼职做G。啊哈 |ω・）
 
-![](../images/42d4771b924150fbe5e56408666375e5.jpg)![](../images/42d4771b924150fbe5e56408666375e5.jpg)
+![](./images/42d4771b924150fbe5e56408666375e5.jpg)![](./images/42d4771b924150fbe5e56408666375e5.jpg)
 
 GPU、GPU，其实这个词也真的蛮诡异的，其实就像我们说卧槽一样，读起来非常具有深意。
 
-![](../images/5cb341895c36dc9bf1c1b24704cc9329.jpg)![](../images/5cb341895c36dc9bf1c1b24704cc9329.jpg)
+![](./images/5cb341895c36dc9bf1c1b24704cc9329.jpg)![](./images/5cb341895c36dc9bf1c1b24704cc9329.jpg)
 
 从去年到今年，国内各路VC突然转向不投AI CHIP了，一致转向GPU。
 
@@ -45,37 +45,37 @@ GPU、GPU，其实这个词也真的蛮诡异的，其实就像我们说卧槽�
 
 不过，这些公司正在做什么GPU，其实我也是蛮好奇的。在一个微信群里，我还有意提了一个问题，‘壁仞是做什么的?’，哈哈，我当然知道壁仞是商汤的大佬及梁晓峣老师几位，算是一个混编军团吧，也知道摩尔线程是NVIDIA一脉，沐曦是AMD一脉，但我作为同行，更想知道的是他们的技术和架构的方向和选择。嗯，当然认识他们的血统来源和纯度，对理解他们的架构方向也很有帮助的。
 
-![](../images/472ac26bc46e0abb3bc3f4c51e6b3be9.jpg)![](../images/472ac26bc46e0abb3bc3f4c51e6b3be9.jpg)
+![](./images/472ac26bc46e0abb3bc3f4c51e6b3be9.jpg)![](./images/472ac26bc46e0abb3bc3f4c51e6b3be9.jpg)
 
 但是呢，GPU就是GPU，从字面上来讲，它是Graphic Processing Unit的缩写。虽然说NVIDIA提出了GPGPU的说法，但随口一句GP，那GPU就真的那么简单就做到general purpose吗？ 我觉得有点难。
 
 世间安得双全法，不负如来不负卿 ？
 
-![](../images/fd4fe99855df1356101b0cb91262d145.jpg)![](../images/fd4fe99855df1356101b0cb91262d145.jpg)
+![](./images/fd4fe99855df1356101b0cb91262d145.jpg)![](./images/fd4fe99855df1356101b0cb91262d145.jpg)
 
 AI、HPC、Graphic，先不说挖矿之类更细分的。你把三个领域都做一做，才会体会到，它们之间的差异，比人和狗之间的差异还要大。
 
-![](../images/96309fca59f53ff19c8058564f384f96.jpg)![](../images/96309fca59f53ff19c8058564f384f96.jpg)
+![](./images/96309fca59f53ff19c8058564f384f96.jpg)![](./images/96309fca59f53ff19c8058564f384f96.jpg)
 
 HPC依旧是最难的领域，做了快两年，你看它，感觉依旧像陷入了一望无际、群峰笔立的昆仑山脉之中，偶尔觉得前进了几步，抬头一看，那眼前的山峰依旧在云深不知处，而转个头，却只能发现周围还有一众更多的山峰，峰峰之间并不相连。虽然也有人认为存在一种tensorflow一样的框架，削峰填谷，天堑变通途，让世间没有难做的计算，嗯，我还是存疑吧，毕竟‘我又不懂’，不过这事也值得另起一贴聊聊，牛年不吹牛那一年也白过。
 
 就这篇文章的立足点，要谈个人粗浅的理解的话，当下的HPC其实和general purpose CPU的困难是一样的，做好通用、易用才是最大的难点。君不见，其实HPC超算中心，本质上就是一个特殊的公有云? 而且还是个IaaS，只是通常的公有云是一颗CPU分割成多份卖给多个用户，让每个用户体验**独享**了单个CPU的感觉，而HPC是把多个CPU高效联动地卖给单个用户，也是让用户体验到独享了**单个CPU**的感觉……
 
-![](../images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)![](../images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)
+![](./images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)![](./images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)
 
 再谈AI，其实AI也蛮特别的计算形态。nvidia和AMD都从前年开始把他们的GPU分成了两类，Compute和Graphic，其中的compute GPU，nvidia叫X100，AMD叫CDNA，同时兼任了AI和HPC两部分能力。很多人被误导认为AI和HPC的架构是兼容的，其实不然。其实是，即使业界AI市场的主要体量都被nvidia占有，也依旧改变不了nvidia的架构在AI计算上能效不够高效的事实。否则你看坊间那么多AI公司为啥都能号称算力或能效超过nvidia? 也就是NVIDIA嫌拆分之后的性能收益能带来的商业收益不够大，以及要维系CUDA的一定程度的稳定才退而求其次。以ampere架构为例，其计算和AI都不算是发挥了体系结构的极致能力（NVDLA都能效更高）。
 
 其实这事的算法是很简单的，HPC与AI的flops/byte，俗称roofline模型是差别很巨大的。如果以通常的1MB片上SRAM size为tiling尺寸的话，HPC最密集的运算HPL即GEMM也就16 flops/byte，即每个byte数据触发十六次计算，这基本上传统HPC领域的天花板了。而这放到AI，特别是深度学习，我用FP64折算FP16精度，也是能轻松超过60 flops/byte，如果直接以FP16或INT8算flops/byte值是爆表的。因为GEMM不过是矩阵乘以矩阵，o（n3）的复杂度，而AI主要以convolution为主，在转换为GEMM之后复用率比单纯的GEMM高了一纬，是o（n3+）的复杂度。所以讲道理一个高效的AI芯片应该才用更大的tensor尺寸并通过更激进的片上SRAM配置来达成极高的flops/byte值目标。所以才有Google TPU以及更激进的graphcore的成功（GC通过放大SRAM和重算几乎达成了无限高的flops/byte）。你想，像HPL这样GEMM咋可能在graphcore那种无外存的datflow架构跑呢? 所以呢，如果AI业务的颗粒度足够大（包含商业和业务），还是值得用独立一套架构来获得竞争力的，当然如果业务起不来，用nvidia GPGPU、甚至Server CPU（intel AMX）算也都有人做，这图的是一个方便。基于用户的取舍，谈不上计算性能的极致。
 
-![](../images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)![](../images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)
+![](./images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)![](./images/396f39dcdeaa82d72d84bb2eff6158aa.jpg)
 
 最后是Graphic。嗯，如果说做HPC是每一个做体系结构人源自血脉深处的吸引力，那么做graphic就是每一个体系结构人的本性表露了。人非圣贤，黄赌毒岂能不沾? 即使不看守望屁股，作为正统高端策略智慧的文明玩家谁不怀念叶卡捷琳娜呢？
 
-![](../images/5a06fdcbd27643f97bf13d23b5fb964a.jpg)![](../images/5a06fdcbd27643f97bf13d23b5fb964a.jpg)
+![](./images/5a06fdcbd27643f97bf13d23b5fb964a.jpg)![](./images/5a06fdcbd27643f97bf13d23b5fb964a.jpg)
 
 但真开始深入Graphic，你才会发现，这是一个充满了欺诈和诡计行业。与其说其他行业更多的是数学家，这个领域则更多的是魔法师、彩戏师。就下面这种屌样。
 
-![](../images/1b58c15523b3466a6c949232dffc1af3.jpg)![](../images/1b58c15523b3466a6c949232dffc1af3.jpg)
+![](./images/1b58c15523b3466a6c949232dffc1af3.jpg)![](./images/1b58c15523b3466a6c949232dffc1af3.jpg)
 
 去年海思图灵技术峰会时，我作为会议主持人，与第二日最受欢迎演讲者、曾经的AMD fellow、当下沐曦的CTO杨建有一段互动，其讨论的问题就是要真实地模拟这个世界的光影，到底需要怎么样的算力规模。答案是：做不到，当前技术能力不足。
 
@@ -85,11 +85,11 @@ HPC依旧是最难的领域，做了快两年，你看它，感觉依旧像陷�
 
 所以我想，凡是进入graphic GPU微架构领域的人，都一定会在fix pipe与shader分工上做激烈的斗争。这事也找个时间专题来详细聊聊吧。对于我这种喜欢暴力计算的，永远都是high poly的簇拥。哈哈。
 
-![](../images/32d0de4eb13f3a7d8bef20ebe68bff6a.jpg)![](../images/32d0de4eb13f3a7d8bef20ebe68bff6a.jpg)
+![](./images/32d0de4eb13f3a7d8bef20ebe68bff6a.jpg)![](./images/32d0de4eb13f3a7d8bef20ebe68bff6a.jpg)
 
 嗯，今天洗个脚写这么多废话，咋收尾呢? 好像就是表达一下GPU这事，要做好也不是个简单的事呢……嗯，好吧，当起个头做第一节? 其他的以后再详细打开说吧，加了个足底拔罐，师傅也拔完了哇。
 
-![](../images/f2fc2e082bf71621d0edc45a1d8fc8af.jpg)![](../images/f2fc2e082bf71621d0edc45a1d8fc8af.jpg)
+![](./images/f2fc2e082bf71621d0edc45a1d8fc8af.jpg)![](./images/f2fc2e082bf71621d0edc45a1d8fc8af.jpg)
 
 ---
 

@@ -23,7 +23,7 @@
 
 ～～～～～
 
-![](../images/aa458d8ae55a73421ebce74998303184.jpg)![](../images/aa458d8ae55a73421ebce74998303184.jpg)![](../images/51782fb31b68562af14146a936975e72.jpg)![](../images/51782fb31b68562af14146a936975e72.jpg)
+![](./images/aa458d8ae55a73421ebce74998303184.jpg)![](./images/aa458d8ae55a73421ebce74998303184.jpg)![](./images/51782fb31b68562af14146a936975e72.jpg)![](./images/51782fb31b68562af14146a936975e72.jpg)
 
 回到Tesla dojo和cerebras上。这是一个非常重大的震撼，因为原本只有cerebras，现在加上dojo，就是两个了。现在世界上有两个公司(一旦开始，后续还会有第三个)采用系统垂直整合的方式设计芯片，并且采用了silicon（C）/RDL（T）即基板的策略打破了封装的约束，直接把系统和silicon整合成一体，就像一个销售渠道打破了代理商一样，直接把硅级别的性能特征放大到系统级。典型来讲就是在系统级获得了芯片级特征的scale-up的能力。
 
@@ -33,7 +33,7 @@
 
 **一个巨大的、又完整的大机器。一个超大型巨人。**
 
-![](../images/f5f84e00493420bb4e564048b01ad5a1.jpg)![](../images/f5f84e00493420bb4e564048b01ad5a1.jpg)
+![](./images/f5f84e00493420bb4e564048b01ad5a1.jpg)![](./images/f5f84e00493420bb4e564048b01ad5a1.jpg)
 
 为什么需要一个巨人？ 一个巨大的scale-up的AIDC？
 
@@ -67,7 +67,7 @@ dataflow模式的问题是什么？ 是要求整个AI网络必须是接近静态
 
 不支持动态图，那简直是逆AI潮流而行，想一想都觉得罪恶感满满。
 
-![](../images/182d3f640ca60e9271e88542048fec0c.jpg)![](../images/182d3f640ca60e9271e88542048fec0c.jpg)
+![](./images/182d3f640ca60e9271e88542048fec0c.jpg)![](./images/182d3f640ca60e9271e88542048fec0c.jpg)
 
 第一个使用datflow方式的其实是graphcore，大家对第一个吃螃蟹的都比较宽容。
 
@@ -81,7 +81,7 @@ dataflow模式的问题是什么？ 是要求整个AI网络必须是接近静态
 
 动态图，你想想人脑的神经组织有动态结构吗？没有啊，那为啥一定要纠结动态图不放呢？
 
-![](../images/ad485c0fad6c6fbea76e73d37ea4d857.jpg)![](../images/ad485c0fad6c6fbea76e73d37ea4d857.jpg)
+![](./images/ad485c0fad6c6fbea76e73d37ea4d857.jpg)![](./images/ad485c0fad6c6fbea76e73d37ea4d857.jpg)
 
 我菊要是不被禁，应该也搞个七七八八了。
 

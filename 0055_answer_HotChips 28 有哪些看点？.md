@@ -39,17 +39,17 @@
 
 好想献上我的膝盖和简历……
 
-![](../images/e612f042164db653e43f3ddf78a5322d.jpg)![](../images/e612f042164db653e43f3ddf78a5322d.jpg)
+![](./images/e612f042164db653e43f3ddf78a5322d.jpg)![](./images/e612f042164db653e43f3ddf78a5322d.jpg)
 
 但这都不算什么，你见过两个单线程核拼接成一个双线程的核么？ 共享前端，独享后端。
 
 在知乎搜索一下“逆多线程”就能看到了，还有神奇的VISC。
 
-![](../images/9657937121cb1f826738e49e47d134b2.jpg)![](../images/9657937121cb1f826738e49e47d134b2.jpg)
+![](./images/9657937121cb1f826738e49e47d134b2.jpg)![](./images/9657937121cb1f826738e49e47d134b2.jpg)
 
 虽然不全部是这样，但IBM的CPU已经有这样的雏形了。一个SMT8的CPU，中间劈开，就是两个SMT4的CPU，想要重核可以有重核，想要核数量可以有核数量。想一想都觉得屌。
 
-![](../images/125e1492ea450b938905cff0da91c2df.jpg)![](../images/125e1492ea450b938905cff0da91c2df.jpg)  
+![](./images/125e1492ea450b938905cff0da91c2df.jpg)![](./images/125e1492ea450b938905cff0da91c2df.jpg)  
 
 当然，使用上好像有些限制，编译器和OS应该不能很好利用不同的SMT数量，SMT4建议是LINUX，SMT8仅建议PowerVM。
 
@@ -67,11 +67,11 @@ Tutorial的hynix，用interposer的TSV互联方式，用类似serdes的接口将
 
 马上samsung就宣传了该技术，并且提出该技术在mobile可用。
 
-![](../images/bc2db84d3c9e9739a071692e18589b3a.jpg)![](../images/bc2db84d3c9e9739a071692e18589b3a.jpg)
+![](./images/bc2db84d3c9e9739a071692e18589b3a.jpg)![](./images/bc2db84d3c9e9739a071692e18589b3a.jpg)
 
 然后是TSMC，是基于RDL的fanout技术，TSMC还一并展示了互联IO的设计技术，非常不错，类DDR接口，256bit位宽，2G速率，即512Gbps的带宽，功耗非常小。小道消息，TSMC的方案是和APPLE合作的，那么下一代iphone也许能见到这种黑科技哦，DRAM不用在背在CPU的背上（POP封装），散热问题大幅缓解，感觉能再加好多功能了。
 
-![](../images/5f0eace5dc01cf5513abcfd022ad10c8.jpg)![](../images/5f0eace5dc01cf5513abcfd022ad10c8.jpg)
+![](./images/5f0eace5dc01cf5513abcfd022ad10c8.jpg)![](./images/5f0eace5dc01cf5513abcfd022ad10c8.jpg)
 
 还有就是xilinx，也花了大量篇幅来讲故事，还特意画了一张表来比较MCM/fanout/interposer的差异和优劣，就不贴图了。
 

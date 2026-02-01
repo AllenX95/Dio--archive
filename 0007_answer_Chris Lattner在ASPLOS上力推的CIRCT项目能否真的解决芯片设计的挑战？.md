@@ -45,7 +45,7 @@ DSA ！！
 
 如果一个芯片覆盖范围有限，注定了其领域销售份额的不足，如果ROI<5，那么开发效率就变得越发重要了。而且，DSA本身也代表了基于领域的快速变化，开发速度成为了其OpEx的重要权重。
 
-![](../images/48f8b05a9369878c05f48dbfbeaf3e8e.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='327'%20height='375'></svg>)
+![](./images/48f8b05a9369878c05f48dbfbeaf3e8e.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='327'%20height='375'></svg>)
 
 ---
 

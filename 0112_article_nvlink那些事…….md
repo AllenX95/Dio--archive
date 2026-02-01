@@ -11,7 +11,7 @@
 
 写这个源自我在清华同窗一个技术八卦群聊起了nvlink的若干技术，然后就打算写一写我作为一个旁观者所见并试图还原的nvlink的历史。
 
-![](../images/7fad98c6de35a4c1a810ad2810f54e06.jpg)![](../images/7fad98c6de35a4c1a810ad2810f54e06.jpg)
+![](./images/7fad98c6de35a4c1a810ad2810f54e06.jpg)![](./images/7fad98c6de35a4c1a810ad2810f54e06.jpg)
 
 首先申明，我没有在NVIDIA工作过一天，也没有获取一些非正常渠道的秘密信息或文档，但这不妨碍我把所有从公开渠道获得的零碎信息组装成一个相对完备的逻辑…………
 
@@ -21,7 +21,7 @@
 
 甚至于最近的，为什么是那个厨子？
 
-![](../images/4887c5fd8614eac7fc2d203854b344ad.jpg)![](../images/4887c5fd8614eac7fc2d203854b344ad.jpg)
+![](./images/4887c5fd8614eac7fc2d203854b344ad.jpg)![](./images/4887c5fd8614eac7fc2d203854b344ad.jpg)
 
 这个世界没有什么下大棋，历史的真相如果当局者没有总结，后人或者旁观者都只能通过一个个小故事的细节和关系，梳理总结成完整的逻辑。我希望通过推测尽可能看到Nvlink历史上的若干细节故事，还原出它的部分真实。
 
@@ -43,7 +43,7 @@ Nvidia GPGPU的片上总线NoC看上去也有很多IBM的影子，我经常把IB
 
 嗯，回到Nvlink，它提出的主旨很简单，就是突破PCIe的屏障，达成GPU-GPU及CPU-GPU的高效数据交互，当年正是intel把持pcie最恶劣的情况，PCIe device之间的数据直通需要经过CPU才行(基于所谓访问安全的约束)。所以，那是2016年的秋天，橙黄橘绿，IBM的Power8和Nvidia的P100完成了基于Nvlink的灵与肉的结合，2+4，没有PCIe，产品是HPC。
 
-![](../images/97d820d5dd08c04e30c45a68e2038d06.jpg)![](../images/97d820d5dd08c04e30c45a68e2038d06.jpg)
+![](./images/97d820d5dd08c04e30c45a68e2038d06.jpg)![](./images/97d820d5dd08c04e30c45a68e2038d06.jpg)
 > Nvlink的演进
 
 - Pascal的Nvlink1.0的IO速率是20Gbps，8Lane per Port，每个Port 320Gbps（双向），这其实是一代不完全成熟的产品，因为这个Port的速率很独特，GPGPU内部微架构团队可能也还没有完全接纳。
@@ -62,7 +62,7 @@ P：V：A：H：B的Port数量依次是4：6：12：18：24，以此递增芯片
 
 下图是Nvlink在2016年诞生时，黄教主播下的种子，留下的期待 ：）
 
-![](../images/46093175ed0030d5b200d0ce65bfc071.jpg)![](../images/46093175ed0030d5b200d0ce65bfc071.jpg)
+![](./images/46093175ed0030d5b200d0ce65bfc071.jpg)![](./images/46093175ed0030d5b200d0ce65bfc071.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ P：V：A：H：B的Port数量依次是4：6：12：18：24，以此递增芯片
 
 Nvidia最初推出的是DGX，2016年发布的第一代DGX-1，这玩意儿其实是一个单机，严格来讲，小型机。虽然当年数据中心建设虽然如火如荼，但Nvidia还是希望能以一个硬件system的模式，把一个Box卖给客户，并获得足够高的利润。君不见，这玩意儿浑身内外都涂满中东土豪的金色，差点就想告诉你你买了一块大金砖。
 
-![](../images/05ef945fbbdf231c6dfe0a54764384c0.jpg)![](../images/05ef945fbbdf231c6dfe0a54764384c0.jpg)
+![](./images/05ef945fbbdf231c6dfe0a54764384c0.jpg)![](./images/05ef945fbbdf231c6dfe0a54764384c0.jpg)
 
 DGX-1差不多是15万美元左右，到DGX-2则到了40万美元，相比买单卡的溢价非常高，买到即亏到。
 
@@ -102,7 +102,7 @@ Nvlink至今到Hopper发展了四代，而Nvswitch至今有三代 ：）
 
 多卡系统做Reduce怎么都是跑不掉的，oh，holy shit，当年分析Cube直连系统，算Ring Reduce的路径覆盖最大化可真玩死哥了。我感觉应该很多人和我一样，纷纷给Nvidia留言了“fxxk”、“Damn”等信息，握爪。
 
-![](../images/1adb6cae3c10dd5e6ee09f25fdb3cfc6.jpg)![](../images/1adb6cae3c10dd5e6ee09f25fdb3cfc6.jpg)
+![](./images/1adb6cae3c10dd5e6ee09f25fdb3cfc6.jpg)![](./images/1adb6cae3c10dd5e6ee09f25fdb3cfc6.jpg)
 
 Nvidia受不了了，既然这么多程序员的数学都是体育老师教的，那还是暴力全交换吧。
 
@@ -127,7 +127,7 @@ Nvlink4.0对应的Nvswtch3.0支持64个Port，每个Port x2，IO速率100G，交
 
 你不信？ 你打开你买到的DGX V100/A100的机框看看，所有的NvSwitch芯片，都只连接了16个Port，无论谁家买的，都有2个Port在哪儿，多情自古空余恨啊。Nvidia翘首以盼，整整等了两代，IBM都无法再次崛起重新入主超算领域，反而迎来了AI的爆发。我们从IBM流出的一张图可以看到，支持Nvlink3.0（Nvswitch2.0）的Power9原本是在计划中的(HC30)，但最终，IBM，那个男人，他没有做到他的承诺。
 
-![](../images/4f76012114ba17e9ce10a5812f94f66d.jpg)![](../images/4f76012114ba17e9ce10a5812f94f66d.jpg)
+![](./images/4f76012114ba17e9ce10a5812f94f66d.jpg)![](./images/4f76012114ba17e9ce10a5812f94f66d.jpg)
 
 Nvidia固然从IBM得到了很多，但是最终它并没有辜负这段感情。
 
@@ -141,13 +141,13 @@ Nvlink-Network和Nvlink是两个东西，是两个东西，是两个东西。
 
 这个问题的源头来自HGX的形态，为什么DGX/HGX-2 V100有8P和16P两种机器销售？ 但DGX/HGX-2 A100却只有8P唯一形态 ？ 下图是Nvidia官方的Nvswitch互联图。
 
-![](../images/86f86a788b821cde49bbf054f00b0f5a.jpg)![](../images/86f86a788b821cde49bbf054f00b0f5a.jpg)
+![](./images/86f86a788b821cde49bbf054f00b0f5a.jpg)![](./images/86f86a788b821cde49bbf054f00b0f5a.jpg)
 
 下图是A100的HGX单板，黄教主端在手上，注意看最右侧，六颗NvSwitch芯片的右端，是跨板的Nvlink端口，通过这一组端口你可以将两张8P的A100单板组合成一个16P的HGX系统。
 
 OTT负责基础设施的老板们啊，中国那花10亿美元购买A100的那个公司啊，打开你的机箱看一看，你定制的HGX A100单板，Nwswitch芯片的外侧端口，是不是悬空的？
 
-![](../images/7ee4439225212a405a8c01658775807c.jpg)![](../images/7ee4439225212a405a8c01658775807c.jpg)
+![](./images/7ee4439225212a405a8c01658775807c.jpg)![](./images/7ee4439225212a405a8c01658775807c.jpg)
 
 为什么？ 难度微软给OpenAI提供的是一机八卡的HGX做训练，所以中国做AI的所有人，所有人都认为只能做一机八卡了？
 
@@ -157,7 +157,7 @@ OTT负责基础设施的老板们啊，中国那花10亿美元购买A100的那�
 
 这个世界上根本就没有16P的A100，对吧？ 不对啊，有一家有，如下，Google的A2-MegaGPU-16g实例，这是我在世上唯一找到官方的A100 16P系统。
 
-![](../images/3b7a92da36429ff0df3d5a8d41476ab7.jpg)![](../images/3b7a92da36429ff0df3d5a8d41476ab7.jpg)[Google Machine Type a2-megagpu-16g](http://link.zhihu.com/?target=https%3A//gcloud-compute.com/a2-megagpu-16g.html)
+![](./images/3b7a92da36429ff0df3d5a8d41476ab7.jpg)![](./images/3b7a92da36429ff0df3d5a8d41476ab7.jpg)[Google Machine Type a2-megagpu-16g](http://link.zhihu.com/?target=https%3A//gcloud-compute.com/a2-megagpu-16g.html)
 
 微软和AWS都没有看到A100的16P实例，先不忙裁人，这事必有蹊跷 ：）
 
@@ -217,7 +217,7 @@ Hopper的Nvlink带宽是900GB，要在这么巨大的带宽上同时满带宽支
 
 你明白了吗？ 在一个700W功耗的GPU上，有一个技术省了10W，作为一种噱头，高价卖给你，你是不是赚大了？
 
-![](../images/19de72b56ec3d57586694dc6ced3fa42.jpg)![](../images/19de72b56ec3d57586694dc6ced3fa42.jpg)
+![](./images/19de72b56ec3d57586694dc6ced3fa42.jpg)![](./images/19de72b56ec3d57586694dc6ced3fa42.jpg)
 
 你已经回顾了Nvlink的整个历史，你的心中应该有一个正确的答案，最佳的搭配，应该是IBM+Nvidia那种，让CPU和GPU都支持Nvlink，然后通过NvSwitch应该做非2^N的Port数量，方便搭配，GPU和CPU基于NvSwitch做全交换。当前Nvlink-C2C所号称的所有好处，DVM、Cache Coherence，都是能够拿到的。
 
@@ -231,7 +231,7 @@ Hopper的Nvlink带宽是900GB，要在这么巨大的带宽上同时满带宽支
 
 但这些大概率都不是其诞生的第一天就规划好的，他更是像一个活物，随着环境的变化和各种机缘巧合的事件触发，不断膨胀、进化、吞噬，螺旋上升，但天下并无长生不灭者，有生之年，一起扶阶而上吧，希望我们可以看至终章吧。
 
-![](../images/f02a3a51dbe8dd4f52053e35cce477c1.jpg)![](../images/f02a3a51dbe8dd4f52053e35cce477c1.jpg)
+![](./images/f02a3a51dbe8dd4f52053e35cce477c1.jpg)![](./images/f02a3a51dbe8dd4f52053e35cce477c1.jpg)
 
 ---
 

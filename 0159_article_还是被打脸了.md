@@ -9,7 +9,7 @@
 
 ---
 
-![](../images/f670a24f6cffc60ddcb44e2ce40b7d07.jpg)![](../images/f670a24f6cffc60ddcb44e2ce40b7d07.jpg)
+![](./images/f670a24f6cffc60ddcb44e2ce40b7d07.jpg)![](./images/f670a24f6cffc60ddcb44e2ce40b7d07.jpg)
 
 痛痛痛......
 
@@ -19,7 +19,7 @@
 
 有时候我们喜欢过高地估计对手的革命性创造力……其实都是农民工，一个脑袋四条腿，最多加班也就加成那样了。
 
-![](../images/629d870d967bf3790f8991c158c4cf95.jpg)![](../images/629d870d967bf3790f8991c158c4cf95.jpg)
+![](./images/629d870d967bf3790f8991c158c4cf95.jpg)![](./images/629d870d967bf3790f8991c158c4cf95.jpg)
 
 说明一下：AMD ZEN4通过扩封装尺寸安排了96core+12ch ddr作为最高端，但这个尺寸不是server cpu的主流，所以最终的主力版本，还是64core+8ch ddr，牙膏牙膏。
 

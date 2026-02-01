@@ -55,7 +55,7 @@
 
 能白嫖就不想氪金。
 
-![](../images/ddd269e366bfa4ac960c1311380cc7b6.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='196'%20height='194'></svg>)
+![](./images/ddd269e366bfa4ac960c1311380cc7b6.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='196'%20height='194'></svg>)
 
 ---
 

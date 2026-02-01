@@ -13,15 +13,15 @@
 
 让很多人颤抖！！
 
-![](../images/2e18efdbc0d295d0e5a32fa9c3c1f8b7.jpg)![](../images/2e18efdbc0d295d0e5a32fa9c3c1f8b7.jpg)
+![](./images/2e18efdbc0d295d0e5a32fa9c3c1f8b7.jpg)![](./images/2e18efdbc0d295d0e5a32fa9c3c1f8b7.jpg)
 
 上面这图有秘密。
 
-![](../images/03c1d28ca78600b50725ba5206b53b1e.jpg)![](../images/03c1d28ca78600b50725ba5206b53b1e.jpg)
+![](./images/03c1d28ca78600b50725ba5206b53b1e.jpg)![](./images/03c1d28ca78600b50725ba5206b53b1e.jpg)
 
 左上角这两个GPU大家都知道，是T4。
 
-![](../images/d26ad93bc4f6a726c9db911256dd513e.jpg)![](../images/d26ad93bc4f6a726c9db911256dd513e.jpg)
+![](./images/d26ad93bc4f6a726c9db911256dd513e.jpg)![](./images/d26ad93bc4f6a726c9db911256dd513e.jpg)
 
 那右上角这两个GPU是什么？
 
@@ -41,7 +41,7 @@ AI产业玩家很多，近期的AI芯片的军备竞赛，打法都是直接降�
 
 劝退级别的GPU。
 
-![](../images/9e3fea3b03f4cab8404444a1d953d635.jpg)![](../images/9e3fea3b03f4cab8404444a1d953d635.jpg)
+![](./images/9e3fea3b03f4cab8404444a1d953d635.jpg)![](./images/9e3fea3b03f4cab8404444a1d953d635.jpg)
 
 ---
 

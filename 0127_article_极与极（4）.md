@@ -17,7 +17,7 @@
 
 在我很多瞎扯淡的分享中，包括上面这一篇，总是有很多人对scale的回复（如下），其实比较尴尬，因为这些差异呢，都来自于概念上无法对齐的矛盾，进一步说就在于这个**scale**的定义。
 
-![](../images/0964028fe27d5ada64e0a97baff5219d.jpg)![](../images/0964028fe27d5ada64e0a97baff5219d.jpg)
+![](./images/0964028fe27d5ada64e0a97baff5219d.jpg)![](./images/0964028fe27d5ada64e0a97baff5219d.jpg)
 
 这个世界上没有绝对的黑白，包括计算机体系结构，很多的边界和定义，本身就是被不断突破的过程，也因此产生了创新。
 
@@ -31,7 +31,7 @@ scale代表的是规模化，而所谓规模，一定是基于**某一个单一�
 
 我们先保守一点。
 
-![](../images/8eb6bcffcafe04c2a7bd9b9edcf5e422.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='165'%20height='168'></svg>)
+![](./images/8eb6bcffcafe04c2a7bd9b9edcf5e422.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='165'%20height='168'></svg>)
 
 那么传统地讲scale，就再细分为scale-up和scale-out。
 
@@ -41,7 +41,7 @@ scale代表的是规模化，而所谓规模，一定是基于**某一个单一�
 
 如果要做个比拟的话，scale-up就是一个超级英雄，超人、钢铁侠、爱因斯坦。
 
-![](../images/963ba6f5beaaf22f94441fb6a265edc9.jpg)![](../images/963ba6f5beaaf22f94441fb6a265edc9.jpg)
+![](./images/963ba6f5beaaf22f94441fb6a265edc9.jpg)![](./images/963ba6f5beaaf22f94441fb6a265edc9.jpg)
 
 你看到的超级英雄，他力量强大，能一个打十个，但问题是，他很稀少，代价昂贵，很难变得更强，如果一不小心黑化了（出错了），造成的后果很严重。
 
@@ -53,7 +53,7 @@ scale-out，所谓out就是横向水平扩展。这里就比较有意思了，�
 
 如果要做一个比拟的话，最典型的就是斯巴达300了。
 
-![](../images/33aaa539f8defef040eeb417b6d1b4dd.jpg)![](../images/33aaa539f8defef040eeb417b6d1b4dd.jpg)
+![](./images/33aaa539f8defef040eeb417b6d1b4dd.jpg)![](./images/33aaa539f8defef040eeb417b6d1b4dd.jpg)
 
 究其原理，超算所面对的单一任务，无论是核爆、宇宙、热、化学，实际上都是对物理世界的模拟，而物理世界的本质是基于某种尺度的空间展开，个体的力量只是精度，展开的规模才是尺度，所以超算作为一种典型scale-out，要的是军队一般的令行禁止、整齐划一。它的问题是，训练一个军队也不容易，费用蛮高，而单个个体能力毕竟有限，要解决一个高维复杂问题是比较困难的。
 
@@ -69,7 +69,7 @@ scale-out，所谓out就是横向水平扩展。这里就比较有意思了，�
 
 举个例子，你有的不仅仅是斯巴达300，而是斯巴达300基佬，按照典型8人一组（DGX）分小队，他们每个小队都能安全游过一条有无数专门吃JJ的食鸡鱼的河流。
 
-![](../images/06f6d668c2bd8ee075a8646799a71868.jpg)![](../images/06f6d668c2bd8ee075a8646799a71868.jpg)
+![](./images/06f6d668c2bd8ee075a8646799a71868.jpg)![](./images/06f6d668c2bd8ee075a8646799a71868.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ scale-out，所谓out就是横向水平扩展。这里就比较有意思了，�
 
 要做个比拟的话，就是社会上典型的企业了，每个打工仔都有着独立的家庭和生活，但依赖金字塔结构的管理机制，码农+HR+销售，各自独立、互相鄙视互相内卷却又相互协调地完成了巨大复杂的工作……
 
-![](../images/dc4ac459cb5370a319cdbc503be71f36.jpg)![](../images/dc4ac459cb5370a319cdbc503be71f36.jpg)
+![](./images/dc4ac459cb5370a319cdbc503be71f36.jpg)![](./images/dc4ac459cb5370a319cdbc503be71f36.jpg)
 
 ---
 
@@ -91,7 +91,7 @@ scale-out，所谓out就是横向水平扩展。这里就比较有意思了，�
 
 看一下这个混乱的世界吧，人类社会这么几千年，连个高效的社会制度都还没演化出来呢。
 
-![](../images/f8dacc199fc4fb14c6d6526e9af35f22.jpg)![](../images/f8dacc199fc4fb14c6d6526e9af35f22.jpg)
+![](./images/f8dacc199fc4fb14c6d6526e9af35f22.jpg)![](./images/f8dacc199fc4fb14c6d6526e9af35f22.jpg)
 
 ---
 

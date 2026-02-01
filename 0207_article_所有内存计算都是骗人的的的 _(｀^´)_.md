@@ -15,7 +15,7 @@
 
 in memory computing，简称PIM。
 
-![](../images/d3e48aa0460f6dc19ab713f75b9bcb4e.jpg)![](../images/d3e48aa0460f6dc19ab713f75b9bcb4e.jpg)
+![](./images/d3e48aa0460f6dc19ab713f75b9bcb4e.jpg)![](./images/d3e48aa0460f6dc19ab713f75b9bcb4e.jpg)
 
 首先需要明确一下near memory computing和in memory computing的定义，这事我和业界灌水王onur mutlu吃饭还刚过一波，结论是：真理掌握在英语表达能力范围内。┐(‘～`；)┌
 
