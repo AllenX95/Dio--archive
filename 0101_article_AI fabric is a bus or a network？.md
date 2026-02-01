@@ -17,7 +17,7 @@
 
 Nvdia的Nvlink包括GH200、NVL72，号称一个as a single GPU，都是基于内存语义Load/Store/Atomic的。但在Nvidia之外，周围大多数同学都对此是反面意见的，例如大网红Zartbot，如下《再谈谈三万亿的破绽》。
 
-![](./images/cde1310e59a0e12d4b810c0040f50c73.jpg)![](./images/cde1310e59a0e12d4b810c0040f50c73.jpg)[再谈谈三万亿的破绽](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/2ZrD-FqHeYy9zA7FM_bYXg)
+![](./images/cde1310e59a0e12d4b810c0040f50c73.jpg)[再谈谈三万亿的破绽](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/2ZrD-FqHeYy9zA7FM_bYXg)
 
 **死穴！ Load/Store是走向死穴的死路一条！**
 
@@ -46,7 +46,7 @@ Ethernet是DCN大网的承载体，它是一个Network，以TCP/IP的复杂网�
 
 而Infiniband是一种非常奇葩的东西，它应该算一个Network，但为了达成一些目的违背了Network的很多原则导致网党有点看不上它，而计党呢，算是需要的时候拿出来爽一爽，不需要就爱答不理的态度 ：）它的固有问题导致在Nvidia内部它应该也活得不好。
 
-![](./images/3695072dec8454e4269435e843deec50.jpg)![](./images/3695072dec8454e4269435e843deec50.jpg)
+![](./images/3695072dec8454e4269435e843deec50.jpg)
 
 故事归故事，但所谓的计党网党之分，本质都是个历史遗留的原因。
 
@@ -62,7 +62,7 @@ Ethernet是DCN大网的承载体，它是一个Network，以TCP/IP的复杂网�
 
 网红大咖Zarbot不知道哪儿搞得一张图很有趣，我不确定这张图是否完备，但要我来说这张图实际上是网络从1995年互联网爆发期就开始进入计算领域的历史记录，腹黑一点，就是网党入侵计党的经略沙盘 o(\*￣)￣\*)o
 
-![](./images/ed239f2ce824d1882cdd7683eb2e5210.jpg)![](./images/ed239f2ce824d1882cdd7683eb2e5210.jpg)
+![](./images/ed239f2ce824d1882cdd7683eb2e5210.jpg)
 
 Zarbot是个妥妥的网党 ：） 因为要计党来画经略图，那应该是从IBM Power GX Bus开始，然后是Intel QPI/UPI、AMD hypertransport/Infinite fabric、Nvidia Nvlink的故事（最边上也是CXL），其中还能涉及耳熟能详的那些人，Jim Keller就是其中重要的贡献者。嗯，有空我画一个 ：）
 
@@ -82,7 +82,7 @@ Zarbot是个妥妥的网党 ：） 因为要计党来画经略图，那应该是
 
 业界确实也有类似三层分层现状，主要还是RoCE的各种问题很难解决（少部分OTT能解决，所以Zartbot的图上Google/AWS是和UEC并列的），相当多OTT没有办法有效在ETH上运行高带宽的集合通信，所以不得不增加了一层Infiniband（其实问题很大），UCE强调这个，其实是先证明Infiniband有价值，然后再替代IB的路数。
 
-![](./images/8a2d994c57074efc20d52d06775b32de.jpg)![](./images/8a2d994c57074efc20d52d06775b32de.jpg)
+![](./images/8a2d994c57074efc20d52d06775b32de.jpg)
 
 我们在商业面当然也可以学学UEC讲Type1/2/3及统一的故事，但是技术的同学建议就不必要了，被条条框框一套上，这思路就被锁死了 ：）
 
@@ -98,7 +98,7 @@ RDMA最大的困境，在于如何解决**Lossy**和**Out-of-Order**的主要问
 
 嗯，我2020年刚开始搞RDMA的时候，也觉得很矛盾，所以还写了篇小文记录心路历程：<https://zhuanlan.zhihu.com/p/295368691>。
 
-![](./images/cf53453a3a3f026ad5b2c8eec8e50a83.jpg)![](./images/cf53453a3a3f026ad5b2c8eec8e50a83.jpg)
+![](./images/cf53453a3a3f026ad5b2c8eec8e50a83.jpg)
 
 乱序其实对计党很轻松，因为计算内部的NOC都是乱序的，“什么？ 必须保序？”，“脱了裤子放屁”，原生的计党都认为网党处理不好乱序就是菜，所以我也觉得合作一下，乱序不难解决。
 
@@ -189,7 +189,7 @@ Load/Store/Atomic原生就是多路径的行为，因为Memory天生就是Multi-
 
 你猜Nvlink是如何在Multi-Path中选路和带宽均衡的？
 
-![](./images/363da30d6a954594aaf4141101e5396b.jpg)![](./images/363da30d6a954594aaf4141101e5396b.jpg)
+![](./images/363da30d6a954594aaf4141101e5396b.jpg)
 
 答案出乎你的意料：） 引用一个NV的专利，基于Ports的Bitmap随机选路即可，无论有多少Ports，如何的Topology，甚至于用着用着有几个Port掉线了，都没有关系，列出一个Port等价性的Bitmap，逐包从中选一个1，走就好。
 
@@ -285,11 +285,11 @@ rdma的Read/Write/Send在规模上具有高于Load/Store/Atomic能力的，所�
 
 我把前面这张图画完整一点，如下是我个人观点，100m ~ DC这个范畴，肯定是Read/Write/Send的空间，而3~10m的Rack内外，应当选择Load/Store/Atomic，至于10~100m之间，则尽可能驱虎逐狼，适者生存。
 
-![](./images/5f7047f6317e7688c7d6c6aacb35b0ec.jpg)![](./images/5f7047f6317e7688c7d6c6aacb35b0ec.jpg)
+![](./images/5f7047f6317e7688c7d6c6aacb35b0ec.jpg)
 
 **不管黑猫白猫，捉住老鼠就是好猫。但也许黑猫白猫都抓不到老鼠，那你需要熊猫。**
 
-![](./images/662e006b5aef448d2c7a9859c8b1333d.jpg)![](./images/662e006b5aef448d2c7a9859c8b1333d.jpg)
+![](./images/662e006b5aef448d2c7a9859c8b1333d.jpg)
 
 ---
 

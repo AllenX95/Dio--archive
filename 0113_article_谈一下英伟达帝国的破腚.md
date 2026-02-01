@@ -19,7 +19,7 @@
 
 大帝在乎吗？ 我觉得黄大帝他手持核弹，他不在乎。
 
-![](./images/9b42642fd85a57adaf00535fb4962072.jpg)![](./images/9b42642fd85a57adaf00535fb4962072.jpg)
+![](./images/9b42642fd85a57adaf00535fb4962072.jpg)
 
 ---
 
@@ -29,7 +29,7 @@
 
 你得盘个逻辑，提个口号才能举旗，得想办法证明旧社会的不足和新社会的先进性才有机会。
 
-![](./images/aa7f0e23eea263f3e85bb823f92b1748.jpg)![](./images/aa7f0e23eea263f3e85bb823f92b1748.jpg)
+![](./images/aa7f0e23eea263f3e85bb823f92b1748.jpg)
 
 ---
 
@@ -37,7 +37,7 @@
 
 不知道多少人分析过Nvidia的GPU的成本 ：） 我们以最新的Hopper H100为例吧。大致上，为了跑AI大模型，你从Nvidia手上购买到的是如下这样的一张卡，他叫做SXM5模组，单手就能拿捏的样子。
 
-![](./images/407ad3c1d683e14bdc7c33f9b9510d5d.jpg)![](./images/407ad3c1d683e14bdc7c33f9b9510d5d.jpg)
+![](./images/407ad3c1d683e14bdc7c33f9b9510d5d.jpg)
 
 这个模组附带了大量的供电VRM，也通常会使用相对高阶的PCB保证供电的铜损最小。最中间的差不多就是一颗Hopper GPU芯片，看得出由7颗Die用chiplet方式封装，分别是1颗logic Die和6颗HBM。
 
@@ -55,7 +55,7 @@
 
 就前几天，聪明绝顶的GraphCore总裁（其中一个造反的）特别为众多造反者指出了一条路，如下
 
-![](./images/1977c2d1099e3b1fcdcb9707f197309a.jpg)![](./images/1977c2d1099e3b1fcdcb9707f197309a.jpg)
+![](./images/1977c2d1099e3b1fcdcb9707f197309a.jpg)
 
 看到没，LPDDR定制一下是可以做到50% HBM的带宽，但是容量远大于HBM的，剩下你只要在AI大模型的存/算带宽容量比上做到最好就行。
 
@@ -93,7 +93,7 @@ H100相比A100算力FP16从300T增加到接近1P，Nvlink带宽从600GB/s提升�
 
 我记得我列过几次大模型训练的结构，以GPT3为例，大致上用1024张A100训练GPT，8P一个Node，在Node内模型并行， 然后按8个8P（64P）做8级流水并行，然后16组8x8做Batch 16的数据并行。。。。。。
 
-![](./images/aa5243776b03ea5a6b97a407d4a1e1b6.jpg)![](./images/aa5243776b03ea5a6b97a407d4a1e1b6.jpg)<https://zhuanlan.zhihu.com/p/528613258>
+![](./images/aa5243776b03ea5a6b97a407d4a1e1b6.jpg)<https://zhuanlan.zhihu.com/p/528613258>
 
 H100的下一代是B100，它的FP16算力大致上从900T提升到了~2P Flops附近。
 
@@ -131,7 +131,7 @@ TSMC曾经讲过一个故事。台湾同胞辛辛苦苦攒钱建厂，一张4nm�
 
 AI这个行业，也终将，昔日王榭堂前燕 飞入寻常百姓家。这是大势。
 
-![](./images/2e05e26fdc9437743481aab514904ff1.jpg)![](./images/2e05e26fdc9437743481aab514904ff1.jpg)
+![](./images/2e05e26fdc9437743481aab514904ff1.jpg)
 
 ---
 

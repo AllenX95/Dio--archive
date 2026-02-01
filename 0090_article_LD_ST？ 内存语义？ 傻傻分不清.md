@@ -51,7 +51,7 @@ Zartbot详细列举了Nvidia GPU的Memory Model，其实就是告诉你，好的
 
 算了，画了一张图。
 
-![](./images/95d8c9953c1f610cc14273b7c59c5519.jpg)![](./images/95d8c9953c1f610cc14273b7c59c5519.jpg)
+![](./images/95d8c9953c1f610cc14273b7c59c5519.jpg)
 
 1、如果你强调Load/Store是指令的同步行为，必须按照指令顺序执行要等load完成后data inside reg才执行下一条指令，那么你属于体系结构中最原教旨主义的Load/Store定义 ：）
 
@@ -111,7 +111,7 @@ Zartbot详细列举了Nvidia GPU的Memory Model，其实就是告诉你，好的
 
 **为了保证更丰富和机制的内存语义在Scale-Up系统上无损的传递，一个好的Scale-Up协议应当不仅仅是Load/Store，还需要定制若干Macro行为来让某些更复杂内存语义在跨机时的高效表达，这是下一个哑谜，也是Ualink/Nvlink还没有做到的事情。**
 
-![](./images/912ac5fe9145685091d18192d9a1addf.jpg)![](./images/912ac5fe9145685091d18192d9a1addf.jpg)
+![](./images/912ac5fe9145685091d18192d9a1addf.jpg)
 
 ---
 

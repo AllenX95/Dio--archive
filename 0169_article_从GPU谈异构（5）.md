@@ -11,7 +11,7 @@
 
 最近，每个荣耀赛季上了王者之后，没啥特别想法了，感觉王者荣耀需要再点吸引上分的诱饵啊，否则王者二三十星摩擦摩擦心态上比较鸡肋。所以今天还不如继续冲盐值分，最近写得很勤奋好吧，我就没搞懂为啥总是差一口气到700，这机制搞得比上王者还复杂。
 
-![](./images/bb6d636893d242976d72c7661caeadb3.jpg)![](./images/bb6d636893d242976d72c7661caeadb3.jpg)
+![](./images/bb6d636893d242976d72c7661caeadb3.jpg)
 
 写啥？
 
@@ -43,7 +43,7 @@ patterson大神到处宣扬DSA的黄金十年，嗯，无论你信不信，我�
 
 **C语言，是过去三十年软件和硬件两个阵营之间，签署的最坚实的盟约。歃血为盟，永不背叛。**
 
-![](./images/2d9b7fd330dd05ab3cc4ae94bfb0a6c9.jpg)![](./images/2d9b7fd330dd05ab3cc4ae94bfb0a6c9.jpg)
+![](./images/2d9b7fd330dd05ab3cc4ae94bfb0a6c9.jpg)
 
 **硬件为C语言的语义提供了最能发挥其性能的silicon，而软件虽然搞了很多的圆环套圆环般的层次（说的就是Python），但最终都以C语言作为最后的沉淀收尾。**
 
@@ -55,7 +55,7 @@ patterson大神到处宣扬DSA的黄金十年，嗯，无论你信不信，我�
 
 **东汉末年分三国，烽火连天不休…………**
 
-![](./images/9a7db45700e200720f77f6c26d147bb0.jpg)![](./images/9a7db45700e200720f77f6c26d147bb0.jpg)
+![](./images/9a7db45700e200720f77f6c26d147bb0.jpg)
 
 **魏**：
 
@@ -117,7 +117,7 @@ Chris Lattner跳槽到sifive的时间不长，我也不清楚他和patterson是�
 
 **万里长征三杯酒，千秋功业一壶茶。**
 
-![](./images/d3ca1057976553e7c0289ddbc2026afb.jpg)![](./images/d3ca1057976553e7c0289ddbc2026afb.jpg)
+![](./images/d3ca1057976553e7c0289ddbc2026afb.jpg)
 
 ---
 

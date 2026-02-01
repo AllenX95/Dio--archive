@@ -11,7 +11,7 @@
 
 一篇有趣的文章。
 
-[Tenstorrent虫洞分析：挑战英伟达的新玩家？](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/egXyuUfGlSB2RqiQe6HSkQ)![](./images/b0424b88d1d2ee4b94e9a7cf66570fd4.jpg)![](./images/b0424b88d1d2ee4b94e9a7cf66570fd4.jpg)![](./images/c1152715a4e76d1eae4dc1b0abd46a81.jpg)![](./images/c1152715a4e76d1eae4dc1b0abd46a81.jpg)
+[Tenstorrent虫洞分析：挑战英伟达的新玩家？](http://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/egXyuUfGlSB2RqiQe6HSkQ)![](./images/b0424b88d1d2ee4b94e9a7cf66570fd4.jpg)![](./images/c1152715a4e76d1eae4dc1b0abd46a81.jpg)
 
 这里引入了一个粒度的问题，要不要把actor模型下沉到device呢 ？
 
@@ -35,7 +35,7 @@ tenstorrent的借用了actor机制把原本OS kernel中的memory malloc卸载为
 
 AI领域第一人，潘多拉的盒子打开了！
 
-![](./images/2b7c8779f1d409f0efe4030aef360e2b.jpg)![](./images/2b7c8779f1d409f0efe4030aef360e2b.jpg)
+![](./images/2b7c8779f1d409f0efe4030aef360e2b.jpg)
 
 ---
 

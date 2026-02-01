@@ -11,7 +11,7 @@
 
 AMD在ISSCC 2020上分享的信息中披露了一个巨大信息，如下所述。
 
-![](./images/c139016602fc4fd3fa551dbba163c439.jpg)![](./images/c139016602fc4fd3fa551dbba163c439.jpg)
+![](./images/c139016602fc4fd3fa551dbba163c439.jpg)
 
 ZEN2 CPU CORE使用了 6 track的std cell。
 
@@ -47,7 +47,7 @@ APPLE大核和AMD均采用了6 track
 
 然后再看看下面这张图
 
-![](./images/a6cf9dfa9b58cea44ed890d77b37f1a1.jpg)![](./images/a6cf9dfa9b58cea44ed890d77b37f1a1.jpg)
+![](./images/a6cf9dfa9b58cea44ed890d77b37f1a1.jpg)
 
 AMD还做到了一件非常奇怪的事情，他用一个CPU CORE兼容了desktop+server，而laptop是独立的。反观intel，server CPU是独立的，而desktop与laptop存在兼容性。
 
@@ -57,7 +57,7 @@ AMD还做到了一件非常奇怪的事情，他用一个CPU CORE兼容了deskto
 
 再加上一张图，源自2020Q1的AMD财报。主要的收入是desktop，即AMD主战场不在server。
 
-![](./images/a4ab83764a5016162cfbf79d4ffca2fb.jpg)![](./images/a4ab83764a5016162cfbf79d4ffca2fb.jpg)
+![](./images/a4ab83764a5016162cfbf79d4ffca2fb.jpg)
 
 —————————————
 
@@ -79,7 +79,7 @@ AMD还做到了一件非常奇怪的事情，他用一个CPU CORE兼容了deskto
 
 高通用7.5T做大核（性能优先），用6T做中核（能效优先）其实就是一个四平八稳的选择。如果apple愿意，也可以设计两颗CPU微架构，或者分别用好7.5T与6T分别做一个大核和一个中核。但很明显apple没有这么做，或者是apple的CPU能效曲线画出来没有这么大收益，或者其他原因。
 
-![](./images/6eda8f049d8a9c465105f131b5094c25.jpg)![](./images/6eda8f049d8a9c465105f131b5094c25.jpg)
+![](./images/6eda8f049d8a9c465105f131b5094c25.jpg)
 
 ---
 

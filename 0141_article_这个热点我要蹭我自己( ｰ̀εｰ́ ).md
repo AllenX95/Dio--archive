@@ -13,7 +13,7 @@
 
 上个月刚好还在写graphcore的问题。
 
-<https://zhuanlan.zhihu.com/p/463833198>![](./images/a0e9dcae747094aba2168ca774a68b4b.jpg)![](./images/a0e9dcae747094aba2168ca774a68b4b.jpg)
+<https://zhuanlan.zhihu.com/p/463833198>![](./images/a0e9dcae747094aba2168ca774a68b4b.jpg)
 
 ---
 
@@ -25,7 +25,7 @@
 
 可惜下层wafer好像没有像大家想象那样玩花样，就是铺了一整层的电容，DTC。
 
-![](./images/5ab9fe286abf1e84d1ad4fff4988b67a.jpg)![](./images/5ab9fe286abf1e84d1ad4fff4988b67a.jpg)
+![](./images/5ab9fe286abf1e84d1ad4fff4988b67a.jpg)
 
 说白了就是以前的电源噪声太大，至少100mv起步，导致功耗损失巨大。这次加整整一层电容（相当于近计算的电池阵列）来改善Vmin，按照官方说法，拿到了16%能效收益……
 

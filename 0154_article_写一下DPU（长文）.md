@@ -25,7 +25,7 @@
 
 7.0₴hlJJXpn9l3U£ [https://m.tb.cn/h.fc2xpRM?sm=868c8b](http://link.zhihu.com/?target=https%3A//m.tb.cn/h.fc2xpRM%3Fsm%3D868c8b) 华为海思HI1822 2102312N BC8M01ETHA SP580 25G四口万兆网卡
 
-![](./images/e14ba159b26dd159e8134ef4be58cf9a.jpg)![](./images/e14ba159b26dd159e8134ef4be58cf9a.jpg)
+![](./images/e14ba159b26dd159e8134ef4be58cf9a.jpg)
 
 ~~~~~
 
@@ -41,7 +41,7 @@
 
 4.0《iWM6XpnMxWo [https://m.tb.cn/h.fcdZJQP?sm=0a3372](http://link.zhihu.com/?target=https%3A//m.tb.cn/h.fcdZJQP%3Fsm%3D0a3372) Intel PCI-E单口/双口万兆光纤网卡82599ES 10GSFP+全高/半高挡板
 
-![](./images/1d2f50b88812d67598e0b5e5c25aeae5.jpg)![](./images/1d2f50b88812d67598e0b5e5c25aeae5.jpg)
+![](./images/1d2f50b88812d67598e0b5e5c25aeae5.jpg)
 
 借用英文的一段描述供参考：A good working definition is that a SmartNIC is a NIC that includes additional computational resources exposed to the customer, along with the necessary open-source tools to utilize those resources. The additional computational resources process network traffic both as it enters and exits the server as well as offload the host CPU at the application level.
 
@@ -55,7 +55,7 @@ smartnic可以是CPU+HAC，可以是network processor，也可以是FPGA，对�
 
 注：不要觉得FPGA贵，都是沙子，价格看量。
 
-![](./images/93d77c1829aa2fbb54ed09c11d2afac7.jpg)![](./images/93d77c1829aa2fbb54ed09c11d2afac7.jpg)
+![](./images/93d77c1829aa2fbb54ed09c11d2afac7.jpg)
 
 所有的形态差异，都在于cloud要选择用怎样的形态为客户提供服务。
 
@@ -101,7 +101,7 @@ IPU的I，是infrastructure，代表着它希望卸载基础设施上的工作�
 
 我先简单画一个分类图（嗯，价值X万），然后慢慢解释。
 
-![](./images/9ef8920feeb14206693d9c75613d3a95.jpg)![](./images/9ef8920feeb14206693d9c75613d3a95.jpg)
+![](./images/9ef8920feeb14206693d9c75613d3a95.jpg)
 
 CLOUD和共享单车没有特别大的差别，它的核心是通过资源复用获得社会资源效率的最大化（作为CPU业者，我不喜欢cloud，每人买个server不好吗,,Ծ^Ծ,,）。
 
@@ -109,7 +109,7 @@ A~B~C是典型的IaaS cloud的基础设施特征，用户并不希望看到这�
 
 D~E~F更倾向于把cloud改造得更高效。因为IaaS的利用率和用户体验始互相矛盾，导致IaaS需要非常大规模才能获得复用的收益（经常说得IaaS不赚钱就是如此）。所以大家都想通过隐藏用户的感知来提升效率，最初是SaaS，不过考虑到SaaS缺乏完备性且生于IaaS，其底层往往还是IaaS，所以需要更进一步，就是serverless，此时硬件形态被隐藏，GPU异构就能大显神威，此时才是真正的GPU上云的时候，nvidia需要在这个阶段后可以开始大发神威（这才是NV收购MLX做DPU的初心，NV不会主动建设IaaS），如果再向前一步，datacenter as a computer，又回到最初，让每一个用户把整个数据中心看做一个PC，此时互联会变成最为重要的特性，因为此时的DPU将成为主角，是在更大纬度把各种设施紧耦合起来的关键。高速高效的互联，此时的DPU那都是400Gbps带宽，硬roce延迟小于1us，网络上的隔离和安全逐渐由端到端的机制来承接。
 
-![](./images/f9ac743706b76e4f78fc53ea8111a51b.jpg)![](./images/f9ac743706b76e4f78fc53ea8111a51b.jpg)
+![](./images/f9ac743706b76e4f78fc53ea8111a51b.jpg)
 
 ~~~~~
 
@@ -137,7 +137,7 @@ AWS的nitro可以说是在取舍之间做到极致的一个smart nic（有些sta
 
 算你有GPU吧，你会发现，中国几乎连SaaS都没有，你再想想serverless或者计算池化这种形态上更胜于SaaS的形态需要多少时间能出现？ 特别是中国未来cloud如果走上国资云，会是什么样子？
 
-![](./images/0d3290966ba2db552ed081e83f298e73.jpg)![](./images/0d3290966ba2db552ed081e83f298e73.jpg)
+![](./images/0d3290966ba2db552ed081e83f298e73.jpg)
 
 为什么全球（美国）的cloud中SaaS占比特别大，而中国却是IaaS为主？ 这个问题我也是想了很久才有些基本答案，有空另谈。
 
@@ -153,7 +153,7 @@ AWS的nitro可以说是在取舍之间做到极致的一个smart nic（有些sta
 
 没法说太详细，但在深刻经历了三颗芯片的互噬之后，让我们更加深刻地理解到了各个特性之间的相互关系和作用。最终，我们找到了一条非常有希望的通过chiplet及套片联动的组合策略，在一个数据中心用一套系统达成A～F全部特征的路径，并希望以此成就领先世界的cloud。
 
-![](./images/0173ef883647f1709c771a8f99d6e5f2.jpg)![](./images/0173ef883647f1709c771a8f99d6e5f2.jpg)
+![](./images/0173ef883647f1709c771a8f99d6e5f2.jpg)
 
 to某些同学啊，与其当下快速地去做能力变现，还不如努努力混到鲲鹏\*昇腾的核心架构师团队，看看更精彩的未来长啥样呢。
 

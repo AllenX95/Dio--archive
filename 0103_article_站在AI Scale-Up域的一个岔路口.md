@@ -17,7 +17,7 @@
 
 Nvidia的产品在Nvlink域基本上都是不收敛的，包括下图从最初的P100非对称互联，到基于V100开始基于Switch的Clos结构，再到GH200妄图用Nvlink-Network扩展但最终失败，再到最新的NVL72通过低密单板和高密Cable在最大维度达成了72颗GPU产品化的TB级别带宽的无收敛Clos交换。
 
-![](./images/85354284d8fd28c807742e11fc66f616.jpg)![](./images/85354284d8fd28c807742e11fc66f616.jpg)
+![](./images/85354284d8fd28c807742e11fc66f616.jpg)
 
 不要小看NVL72，这其实是世界上第一个大于16P的Scale-Up无收敛产品（GH200是失败产品），而且这个产品是结合了A、B、C、D等多项工业皇冠级的技术于一体，在凑齐全部龙珠之前，想要复制它几乎是不可能的任务。
 
@@ -37,7 +37,7 @@ Nvidia的产品在Nvlink域基本上都是不收敛的，包括下图从最初�
 
 下图是典型的两种Scale-Up两分层结构（当然也可以三分层，太过了）这是16P的互联实例，因为Clos的可扩展性，实际上也能组32P、64P，规模依赖于Switch的交换能力（按x4Port算，组16P需要64Lane Switch）
 
-![](./images/4597e3b563aa8f585b6e11a2f570d28a.jpg)![](./images/4597e3b563aa8f585b6e11a2f570d28a.jpg)
+![](./images/4597e3b563aa8f585b6e11a2f570d28a.jpg)
 
 **注：图上能效写反了，应该是pj/bit。**
 
@@ -53,7 +53,7 @@ Clos是一种全对称互联，可以基本做到编程对拓扑的不感知，�
 
 当然，坊间也有朋友提到Mesh、Torus之类的topology，即放弃Clos的全局对称，通过局部locality来超车Nvidia，如下图。
 
-![](./images/a0adf70be560950396568ef5a5f1be73.jpg)![](./images/a0adf70be560950396568ef5a5f1be73.jpg)
+![](./images/a0adf70be560950396568ef5a5f1be73.jpg)
 
 这也算是条路，可惜业界主流的集合通信算法在Mesh/Torus上太麻烦了，软件适配的工作量很大，这也是Dojo、Cerebras，甚至Jim Keller的Tenstorrent等芯片始终无法大量铺开的原因。
 

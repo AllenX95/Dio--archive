@@ -11,7 +11,7 @@
 
 今天想谈一下CXL，算是从GPU谈异构（15）吧
 
-![](./images/8ad059439046ca68599d17ae923bb528.jpg)![](./images/8ad059439046ca68599d17ae923bb528.jpg)
+![](./images/8ad059439046ca68599d17ae923bb528.jpg)
 
 写东西比较随意，想到啥，因为上周恰好看到了CXL 3.0的一些rumor和可能的feature，然后又恰好看了一下思科的NetDam论文，触景生情，感慨颇深，不由得想扯两句。
 
@@ -45,7 +45,7 @@
 
 很好，你要是intel CPU的架构师，你该怎么办?
 
-![](./images/a24c1fab49d7dac4c58c5fb807e9184c.jpg)![](./images/a24c1fab49d7dac4c58c5fb807e9184c.jpg)
+![](./images/a24c1fab49d7dac4c58c5fb807e9184c.jpg)
 
 反正，这是第一次，intel愿意放出一块利益，他希望把在座的诸位GPU、DPU用作一把刀，来与nvidia形成某种制衡，虽然这块蛋糕它随时可以吃回去，但是在到那天之前（有没有那天也是另说），你足以美滋滋地附着鲸鱼吃一顿好的。
 
@@ -63,7 +63,7 @@ intel在CXL 2.0 spec链接如下
 
 在其appendix A中，其实已经给出了菜谱的引导。但以我与各种同行、周边交流的情况判断，大多数人没搞懂，更勿提这只是intel给的样板菜，真实的变化更加丰富多彩
 
-![](./images/450031100c867db7b90b1ee4602f81f8.jpg)![](./images/450031100c867db7b90b1ee4602f81f8.jpg)![](./images/3b8d7cad7265e333ecd80b1e4b932c26.jpg)![](./images/3b8d7cad7265e333ecd80b1e4b932c26.jpg)
+![](./images/450031100c867db7b90b1ee4602f81f8.jpg)![](./images/3b8d7cad7265e333ecd80b1e4b932c26.jpg)
 
 来举一个典型不在菜谱中的CXL的好菜，就是思科的NetDAM，顺着论文看了几篇其作者zartbot的帖子，他在帖子中疯狂打脸国内DPU，令人扼腕的是看不到一个敢于反抗或者澄清的……
 
@@ -98,7 +98,7 @@ NetDAM是CXL能够做出的一道相当不错的好菜，如果举目四望，�
 
 厨子，刀在手，怎么用，存乎一心。
 
-![](./images/bad0cdd831c395ae3900e8ba2364403d.jpg)![](./images/bad0cdd831c395ae3900e8ba2364403d.jpg)
+![](./images/bad0cdd831c395ae3900e8ba2364403d.jpg)
 > **最后，做好CXL很有可能短期在中国国内获得独特的性能优势哦**
 
 如我曾经写的关于创新的理解，有的公司会因为某些不可说的非技术原因，在技术创新上会有不可为的情况。

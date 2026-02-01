@@ -9,7 +9,7 @@
 
 ---
 
-![](./images/8bfa7821605c32b2040a7079a92f1501.jpg)![](./images/8bfa7821605c32b2040a7079a92f1501.jpg)
+![](./images/8bfa7821605c32b2040a7079a92f1501.jpg)
 
 经历和感悟，也是一位合格的架构师所必须经历的历程。因为很多时候所谓的架构及其演进，往往是伴随着某些过去的边界条件发生的变化而触发的。
 
@@ -41,13 +41,13 @@
 
 下图我们能看到，M1 ULTRA单芯片合封8个LPDDR颗粒获得了800GB的带宽，而这个带宽，已经是GDDR级别的带宽了，和nvidia 3080ti GPU相当，但价格便宜了很多。
 
-![](./images/8287d1785a49e7bc76e02efadae574b3.jpg)![](./images/8287d1785a49e7bc76e02efadae574b3.jpg)
+![](./images/8287d1785a49e7bc76e02efadae574b3.jpg)
 
 - **Nvidia在则走向了另一个极端，他定制了64GB的超大容量。即它的LPDDR5x是单颗64bits@8500bps（即68GB带宽未变化），但单颗容量扩展到了64GB。**
 
 可能有些人没感觉，这其实预示着整个DDR的体系的崩塌。为什么DDR是DIMM的形态？抛开可维护性不说，DIMM的实质是用空间换容量，它借用了Z方向的空间，把原本XY的silicon size折叠起来。但终究这没敌过封装技术的演进，要知道，我们假设LPDDR5x做到了4GB per die，单个颗粒要叠16 DIEs，才能凑出64GB（主流DDR 当前也就64GB per DIMM）。
 
-![](./images/dad52c8ccfab68b6305f3ff4bee4738c.jpg)![](./images/dad52c8ccfab68b6305f3ff4bee4738c.jpg)
+![](./images/dad52c8ccfab68b6305f3ff4bee4738c.jpg)
 
 - **在两位变态的极与极的示范下，在肉眼可见的未来几年中，LPDDR将通过封装技术的进步，以低成本低功耗为基本盘，在带宽上侵蚀GDDR的空间，在容量上侵蚀DDR的空间。**
 
@@ -55,7 +55,7 @@
 
 内心迷惑的架构师将无所适从……
 
-![](./images/e15e9a2a9599b68768a1bb265c34a935.jpg)![](./images/e15e9a2a9599b68768a1bb265c34a935.jpg)
+![](./images/e15e9a2a9599b68768a1bb265c34a935.jpg)
 
 ---
 

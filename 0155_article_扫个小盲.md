@@ -23,15 +23,15 @@
 
 内积就是一行乘以一列得到一个元素，根据MAC数量最大可以完全并行（一拍完成全部运算）。
 
-![](./images/b8a93705a4a885734046af7c8fd4c8d2.jpg)![](./images/b8a93705a4a885734046af7c8fd4c8d2.jpg)
+![](./images/b8a93705a4a885734046af7c8fd4c8d2.jpg)
 
 外积就是一列乘以一行得到一个矩阵，执行N次。
 
-![](./images/f8a082d019464972212f28bfb5aa8a33.jpg)![](./images/f8a082d019464972212f28bfb5aa8a33.jpg)
+![](./images/f8a082d019464972212f28bfb5aa8a33.jpg)
 
 脉动就是阶梯形势的一种乘法。
 
-![](./images/b65e41a87af63b7eb4785299b4a87f74.jpg)![](./images/b65e41a87af63b7eb4785299b4a87f74.jpg)
+![](./images/b65e41a87af63b7eb4785299b4a87f74.jpg)
 
 Google、Apple、intel、ARM、IBM、tesla、nvidia，都根据各自的某种喜好，选择了其中的一种。有朋友能分类他们吗？
 

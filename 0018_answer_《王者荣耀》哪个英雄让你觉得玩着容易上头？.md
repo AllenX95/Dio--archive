@@ -13,7 +13,7 @@
 
 曾经设定了快捷消息，每次起飞就公屏发出来。
 
-![](./images/7b8a05b68c7e0918d79f5222d6bb1b6c.jpg)![](./images/7b8a05b68c7e0918d79f5222d6bb1b6c.jpg)
+![](./images/7b8a05b68c7e0918d79f5222d6bb1b6c.jpg)
 
 ---
 

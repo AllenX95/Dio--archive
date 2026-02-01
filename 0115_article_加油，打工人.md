@@ -23,7 +23,7 @@
 
 但是，打工人，打工魂，打工都是人上人，打工人当然有必要把自己YY成世界的老板，为国为民操操心的。
 
-![](./images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)![](./images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)
+![](./images/db217d61f33b897c5bfd8b1e64c7a6a5.jpg)
 
 ---
 
@@ -83,7 +83,7 @@
 
 记得一张图吗？
 
-![](./images/ae29e672804375e899ef2f849a2839a7.jpg)![](./images/ae29e672804375e899ef2f849a2839a7.jpg)
+![](./images/ae29e672804375e899ef2f849a2839a7.jpg)
 
 ---
 
@@ -107,7 +107,7 @@
 
 如果这个世界处于了这样的变局，我们是得坐下来认真想一想要不要换一个打工的姿势。
 
-![](./images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)![](./images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)
+![](./images/c7e3279da6b3f1055ee809b0d3cec0af.jpg)
 > 弱水三千，要只取一瓢饮哦…………
 
 ---

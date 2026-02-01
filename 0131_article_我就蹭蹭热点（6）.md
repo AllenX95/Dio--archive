@@ -17,7 +17,7 @@
 
 主要是这颗芯片存在很多值得推理的信息，而看着坊间流传的各种猜测信息，我觉得你们说的……
 
-![](./images/795644304c94e26e28d47c4fdd07cf8a.jpg)![](./images/795644304c94e26e28d47c4fdd07cf8a.jpg)
+![](./images/795644304c94e26e28d47c4fdd07cf8a.jpg)
 
 我是一个喜欢没事找事盘逻辑的人，反正疫情期间玩不了狼人杀，来盘这个正好玩玩。
 
@@ -35,7 +35,7 @@ Intel画的首先是个效果图……并不是真正从上到下三个die，依
 
 嗯，下面这张图放出来，你又怎么凑，下图看上去还增加了IO TILE。难道说intel画错了？ 那不可能，工程师会下课的。
 
-![](./images/95fa62ec855c49885dc720794eee2454.jpg)![](./images/95fa62ec855c49885dc720794eee2454.jpg)
+![](./images/95fa62ec855c49885dc720794eee2454.jpg)
 
 所以，综合上面的图，intel有三个die的样子，但是位置不好定。
 
@@ -43,7 +43,7 @@ Intel画的首先是个效果图……并不是真正从上到下三个die，依
 
 OK，最近更进一步的信息有leak，实物图出来了。
 
-![](./images/fedd22de0de6f058a3942a7db03168c3.jpg)![](./images/fedd22de0de6f058a3942a7db03168c3.jpg)
+![](./images/fedd22de0de6f058a3942a7db03168c3.jpg)
 
 一瞬间很多同学就懵逼了，怎么看上去有四个DIE？
 
@@ -55,13 +55,13 @@ OK，符合逻辑，没人会做这么小die的。
 
 其实这时候应该去打开上一代CU alder lake的dieshot。
 
-![](./images/da953dbd029000292dda354eb594dde0.jpg)![](./images/da953dbd029000292dda354eb594dde0.jpg)
+![](./images/da953dbd029000292dda354eb594dde0.jpg)
 
 所以，更聪明一些的答案会按照这个映射，从左到右依次是GPU、COMUTE、IO die，完美。当然还有人认为是从右到左，问题不大。
 
 *ps：Intel用compute die而不用cpu die来命名，注定了compute die包含了大小核及更多的内容，其面积也应该是最大。*
 
-![](./images/0c6a72428d3dfc09fb19f9c5b1c158bb.jpg)![](./images/0c6a72428d3dfc09fb19f9c5b1c158bb.jpg)
+![](./images/0c6a72428d3dfc09fb19f9c5b1c158bb.jpg)
 
 逻辑盘到这里，该我上场了。
 
@@ -71,11 +71,11 @@ OK，符合逻辑，没人会做这么小die的。
 
 *ps：可能混用两种技术吗？ 大概率不会，没必要，而且emib太耗基板，太贵了。*
 
-![](./images/e6d2abe2ded670ca213f9bd9a2731a4d.jpg)![](./images/e6d2abe2ded670ca213f9bd9a2731a4d.jpg)
+![](./images/e6d2abe2ded670ca213f9bd9a2731a4d.jpg)
 
 那么真相是什么？ 我的逻辑如下：
 
-![](./images/5fcacfd62e102acc3ac92acf391a1c74.jpg)![](./images/5fcacfd62e102acc3ac92acf391a1c74.jpg)
+![](./images/5fcacfd62e102acc3ac92acf391a1c74.jpg)
 
 正面有两个dummy die。左下和右都是dummy，正常的架构师，也不会做一个右侧那样特别细长的die的，应力问题很大。
 
@@ -97,7 +97,7 @@ OK，符合逻辑，没人会做这么小die的。
 
 当然，问题来了，算一算含硅率，作为客户，你购买intel最新一代meteor lake CPU，它究竟算是4nm最新工艺天顶星高科技，还是一个7nm老工艺挤牙膏呢？
 
-![](./images/9916fbe702ffaf3779561d067c42419b.jpg)![](./images/9916fbe702ffaf3779561d067c42419b.jpg)
+![](./images/9916fbe702ffaf3779561d067c42419b.jpg)
 
 ---
 

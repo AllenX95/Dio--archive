@@ -23,11 +23,11 @@ Spatial翻译成中文，妥妥滴高大上
 
 其实也没错了，你想到了他。
 
-![](./images/fbc2237300825b23400039edabb4a8f2.jpg)![](./images/fbc2237300825b23400039edabb4a8f2.jpg)
+![](./images/fbc2237300825b23400039edabb4a8f2.jpg)
 
 还有他……
 
-![](./images/c4ed6a5ea2f1a2f1904647a16966c8e1.jpg)![](./images/c4ed6a5ea2f1a2f1904647a16966c8e1.jpg)
+![](./images/c4ed6a5ea2f1a2f1904647a16966c8e1.jpg)
 
 没错，他是卷福、是福尔摩斯、是奇异博士、是图灵
 
@@ -37,7 +37,7 @@ Spatial翻译成中文，妥妥滴高大上
 
 抖机灵结束，这是因为所有话题都脱不开下面这个起点，图灵机和图灵可计算。
 
-![](./images/9f716fac0d8c9765206828d7291da7ca.jpg)![](./images/9f716fac0d8c9765206828d7291da7ca.jpg)
+![](./images/9f716fac0d8c9765206828d7291da7ca.jpg)
 
 奇异博士手上的是时间宝石，能够掌控时间。
 
@@ -47,7 +47,7 @@ Spatial翻译成中文，妥妥滴高大上
 
 他们的核心力量其实是在虚无中标定了一个空间，那是**无尽问题空间** 中的 **数学问题空间** 中的 **可判定问题空间** 中的 **有答案问题空间** 中的 **可计算空间！**
 
-![](./images/924fccd09148f60f14fb1dd80e277616.jpg)![](./images/924fccd09148f60f14fb1dd80e277616.jpg)![](./images/25d5538fa994d93317ce95021f2babcb.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='346'%20height='240'></svg>)
+![](./images/924fccd09148f60f14fb1dd80e277616.jpg)![](./images/25d5538fa994d93317ce95021f2babcb.jpg)![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='346'%20height='240'></svg>)
 
 那就像是在无尽的宇宙中寻找到了地球，一个适宜CS+EE 工程师快乐成长、努力奋斗、脱发明志的天堂。
 
@@ -125,7 +125,7 @@ spatial computing需要首先解决各种计算的变化问题。要过这重山
 
 题外话：冯诺依曼怎么处理前面的进局子问题呢？ 存档啊，状态写入内存呗，干干净净进局子就当在另一个世界穿越体验一下生活呗，玩完了你读个档啊，状态回到你进锣鼓巷的时候，该吃吃该喝喝还能重新享受一下，因为你读过书，你知道同样的招数对圣斗士是没用的，你再上车，一启动，又碰到警察！ 又进局子了，原来警察也读档了…………终于你在局子里进进出出几次之后，你明白了，冯诺依曼不是圣斗士，你得在读档之前搞定警察才能最终到达天安门…………
 
-![](./images/2247f954650d4072f9bf9e13665e62f5.jpg)![](./images/2247f954650d4072f9bf9e13665e62f5.jpg)
+![](./images/2247f954650d4072f9bf9e13665e62f5.jpg)
 > **第二重山是我跨不过的，那叫做图编译**
 
 spatial computing需要能够对应用进行图编译，即编译成图而不是简单的指令流。我确实没学过编译器，大致上只能用芯片设计的综合工具来类比其语言翻译和优化的流程
@@ -152,7 +152,7 @@ spatial computing相比冯机需要更加强大的片上片间的互联通信能
 
 graphcore是个很有趣的例子，它使用了BSP编程模型，这里不深度解释BSP的原理，简单来讲就是它把计算和通信分割成独立phase，这样依赖关系就被完全打破了，写算法也变得简单，顺着节拍，来，药药药，切克闹……
 
-![](./images/bdb7eeea458ddd860becceccddba793a.jpg)![](./images/bdb7eeea458ddd860becceccddba793a.jpg)
+![](./images/bdb7eeea458ddd860becceccddba793a.jpg)
 
 BSP计算模型的创始人Bill McColl也就在菊花厂任职，聊过，数学家，对这个算法很自豪。但是作为一个工程师，我对他是无语凝噎。
 
@@ -166,7 +166,7 @@ graphcore也是如此，这颗芯片我估计其启停之间的高频电源噪�
 
 相反tenstorrent则采用了另一个剑走偏锋的技术路径。我曾经形容，groq的芯片是把整SOC大芯片做成了一个单核CPU，而tenstorrent则是把他的SOC大芯片做成了内含120个小SOC的松散联盟（wormhole为例），它的每个核，其实都是cpu+mem+NIC的完整体，编程上，采用了actor模型，我觉得这是一条正确的道路。按照自媒体的风格，喊出：jim keller一级棒，就好了。
 
-![](./images/8f8bc55f65b360135347321455902c46.jpg)![](./images/8f8bc55f65b360135347321455902c46.jpg)
+![](./images/8f8bc55f65b360135347321455902c46.jpg)
 
 要做一个可用的spatial computing，我讲了有这么多困难，这么多重山要跨越，那么问题来了。
 
@@ -176,21 +176,21 @@ graphcore也是如此，这颗芯片我估计其启停之间的高频电源噪�
 
 OK，让我们还是回到patterson教授讲述DSA时候的胶片，想一想他神秘的微笑。
 
-![](./images/1df331f19c703d1fa7093d137bbc9266.jpg)![](./images/1df331f19c703d1fa7093d137bbc9266.jpg)![](./images/c050223dbb142a34d92c249c5c28e9b5.jpg)![](./images/c050223dbb142a34d92c249c5c28e9b5.jpg)
+![](./images/1df331f19c703d1fa7093d137bbc9266.jpg)![](./images/c050223dbb142a34d92c249c5c28e9b5.jpg)
 
 **一、spatial computing是一种DSA，因为它没法像冯诺依曼架构那样的普适性，它大概率也只能解决一部分的问题，但效率会更高。**
 
 **二、AI即神经网络的形态，更接近于计算图的形态，只要数学家们真正认识到硬件容错性的重要性，在算法中支持了容错，MoE、动态shape反而都是能够客服的问题。**
 
-![](./images/04b698eb6f12a6e3667aa182269051f4.jpg)![](./images/04b698eb6f12a6e3667aa182269051f4.jpg)
+![](./images/04b698eb6f12a6e3667aa182269051f4.jpg)
 
 **三、也是最重要的一点，冯诺依曼架构性能提升的黑色地带Amdal's Law还有肉眼可见将来的memory wall。spatial computing是可见的能够突破Amdal's Law和memory wall，持续扩展算力的唯一路径。在空间计算的范畴下，问题的复杂度也不再依赖于摩尔定律，仅仅依赖于系统规模是否与问题规模匹配，也就是这只是一个充钱的问题**
 
-![](./images/ef64dd754e4823263d2e98636e0dc2c2.jpg)![](./images/ef64dd754e4823263d2e98636e0dc2c2.jpg)
+![](./images/ef64dd754e4823263d2e98636e0dc2c2.jpg)
 
 极端脑洞下，你甚至可以制造一个spatial computing的戴森球计算机。
 
-![](./images/1253c7972b6234887818324f9387b103.jpg)![](./images/1253c7972b6234887818324f9387b103.jpg)
+![](./images/1253c7972b6234887818324f9387b103.jpg)
 
 有同学对我的观点有些误解，总结一下。
 

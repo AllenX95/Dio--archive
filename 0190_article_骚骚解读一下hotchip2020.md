@@ -11,7 +11,7 @@
 
 最近也是没空上知乎，过去一周的晚上都耗在用各种姿势死磕王者荣耀了，卡在十星的附近上上下下摩擦。嗯，得认真反思一下，“努努力也能上荣耀王者吧”的错觉是怎么来的？ 虽然为了上星把华为手机都换成黑鲨3了，但…………队友好像没换啊
 
-![](./images/39d2f357a8bfc964325c18672d7a695d.jpg)![](./images/39d2f357a8bfc964325c18672d7a695d.jpg)
+![](./images/39d2f357a8bfc964325c18672d7a695d.jpg)
 
 嗯，回到正题。ヽ(○^㉨^)ﾉ♪ 今年做了一下公司内部计算机体系结构技术大会的主持人，对一个技术大会的论文的视角有了一些新的变化。
 
@@ -35,11 +35,11 @@ raja代表了传统的计算机体系结构延长线，在他看来，整个体�
 
 他首先引用了某个新的摩尔定律，就是：摩尔定律终结的人的数量，每两年翻一倍。非常应景。
 
-![](./images/daa2e9254211658d40472aa2a5ec5cc2.jpg)![](./images/daa2e9254211658d40472aa2a5ec5cc2.jpg)
+![](./images/daa2e9254211658d40472aa2a5ec5cc2.jpg)
 
 其次关于工艺的部分，应该是intel工艺团队输出的内容，哈哈(ಡωಡ)hiahiahia。
 
-![](./images/6e18fbdf3bc8599e7d9eb43cbf5b8ee9.jpg)![](./images/6e18fbdf3bc8599e7d9eb43cbf5b8ee9.jpg)
+![](./images/6e18fbdf3bc8599e7d9eb43cbf5b8ee9.jpg)
 
 具体五十倍的组成，前几页有详述，逻辑上讲是没问题的。但为啥吐槽这个是工艺团队show存在感呢？因为这50倍受到了其他很多约束而很难用，典型的就是散热问题，这直接导致这五十倍并不能直接转换为线性的收益，对应的逻辑并不自洽。
 
@@ -47,7 +47,7 @@ intwl的工艺团队应该是有大问题，近期twitter上有一个intel工程
 
 讲了很多废话，raja真正有价值的是下面这一页，真正的直达灵魂深处。
 
-![](./images/822c63db2cb74143d6487738c1fd52c3.jpg)![](./images/822c63db2cb74143d6487738c1fd52c3.jpg)
+![](./images/822c63db2cb74143d6487738c1fd52c3.jpg)
 
 太多分层和抽象了。
 
@@ -65,7 +65,7 @@ intwl的工艺团队应该是有大问题，近期twitter上有一个intel工程
 
 我就黑intel一个点吧，也是与twitter的信息一个映照。下图是icelake的floorplan，有人问我图中芯片边缘大块的粉红色和蓝色是什么东西？ 嘿嘿，如果有人认真看过twitter上skylake高清刨片图（链接见[https://www.flickr.com/photos/130561288@N04/50129523578/](http://link.zhihu.com/?target=https%3A//www.flickr.com/photos/130561288%40N04/50129523578/)），就会知道。是空白！真的，一个晶体管都没有的空白区！ 部门墙都到这个程度了啊，模块化harden对不齐的空隙，宁可留白啊！
 
-![](./images/1ea647255b15321e5964b7ed29923113.jpg)![](./images/1ea647255b15321e5964b7ed29923113.jpg)
+![](./images/1ea647255b15321e5964b7ed29923113.jpg)
 
 从raja的标准体系结构keynote到IBM和intel，其他相对就过掉吧。
 
@@ -73,11 +73,11 @@ intwl的工艺团队应该是有大问题，近期twitter上有一个intel工程
 
 第二个keynote是来自deepmind，讲得蛮玄幻的。但是我们只需要理解一个核心观点就好了。
 
-![](./images/ea2d0bcc179d7b9254191a0d5a7600ca.jpg)![](./images/ea2d0bcc179d7b9254191a0d5a7600ca.jpg)
+![](./images/ea2d0bcc179d7b9254191a0d5a7600ca.jpg)
 
 AI算法在过去七年提升了44倍计算效率，这个收益远大于摩尔定律在硬件上的收益空间。所以业界有很多声音都说在强调AI的进步在于优化算法，当然，其中很多人都是做AI算法的，哈哈(ಡωಡ)hiahiahia。强调自己的价值，理解理解。
 
-![](./images/171747632dde67d5da7442f3981100c6.jpg)![](./images/171747632dde67d5da7442f3981100c6.jpg)
+![](./images/171747632dde67d5da7442f3981100c6.jpg)
 
 上图我百度不到高清的，唉，无所谓。最高点是GPT3。
 
@@ -97,7 +97,7 @@ hoti的两个keynote分别是mellanox和AWS，相比AI的scale-up的花样繁多
 
 每个做技术的都有自己的技术信仰，我很喜欢AWS给出来的下面这幅图。
 
-![](./images/cc327844ddbf248ba2f784a4b0166930.jpg)![](./images/cc327844ddbf248ba2f784a4b0166930.jpg)
+![](./images/cc327844ddbf248ba2f784a4b0166930.jpg)
 
 这是我对网络的信仰！
 
@@ -113,7 +113,7 @@ DC的网络愈发倾向于RDMA类别、FAT TREE、拥塞控制。
 
 hotc和hoti的nvidia、mellanox、AWS都还没能做到呢，继续前进吧。
 
-![](./images/d8efa58ec17f6ce98388fa28615a25e7.jpg)![](./images/d8efa58ec17f6ce98388fa28615a25e7.jpg)
+![](./images/d8efa58ec17f6ce98388fa28615a25e7.jpg)
 
 ---
 

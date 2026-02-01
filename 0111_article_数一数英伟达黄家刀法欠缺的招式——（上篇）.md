@@ -17,7 +17,7 @@
 
 可是呢，哇哇哇，点赞暴多啊。这简直让我感觉打开了一个全新的世界，小黑子只要不露出鸡脚，那黑黑黑的感觉真是棒极了，八卦和吐槽真的是个老少咸宜、大家都很喜闻乐见的爱好嘛。
 
-![](./images/09973f3a3f5e59c4b362dc2da63fea0d.jpg)![](./images/09973f3a3f5e59c4b362dc2da63fea0d.jpg)
+![](./images/09973f3a3f5e59c4b362dc2da63fea0d.jpg)
 
 好吧，再黑一轮，从架构下探到具体的微架构。
 
@@ -25,7 +25,7 @@
 
 陆晶晶：黄师傅你家刀法中有几招不全，我担心日后你若遇上真正的高手，一旦被他看出破绽，必死无疑！
 
-![](./images/0baa679870a5eb4a0afcee6f9d35cd98.jpg)![](./images/0baa679870a5eb4a0afcee6f9d35cd98.jpg)
+![](./images/0baa679870a5eb4a0afcee6f9d35cd98.jpg)
 
 额，黄师傅他的身份其实是转轮王不是细雨，想学电影直接断是断不了的：）
 
@@ -57,7 +57,7 @@ CUDA的起点是一个PCIe Device上的Driver，后来所构建的一切，不�
 
 **CUDA其实非常狡猾，他依附在RichOS之上，不断评估着RichOS的功能特性，把“收益 <代价”的部分丢给RichOS兜底，把“收益>代价“的部分收进去封闭起来卖钱给客户(有时候把代价优化一下包装成收益卖钱)。**
 
-![](./images/aaad85514d36f0e095857dc046cc38df.jpg)![](./images/aaad85514d36f0e095857dc046cc38df.jpg)
+![](./images/aaad85514d36f0e095857dc046cc38df.jpg)
 
 **商业上这招是个好招，但若真要死战不休，让cuda吃不下或者利用好cuda吃不掉的host部分设置关卡，是有破招之机的。**
 
@@ -73,7 +73,7 @@ RichOS这些年最大的一个技术演进就是虚拟化，虚拟化不仅仅�
 
 理论上，基于PCIe Device的SRIOV或者Virtual I/O机制，都是能够在GPU的计算、存储上套一层虚拟化层，让其资源与Host的Hypervisor直接接轨，提供虚拟化能力的。Docker同理。
 
-![](./images/5559f2735b97362484d381bf40152dc2.jpg)![](./images/5559f2735b97362484d381bf40152dc2.jpg)
+![](./images/5559f2735b97362484d381bf40152dc2.jpg)
 
 这其中的瓶颈，大概率来自于GPGPU原生定义时的微架构缺失，中断其实不是大问题，内存页表结构是比较困难的点，但不是不能克服，那最可能的死穴还是在CUDA本身的软件栈及调度器的复杂度导致虚拟化难以嵌入。
 
@@ -97,7 +97,7 @@ Nvidia的GPU架构的原始需求来自Graphic，因此其memory model，典型�
 
 举个例子，中国倒其实很早就有这个能力哦，我引用下面这个图，国产昇腾910，虽然算不得GPGPU，但确实把AI的DSA+HBM和CPU+DDR完美融合了哦，图左上角就是16颗CPU（居然用了内部代号Taishan），左下角是DDR4，上下是四颗HBM。整个系统一套Memory Model，一套总线、一套cache、一套DDR+HBM地址对CPU/NPU做到了全局Cache Coherency，这颗芯片原本思路不仅仅不需要Host CPU（PCIe支持RC/EP双模），而且还能多颗芯片通过右下角的Hydra接口自主组成一套完备的SMP（4S就是64Core CPU+128 Core NPU），但没人能用起来，嗨，默哀一秒钟这个想得太多的架构师。
 
-![](./images/5b70d877a57032735878f00e925bb953.jpg)![](./images/5b70d877a57032735878f00e925bb953.jpg)
+![](./images/5b70d877a57032735878f00e925bb953.jpg)
 
 Nvidia是缺乏这个能力（不要总觉得Nvidia就万能啊），不得不做相对松耦合的结构，我猜Grace团队提出过Chiplet的方案，但这会影响Hopper的主成本和结构，被毙了，所以搞了个基于pcb合封的鸡肋方案。
 
@@ -107,7 +107,7 @@ NVIDIA差一点就收购了arm，但Grace+Hopper的arm的页表还是arm上richO
 
 其实下图可以看一下Nvidia GPU的MEM Latency就能明白，H100 HBM的访问延迟高达373ns，这个延迟的设计目标肯定是源自SIMT对延迟不敏感的特质，但是这个延迟你要放个CPU进去，分分钟死给你看啊。
 
-![](./images/7aafa4118c76da2efb0f5f16f4f101f3.jpg)![](./images/7aafa4118c76da2efb0f5f16f4f101f3.jpg)
+![](./images/7aafa4118c76da2efb0f5f16f4f101f3.jpg)
 
 PS：AMD的延迟虽然也很大，但已经在CPU还能喘口气的窗口，如果在努力优化优化，MI300的CPU+GPU超融合就是合理达成的了。
 
@@ -139,7 +139,7 @@ GPGPU是AI最高效的计算硬件架构吗？ 很明显的答案，不是。GPG
 
 [https://www.bilibili.com/video/BV1G14y1275T/?buvid=ZE4B9DE6BFC5137C47DBAE8F92B3F6C0E70D&is\_story\_h5=false&mid=OsOuFC1LRN47rHpEl4lyhw%3D%3D&p=1&plat\_id=114&share\_from=ugc&share\_medium=iphone&share\_plat=ios&share\_session\_id=881AD2B4-715A-42C5-85EA-1DF22D25233B&share\_source=WEIXIN&share\_tag=s\_i&timestamp=1688477670&unique\_k=EXiUa0W&up\_id=517221395](http://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1G14y1275T/%3Fbuvid%3DZE4B9DE6BFC5137C47DBAE8F92B3F6C0E70D%26is_story_h5%3Dfalse%26mid%3DOsOuFC1LRN47rHpEl4lyhw%253D%253D%26p%3D1%26plat_id%3D114%26share_from%3Dugc%26share_medium%3Diphone%26share_plat%3Dios%26share_session_id%3D881AD2B4-715A-42C5-85EA-1DF22D25233B%26share_source%3DWEIXIN%26share_tag%3Ds_i%26timestamp%3D1688477670%26unique_k%3DEXiUa0W%26up_id%3D517221395)
 
-![](./images/94fefc8676d03de6e1b291ea56faa582.jpg)![](./images/94fefc8676d03de6e1b291ea56faa582.jpg)
+![](./images/94fefc8676d03de6e1b291ea56faa582.jpg)
 
 ---
 
@@ -147,7 +147,7 @@ GPGPU是AI最高效的计算硬件架构吗？ 很明显的答案，不是。GPG
 
 先放一个Nvidia DGX的硬件框图。
 
-![](./images/1eacffe8f3c8a2dac7586dc0c8c57f5b.jpg)![](./images/1eacffe8f3c8a2dac7586dc0c8c57f5b.jpg)
+![](./images/1eacffe8f3c8a2dac7586dc0c8c57f5b.jpg)
 
 然后提一个问题，这个DGX是一个2x CPU+8x GPU的复杂单一系统，它是一定要长成这个样子的吗？或者说只能长成这个样子吗？
 
@@ -171,7 +171,7 @@ Grace大概是想搞定一些事情的，但是Grace的NOC源自ARM，而ARM自�
 
 你看amd的mi300就是如此，推荐一把。
 
-![](./images/f4de6a36ec3f05e1105301e340f8b7da.jpg)![](./images/f4de6a36ec3f05e1105301e340f8b7da.jpg)
+![](./images/f4de6a36ec3f05e1105301e340f8b7da.jpg)
 
 额外再补充一个要命的点，如果利用好，amd是有可能对NVIDIA来个翻盘。
 
@@ -193,7 +193,7 @@ GPU是独立大芯片、CPU grace是独立大芯片，swtich也是独立大芯�
 
 我猜，搞得不好，NVIDIA内部并没有人能在技术层面拉通所有产品架构。技术的本质是人，以色列人不一定具有那么大的世界观和牺牲精神。黄师傅固然有这个power，但不一定了解细节。黄师傅之下呢？ 谁？
 
-![](./images/b8ab58a8d6fb28c7a9f0ee6b2d9c5d57.jpg)![](./images/b8ab58a8d6fb28c7a9f0ee6b2d9c5d57.jpg)
+![](./images/b8ab58a8d6fb28c7a9f0ee6b2d9c5d57.jpg)
 
 ---
 
@@ -201,7 +201,7 @@ GPU是独立大芯片、CPU grace是独立大芯片，swtich也是独立大芯�
 
 打住打住，未完待续。组织一下语言下次再黑。
 
-![](./images/613fc5e432fc94f709dcab321052a8bb.jpg)![](./images/613fc5e432fc94f709dcab321052a8bb.jpg)
+![](./images/613fc5e432fc94f709dcab321052a8bb.jpg)
 
 ---
 

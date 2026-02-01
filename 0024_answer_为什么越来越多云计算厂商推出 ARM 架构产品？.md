@@ -19,7 +19,7 @@ AWS在cloud的影响力及其巨大。
 
 x86架构是不授权的，MIPS半死不活的，还能咋办？
 
-![](./images/4ccf0ee4c60e9bf7c50c6e728dd85168.jpg)![](./images/4ccf0ee4c60e9bf7c50c6e728dd85168.jpg)
+![](./images/4ccf0ee4c60e9bf7c50c6e728dd85168.jpg)
 
 ---
 

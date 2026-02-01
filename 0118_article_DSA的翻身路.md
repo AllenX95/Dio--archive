@@ -19,7 +19,7 @@
 
 但你要说DSA是失败的，我转身就看到了桌上藏品中的一个成功案例，那又怎么算呢？
 
-![](./images/f8c006e62618492462b3e41d05fcb462.jpg)![](./images/f8c006e62618492462b3e41d05fcb462.jpg)
+![](./images/f8c006e62618492462b3e41d05fcb462.jpg)
 
 都是咸鱼买的……不涉密
 
@@ -41,7 +41,7 @@
 
 我冒昧猜测patterson教授可能没有实操过一个产品项目。
 
-![](./images/1af56c8778e6a13b9c1801925874c05f.jpg)![](./images/1af56c8778e6a13b9c1801925874c05f.jpg)
+![](./images/1af56c8778e6a13b9c1801925874c05f.jpg)
 
 在他的演讲和笑容中你都看不到他关于项目管理复杂度的解法。
 
@@ -59,7 +59,7 @@
 
 如果我们买一个通用服务器，再买一个无线基站设备。
 
-![](./images/326b4214d00d940c880a531525b2ea84.jpg)![](./images/326b4214d00d940c880a531525b2ea84.jpg)![](./images/ad5e790e6cc72d951b07d4c9daf50738.jpg)![](./images/ad5e790e6cc72d951b07d4c9daf50738.jpg)
+![](./images/326b4214d00d940c880a531525b2ea84.jpg)![](./images/ad5e790e6cc72d951b07d4c9daf50738.jpg)
 
 就是上面这两货。
 
@@ -83,7 +83,7 @@
 
 嗯，不过呢。如果我某天失业了，我倒想去试试ORAN…………哈哈，剑有双锋，我基本能理解无线领域DSA的成功原因，那么反过来……
 
-![](./images/639786582ce64b4e67eacdc5bc40c88b.jpg)![](./images/639786582ce64b4e67eacdc5bc40c88b.jpg)
+![](./images/639786582ce64b4e67eacdc5bc40c88b.jpg)
 
 ---
 

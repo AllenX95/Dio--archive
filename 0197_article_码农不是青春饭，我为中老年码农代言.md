@@ -28,7 +28,7 @@
 
 去年第一次的大赛是海思图灵业务部范围的，图灵包含kirin、kunpeng、ascend等以处理器领域，数百人参赛规模。题目其实也和CPU相关，是一个带prefetch的load unit，这个结构就是从经典CPU微架构剥出来的。入口是8B的CPU load访问，DDR访问则是64B，DDR访问过的地址会在假设无限大CACHE中命中。CPU访问共四条流，都源自specint的片段，包含random、sequence、stride、struct等类型，单流的内部存在相当比例前后访问的数据依赖。最终评定设计的Perf/Power/Area分数，7nm工艺，频率上限3GHZ。
 
-![](./images/d9627e4a0b715e7f553f9ae8f5ec617b.jpg)![](./images/d9627e4a0b715e7f553f9ae8f5ec617b.jpg)
+![](./images/d9627e4a0b715e7f553f9ae8f5ec617b.jpg)
 
 比赛结果如下视频。
 
@@ -44,13 +44,13 @@
 
 而输出要求是按照通道保序，每次输出单一个通道的完整8个segment。
 
-![](./images/2f7f8ac47ece2ac694a353330c926eca.jpg)![](./images/2f7f8ac47ece2ac694a353330c926eca.jpg)
+![](./images/2f7f8ac47ece2ac694a353330c926eca.jpg)
 
 这个题目考的是在保序基础上，对不同通道数据缓冲重组。这个题目的微架构实际上是一个数学题，并以此解决fanout问题，能算出来的一句话就能说明（我就不直接点破了），因此解题更倾向于AREA。
 
 成绩如下，光看TOP10的差距就巨大了：
 
-![](./images/07421ea95b9e4c6430a838e87b243cf6.jpg)![](./images/07421ea95b9e4c6430a838e87b243cf6.jpg)
+![](./images/07421ea95b9e4c6430a838e87b243cf6.jpg)
 
 ————————分割线———————
 
@@ -70,7 +70,7 @@
 
 而即使是我，通过这个比赛也又发现了自身相当多的不足，对某些工程特性又有了新的理解，所以，即使再下一次比赛，我想说的依旧是：
 
-![](./images/3ac6c3a2954cdc10960e873d13b83ef1.jpg)![](./images/3ac6c3a2954cdc10960e873d13b83ef1.jpg)
+![](./images/3ac6c3a2954cdc10960e873d13b83ef1.jpg)
 
 我，四十岁的码农，在verilog数字电路领域，大杀四方，无人能敌。 我为中老年码农代言。
 

@@ -13,7 +13,7 @@
 
 这货，真的后劲儿太猛，看完久久不能平复，摸了摸通红的脸颊，毫无防备地流下了属于弱者的眼泪。。。。。。
 
-![](./images/02ad820ee091920f8bd553ff87fdeeb6.jpg)![](./images/02ad820ee091920f8bd553ff87fdeeb6.jpg)
+![](./images/02ad820ee091920f8bd553ff87fdeeb6.jpg)
 
 最近几个月，周末有空都在写民科。
 
@@ -69,7 +69,7 @@ DeepSeek如此巨大的MoE之下，所谓的大Batch，大Kernel，一旦均分�
 
 但，如果DeepSeek Next再走向更多的专家和更小的专家的话，你妹的，我给你标注混乱邪恶了啊
 
-![](./images/c9a9eccb0769cc05c243a776b4577623.jpg)![](./images/c9a9eccb0769cc05c243a776b4577623.jpg)
+![](./images/c9a9eccb0769cc05c243a776b4577623.jpg)
 
 ---
 

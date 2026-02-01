@@ -13,7 +13,7 @@
 
 但所谓人类的本质……
 
-![](./images/e18996bbf7ee1a5e722424e1d95e47ec.jpg)![](./images/e18996bbf7ee1a5e722424e1d95e47ec.jpg)
+![](./images/e18996bbf7ee1a5e722424e1d95e47ec.jpg)
 
 如果只是简单把GTC发布的内容翻译成中文，或者断章起义引起噱头，那这个热点我也没必要再来复读一下……
 
@@ -25,7 +25,7 @@
 
 还有诸多老黄或明或暗展示了，但是并未直接表达的细节和秘密，都还潜藏在水面之下……
 
-![](./images/64c459a01953edd16f6730c272ed18af.jpg)![](./images/64c459a01953edd16f6730c272ed18af.jpg)
+![](./images/64c459a01953edd16f6730c272ed18af.jpg)
 
 *我凑热点，只讲讲水面下的一些内容，水面上的，包括GTC的演讲和中文翻译网上有很多copy可供参考，不再累述。*
 
@@ -43,7 +43,7 @@
 
 架构是什么? 真正的架构，并不是简简单单做出一颗好芯片，而是一个可以长期演进的生命力，或者说逻辑上存在的演化路径。
 
-![](./images/1896b2c75630b33666be4c771dc159cf.jpg)![](./images/1896b2c75630b33666be4c771dc159cf.jpg)
+![](./images/1896b2c75630b33666be4c771dc159cf.jpg)
 
 好的架构具有的是旺盛的生命力，例如X86、ARM，他们存活和生长了几十年，也赚了几十年的钱。这才是架构。
 
@@ -75,7 +75,7 @@ grace是一颗ARM公版core芯片，采用的是什么版本的core?
 
 首先分数对不上，倚天710采用的N2是128core下440分，你NV这升级到144core的740分，核不变，直接增加70%，让人家PTG的同学咋混? 大家都是硅农也不必搞能力歧视，一个脑袋两条腿，能做出来的都不是弱者。
 
-![](./images/6352130ee9a04e69e6aaf79dbe1abf55.jpg)![](./images/6352130ee9a04e69e6aaf79dbe1abf55.jpg)
+![](./images/6352130ee9a04e69e6aaf79dbe1abf55.jpg)
 
 但更重要的理由是！
 
@@ -87,7 +87,7 @@ grace是一颗ARM公版core芯片，采用的是什么版本的core?
 
 没有比这更辱黄的了，信不信用显卡核平了你。
 
-![](./images/ac107e42139e28e4cf31f923680943b9.jpg)![](./images/ac107e42139e28e4cf31f923680943b9.jpg)
+![](./images/ac107e42139e28e4cf31f923680943b9.jpg)
 
 **GRACE的CPU core，大概率是N3！**
 
@@ -109,7 +109,7 @@ nvlink4，或者你也能叫他nvlink native，就是上一代nvlink的升级，
 
 nvlink network是256 super pod范畴内的东西，下图中，最下一层细线互联就是DGX内的nvlink4，而我圈红的粗线部分，实际上是nvlink network（当然你把他归属为nvlink4也行），但他确实和框内互联是具有巨大差异的。框内互联是基于物理地址访问，如果出错了一筐重启也没事。但到pod层面，整个策略完全不一样，他是基于类似于IP地址的路由了，而且DGX的任何错误也不能被扩散到POD，这是一个蛮重大的升级呢。不负责任的猜测是NV收购了MLX，把MLX在IB上的部分know how迁移到了nvlink的产物。
 
-![](./images/551c0c97bcd9a34f95e066ad6002cd9a.jpg)![](./images/551c0c97bcd9a34f95e066ad6002cd9a.jpg)
+![](./images/551c0c97bcd9a34f95e066ad6002cd9a.jpg)
 
 但最值得一谈的是nvlink c2c了，从某种意义上讲，他其实只是名字叫nvlink，当完完全全是另一个东西。
 
@@ -121,11 +121,11 @@ nvlink c2c就是NVIDIA的UCIE，NV宣称它是**an ultra-fast chip-to-chip and d
 
 不是啊，你看这个接口的描述。
 
-![](./images/9ca09e2f6c68173a867cf4b1ba4161d4.jpg)![](./images/9ca09e2f6c68173a867cf4b1ba4161d4.jpg)
+![](./images/9ca09e2f6c68173a867cf4b1ba4161d4.jpg)
 
 多的不说，相比PCIE PHY 25x能效提升，那么PCIE PHY能耗是多少? 大约10pj/bit，25倍，那**nvlink c2c的能效是0.4pj/bit。**这个数字是什么概念，可以对照一下UCIE spec的pj/bit参照值，比cowos差但略好于MCM。面效有兴趣的同学也可以一算。
 
-![](./images/cf1df99754e6aebf4d3f43621a819f1e.jpg)![](./images/cf1df99754e6aebf4d3f43621a819f1e.jpg)
+![](./images/cf1df99754e6aebf4d3f43621a819f1e.jpg)
 
 好了，现在你觉得他是什么接口?
 
@@ -139,11 +139,11 @@ nvlink c2c就是NVIDIA的UCIE，NV宣称它是**an ultra-fast chip-to-chip and d
 
 一个是我们传统意义理解的H100，它的形态有是PCIE或SXM两种，通过18组nvlink4的900GB带宽与nvswitch互联。
 
-![](./images/21b32d8c430f4e26dd2f7f42bc0078a8.jpg)![](./images/21b32d8c430f4e26dd2f7f42bc0078a8.jpg)
+![](./images/21b32d8c430f4e26dd2f7f42bc0078a8.jpg)
 
 另一个是superchip的H100，它通过900GB的nvlink c2c与grace互联。
 
-![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)
+![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)
 
 这里有两种可能：
 
@@ -157,7 +157,7 @@ nvlink c2c就是NVIDIA的UCIE，NV宣称它是**an ultra-fast chip-to-chip and d
 
 但换作是你，要是手握一把好牌，我为什么要一下子全打下去? 我今天写NV也不会把我知道的所有都讲出来啊。
 
-![](./images/5d193986a0b4315de1074d98158d5a99.jpg)![](./images/5d193986a0b4315de1074d98158d5a99.jpg)
+![](./images/5d193986a0b4315de1074d98158d5a99.jpg)
 
 ---
 
@@ -165,7 +165,7 @@ nvlink c2c就是NVIDIA的UCIE，NV宣称它是**an ultra-fast chip-to-chip and d
 
 NV的grace提供了superchip形态，两颗芯片采用nvlink c2c获得900GB互联带宽（一种猜测是类似MCM的基板或高级PCB做介质）。
 
-![](./images/5c85e697a8c55eac0f17b28042707446.jpg)![](./images/5c85e697a8c55eac0f17b28042707446.jpg)
+![](./images/5c85e697a8c55eac0f17b28042707446.jpg)
 
 这是一个2S server形态吗？ 在老黄的描述里，他不是的。
 
@@ -207,7 +207,7 @@ NV的grace提供了superchip形态，两颗芯片采用nvlink c2c获得900GB互�
 
 [https://nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration](http://link.zhihu.com/?target=https%3A//nvidianews.nvidia.com/news/nvidia-opens-nvlink-for-custom-silicon-integration)
 
-![](./images/010e99ed42874cb2183985af2123dc8b.jpg)![](./images/010e99ed42874cb2183985af2123dc8b.jpg)
+![](./images/010e99ed42874cb2183985af2123dc8b.jpg)
 
 在商言商，这是一句相当商业化的说法。
 
@@ -219,7 +219,7 @@ NV的grace提供了superchip形态，两颗芯片采用nvlink c2c获得900GB互�
 
 括号里面的字是我补充的，老黄怎么说也是儒家文化出身，东方文明在表达内心通常相对委婉、点到而止的，即使要骂人，那有一个脏字也就是输了。
 
-![](./images/546d81d53e2b192c259c4a9a49e8cd0c.jpg)![](./images/546d81d53e2b192c259c4a9a49e8cd0c.jpg)
+![](./images/546d81d53e2b192c259c4a9a49e8cd0c.jpg)
 
 ## 
 
@@ -233,7 +233,7 @@ tensorcore演进了三代了。
 
 从最初的volta的4x4x4，到ampere的4x8x8，到hopper的4x8x16。
 
-![](./images/b9738f9fd8f7eb50d7337d8d9e066847.jpg)![](./images/b9738f9fd8f7eb50d7337d8d9e066847.jpg)
+![](./images/b9738f9fd8f7eb50d7337d8d9e066847.jpg)
 
 他始终保留了一个纬度是4。
 
@@ -251,7 +251,7 @@ grace CPU采用了LPDDR。
 
 但大家都知道LPDDR没有ECC，而且我们可以数一数老黄展示的效果图上LPDDR的数量，8颗，没有额外的颗粒，并不能做到我们传统的64+8 ECC。
 
-![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)
+![](./images/53b9e89621ad9b23278fe0a90eb4f5fa.jpg)
 
 我不能确信这里老黄的ECC指什么，如果打开LPDDR5协议来看，确确实实有新增link ecc特性，但是这个特性的目的，是在LPDDR的高速传输链路上保证数据不出错，并不能保证数据存放在颗粒内部后的错误。
 
@@ -263,7 +263,7 @@ grace CPU采用了LPDDR。
 
 被核弹压制的，不仅仅是敌人，还有自己人！
 
-![](./images/3ed3bcebffc3990e426064770a1008fe.jpg)![](./images/3ed3bcebffc3990e426064770a1008fe.jpg)
+![](./images/3ed3bcebffc3990e426064770a1008fe.jpg)
 
 你如果不是做交换机芯片的，这张仅仅画在一个给GPU用的交换机产品的右上角的一小张图，打个哈欠可能就过了。
 
@@ -293,7 +293,7 @@ grace CPU采用了LPDDR。
 
 我贴出上一代ampere的图供复习一下，对照前面
 
-![](./images/529f99a4096fecdb5be095619ee3d4ee.jpg)![](./images/529f99a4096fecdb5be095619ee3d4ee.jpg)
+![](./images/529f99a4096fecdb5be095619ee3d4ee.jpg)
 
 噢，这令人迷恋的土豪金色，不见了！
 
@@ -303,7 +303,7 @@ grace CPU采用了LPDDR。
 
 我还不是很清楚发生了什么，但是股价从不撒谎。
 
-![](./images/9d840d67baeb61a6ec7d99fec8a4d6f6.jpg)![](./images/9d840d67baeb61a6ec7d99fec8a4d6f6.jpg)
+![](./images/9d840d67baeb61a6ec7d99fec8a4d6f6.jpg)
 
 大概率，还是定制方案最终败给了白盒方案！
 
@@ -341,7 +341,7 @@ IC之所以被成为硬科技，那是因为一招一式，直拳、勾拳，取
 
 **在相同的条件和目标下，他们能做到的，我们也要能！ 来吧，大战三百回。**
 
-![](./images/0d2d9f8c942cbe96df0b50633dc2b192.jpg)![](./images/0d2d9f8c942cbe96df0b50633dc2b192.jpg)
+![](./images/0d2d9f8c942cbe96df0b50633dc2b192.jpg)
 
 ---
 

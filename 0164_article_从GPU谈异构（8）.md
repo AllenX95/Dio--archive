@@ -57,7 +57,7 @@ RISC-V的简化意味着放弃一部分domain，这也是RISC-V是一个合适DS
 
 最后吐槽一下IaaS下的虚拟化、安全、VXLAN，你看看ARM为了在IaaS下的安全，在ARMV9加了多少状态转换（下图）? 这复杂度，需要多少设计和验证? 值吗？
 
-![](./images/ff44642454d1377a2d3a8f253a202c04.jpg)![](./images/ff44642454d1377a2d3a8f253a202c04.jpg)
+![](./images/ff44642454d1377a2d3a8f253a202c04.jpg)
 
 **CPU设计的简化和RISC-V的商业模式有关系吗？ 有！**
 

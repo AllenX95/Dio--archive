@@ -11,7 +11,7 @@
 
 如果你真的是jim keller的粉丝，你一定不会错过关于他最新的动态。
 
-![](./images/593eb640d5e8a1d8ccb9e7bff78f3645.jpg)![](./images/593eb640d5e8a1d8ccb9e7bff78f3645.jpg)
+![](./images/593eb640d5e8a1d8ccb9e7bff78f3645.jpg)
 
 是的，就前两天，tenstorrent的芯片在数据中心上线了。
 
@@ -35,7 +35,7 @@ JIM确实是非常强大的芯片架构师，不过我并不崇拜他，我更�
 
 tenstorrent有两颗芯片，推理的grayskull和训练的wormhole，架构上是大同小异。因为某些进度上的原因，目前都还不是完全体。其control CPU还用的是ARC，实际上下一代应该都会替换成高性能的RISC-V core（买SIFIVE和自研两路并行，稳的一比）。下面一张图把tenstorrent的技术理念展现得非常充分，懂得自然懂。
 
-![](./images/fdeaf038c13f11413b536c5b262b3bf3.jpg)![](./images/fdeaf038c13f11413b536c5b262b3bf3.jpg)
+![](./images/fdeaf038c13f11413b536c5b262b3bf3.jpg)
 
 这个图展示不了力量，那他的强大如何表现?
 
@@ -51,11 +51,11 @@ tenstorrent有两颗芯片，推理的grayskull和训练的wormhole，架构上�
 
 先说第一点，我们可以打开MIT比较有名的一篇survey: [https://arxiv.org/pdf/2109.08957.pdf](http://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2109.08957.pdf)
 
-![](./images/0a72aa156c0578f912ae1f931f293439.jpg)![](./images/0a72aa156c0578f912ae1f931f293439.jpg)
+![](./images/0a72aa156c0578f912ae1f931f293439.jpg)
 
 有一张全球AI芯片能效比较图，其实这张图不是特别准确，因为他把训练、推理、单机、系统的数据都揉在一起，但大的趋势是没有特别问题，值得参考。
 
-![](./images/1672003943516bf8715f03ebb282aaff.jpg)![](./images/1672003943516bf8715f03ebb282aaff.jpg)
+![](./images/1672003943516bf8715f03ebb282aaff.jpg)
 
 图中越偏向左上角的芯片能效越强，我们可以看到很多有名的公司和芯片，包括: TPU、A100、V100等等，可以看到tenstorrent在相当靠左上的位置（这里只统计了它的推理芯片）。与他能相比的，例如mythic等其实都是数模混合AI芯片，你懂的，而万亿美元市值公司nvidia的A100和V100在什么位置都是清晰可见的。简单列一下官网的数字嘛，nvidia A100的FP16能效是312Tflops/400W，而tenstorrent的wormhole是180Tflops/160W（or 130W），而国内要吊打nvidia的寒武纪/燧原什么的做的训练芯片，算力和功耗是多少知乎都能查到的，我就不多说了。反正，你在这个行业坐久了会理解，**1Tflops/W的FP16能效（单芯片100T以上）**，是AI训练芯片一个巨大的台阶，能跨过的人，很少很少，tenstorrent很轻松地跨过了。
 
@@ -73,7 +73,7 @@ tenstorrent有两颗芯片，推理的grayskull和训练的wormhole，架构上�
 
 咯，给你给你，敢不敢要（抄）啊?
 
-![](./images/234435c344e93433e41b9350e90c9f83.jpg)![](./images/234435c344e93433e41b9350e90c9f83.jpg)
+![](./images/234435c344e93433e41b9350e90c9f83.jpg)
 
 全开源生态，从Python、tensorflow到linux、开放存储、RISC-V开源指令编译器。这编程友好度不香吗？
 
@@ -81,7 +81,7 @@ tenstorrent有两颗芯片，推理的grayskull和训练的wormhole，架构上�
 
 JIM在第一代芯片没有搞定大核（要是我就买ARM N2），他用了ARC（后续换RISC-V），而小核负责计算，用的是5个RISC-V core共享AI matrix ISA扩展的思路，其实这个思路，和TESLA的DOJO是同出一脉，tesla的计算核其实也是RISC-V，不同的是DOJO是SMT4，而tenstorrent是5cores，其实啊，在RISC-V这个轻量级core下SMT4/8和multi-core已经没有太多区别了（intelXe GPU除了指令集不同，微架构的选择也是如此的）。
 
-![](./images/308d9fc85a2910b1b31e788d5d18d7e5.jpg)![](./images/308d9fc85a2910b1b31e788d5d18d7e5.jpg)
+![](./images/308d9fc85a2910b1b31e788d5d18d7e5.jpg)
 
 ～～～～～
 
@@ -111,7 +111,7 @@ groq呢，其实是在Google路数上更加激进的做法，他把整个芯片�
 
 **能效吊打国内（含nvidia）、编程方便、jim keller站台，还有一个极大的隐含甜点: 这是加拿大公司，加拿大技术，开源生态，无论是收购、投资或者技术授权都比美丽国的公司或者技术的可行性高了数百倍。 为啥⊙ω⊙ ?**
 
-![](./images/86ae50a98b64386a5c4ea620bda10baf.jpg)![](./images/86ae50a98b64386a5c4ea620bda10baf.jpg)
+![](./images/86ae50a98b64386a5c4ea620bda10baf.jpg)
 
 ---
 

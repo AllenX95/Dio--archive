@@ -19,7 +19,7 @@ DOJO风头太盛，一时无二。
 
 今天洗脚，讲一个恐怖故事，真的很恐怖哦，心理承受能力有限的同学可以不要翻下去ԅ(¯ㅂ¯ԅ)
 
-![](./images/f7c59e835893097e987957154606de6a.jpg)![](./images/f7c59e835893097e987957154606de6a.jpg)
+![](./images/f7c59e835893097e987957154606de6a.jpg)
 
 ~~~~~
 
@@ -39,7 +39,7 @@ AI最核心的tensor算力源自362c \*2Ghz \*4个\*8\*8matrix\*2FMA = 362TFLOPS
 
 有没有同学觉得这个DOJO这个core特别像一个CPU？ 特别是做RISC-V的同学们（猜测它就是个RISC-V魔改）
 
-![](./images/ac31ca06fa9a6b9ca4fb1e61d563d23a.jpg)![](./images/ac31ca06fa9a6b9ca4fb1e61d563d23a.jpg)
+![](./images/ac31ca06fa9a6b9ca4fb1e61d563d23a.jpg)
 
 第一，只有做CPU的人才喜欢用8B、64B LD/ST来表征架构信息。想一想，如果不是玩CPU，谁会在意64B这么个通用编程的cacheline size约束？
 
@@ -85,7 +85,7 @@ FLOPS算力指标重要吗？
 
 随便看一个刚刚在hotchips上展示的一位同学的胶片，BF16算力值是80TFLOPS……
 
-![](./images/a66b6b989fa913ce53cc064723e8f04d.jpg)![](./images/a66b6b989fa913ce53cc064723e8f04d.jpg)
+![](./images/a66b6b989fa913ce53cc064723e8f04d.jpg)
 
 其实真的不是针对谁，借用三体的一句话：毁灭你，与你何干。
 
@@ -99,7 +99,7 @@ FLOPS算力指标重要吗？
 
 **单芯片（800mm2内）你有达超过500TFLOPS BF16的路径吗？ 没有要啥钱？**
 
-![](./images/e8660a5e8742896d8bae30a9ebf0ca8f.jpg)![](./images/e8660a5e8742896d8bae30a9ebf0ca8f.jpg)
+![](./images/e8660a5e8742896d8bae30a9ebf0ca8f.jpg)
 
 ---
 

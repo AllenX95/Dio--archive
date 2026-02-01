@@ -35,7 +35,7 @@
 
 直到我慢慢学习慢慢理解，我才发现……
 
-![](./images/c9a8142718b11adfbf7328b295cfada3.jpg)![](./images/c9a8142718b11adfbf7328b295cfada3.jpg)
+![](./images/c9a8142718b11adfbf7328b295cfada3.jpg)
 
 所以讲结论吧：
 
@@ -83,7 +83,7 @@
 
 世间安得双全法，不负如来不负卿?
 
-![](./images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)![](./images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)
+![](./images/f6a667ea0644a766d38ea9cccd0e77c3.jpg)
 
 答案就是patterson的DSA黄金十年的第二个谜底：**2、基于RISC-V扩展DSA，有可能同时兼顾通用和专用。**
 

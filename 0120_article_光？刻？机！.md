@@ -15,22 +15,22 @@
 
 这事其实要怪就怪汉字的博！大！精！深！（你看这成语就很色色噢）........写这样的词就真的很容易让人误会。
 
-![](./images/867edbf055d6017febe9feda493ffc2a.jpg)![](./images/867edbf055d6017febe9feda493ffc2a.jpg)
+![](./images/867edbf055d6017febe9feda493ffc2a.jpg)
 
 光刻机的原本大家通用的英文是：lithography，像Nvidia最新推出的加速光刻的计算库就叫做cuLitho。给个牛津翻译，如下。
 
-![](./images/312d7139e2b862790c1dc19d4fea5c2b.jpg)![](./images/312d7139e2b862790c1dc19d4fea5c2b.jpg)
+![](./images/312d7139e2b862790c1dc19d4fea5c2b.jpg)
 > **lithography的真实翻译是：光！印！机！ 是谁翻译的光刻机？是谁？**
 
 一个刻字和印字的差别，我感觉几乎误导了整个中国对这玩意儿的理解。
 
 这个是刻： 刻的特征是笔和划的延伸
 
-![](./images/cba149f98972f03d28a43f3ce5a6f149.jpg)![](./images/cba149f98972f03d28a43f3ce5a6f149.jpg)
+![](./images/cba149f98972f03d28a43f3ce5a6f149.jpg)
 
 这个是印：印的特征是整图形的复制
 
-![](./images/25d14d5196a0de4aa51daae97b3d5d2b.jpg)![](./images/25d14d5196a0de4aa51daae97b3d5d2b.jpg)
+![](./images/25d14d5196a0de4aa51daae97b3d5d2b.jpg)
 
 ---
 
@@ -40,13 +40,13 @@
 
 下图是光印机的基本原理，以光为墨、以Mask为模，以Silicon为纸，把纳米级的电路Cell印刷出来的机器。
 
-![](./images/f5dc4a53eed1a59d6d3635bcfb7df28f.jpg)![](./images/f5dc4a53eed1a59d6d3635bcfb7df28f.jpg)
+![](./images/f5dc4a53eed1a59d6d3635bcfb7df28f.jpg)
 
 所以原答案其实并不复杂，可以。
 
 你看着光刻的过程，本身以Mask作为模板，那么模板的精度其实和最终印刷出来的cell是一个量级的，当然我知道这里有个Lens，但为了解决DPC问题，Mask的精度局部是要更高的，你看Nvidia show的这花儿（Mask上的图案），不比最终真实Cell图案来得复杂？
 
-![](./images/7ada3a46b42c6d1fe6b47f9df46befed.jpg)![](./images/7ada3a46b42c6d1fe6b47f9df46befed.jpg)
+![](./images/7ada3a46b42c6d1fe6b47f9df46befed.jpg)
 
 所以，确实世界上有很多可以进行更高精度的雕刻的方法，但是，这是光印机。
 
@@ -70,7 +70,7 @@ Apple的一本《金瓶芯》需要大约**70**页，也就是需要**70**张Mas
 
 最后，一块Wafer是12寸，代表着总面积是**70000**mm2，即你理解为印刷纸比印刷模板还大很多倍，这很正常，电影里面你见得多了，如下图，都不是事，也就是每张纸你用模板还得印刷很多轮呗，最终反正是裁纸再装订。
 
-![](./images/95c33dd2e1a6449816a457f51247368c.jpg)![](./images/95c33dd2e1a6449816a457f51247368c.jpg)
+![](./images/95c33dd2e1a6449816a457f51247368c.jpg)
 
 你看，规模出来了。
 
@@ -110,7 +110,7 @@ Apple的A15《金瓶芯》可是150亿字啊，以我能帮我家小孩代笔数
 
 这事其实很难，不是知乎回答一下问题那么简单，但没办法，还是要做，从那一刻起，只能进，退不了了 ：）
 
-![](./images/254dd8326c0976eedfa5168e6917fdc3.jpg)![](./images/254dd8326c0976eedfa5168e6917fdc3.jpg)
+![](./images/254dd8326c0976eedfa5168e6917fdc3.jpg)
 
 ---
 

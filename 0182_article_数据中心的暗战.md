@@ -9,7 +9,7 @@
 
 ---
 
-![](./images/55358f0f7734a648ade3051d9cd68a8d.jpg)![](./images/55358f0f7734a648ade3051d9cd68a8d.jpg)
+![](./images/55358f0f7734a648ade3051d9cd68a8d.jpg)
 
 蓝色的Intel是一家CPU公司。（他们和IBM撞色了）
 
@@ -17,7 +17,7 @@
 
 表面上，这是两家在不同赛道的公司，从绝大多数人来看，nvidia和intel联合霸占了整个IT行业绝大多数的利益，也代表了美帝对我兔的科技霸权。谁家没有买个intel CPU+nvidia GPU的PC呢，火热的云及数据中心也是以他们俩为主体。（说AMD yes毕竟还是非主流，咋没人说intel yes呢？）
 
-![](./images/8d054bc140bda4f151ad72177d174628.jpg)![](./images/8d054bc140bda4f151ad72177d174628.jpg)
+![](./images/8d054bc140bda4f151ad72177d174628.jpg)
 
 诚然，他们各自占据了一个技术高地，但这并不代表他们就愿意携起手相亲相爱。先不说intel卖CPU送GPU并且向重回独显GPU市场，nvidia想在AI领域摁死intel这些明线，这些都是肉眼可见的冲突，我还是更喜欢讲一讲台下的一些阴谋诡计的故事，这些事情往往没有被人注意，但更有趣味。
 
@@ -47,7 +47,7 @@ intel也是狠角色，在skylake开始，PCIE peer2peer的性能只有2GB（满
 
 更新一下，刚写完就看到doca这份宣言，我靠，AWS这么说也就罢了，人家是客户。NV你这么说，我要是intel我绝对不能忍好吧。
 
-![](./images/a8c1704d1737e203c1f78e8d87422279.jpg)![](./images/a8c1704d1737e203c1f78e8d87422279.jpg)![](./images/0cfe1aae66ab05b0bc66f932317fa7ba.jpg)![](./images/0cfe1aae66ab05b0bc66f932317fa7ba.jpg)
+![](./images/a8c1704d1737e203c1f78e8d87422279.jpg)![](./images/0cfe1aae66ab05b0bc66f932317fa7ba.jpg)
 
 **计谋5：**
 
@@ -85,11 +85,11 @@ Nvidia该咋办? 其实我也没想到NV的下一步。咋办呢？ 一个3000�
 
 至于AMD的GPU侧，打不过nvidia啊，rocm都只能伪装CUDA来工作，还有啥奇招么？ 嘿，还真有。AMD GPU正式推出一种IF over GPU over Pcie的硬件架构，鹅妹子嘤，神奇啊，AMD，你苏妈妈就这样把多块GPU给硬生生连上了啊，不用Pcie switch，也不操心CXL的事，也就差一个NIC DIRECT看怎么连上了。真是你妹啊。感觉硬件还能多卖一份钱。破费啊！
 
-![](./images/88ff40a006f0169bc655ec57769b3d0b.jpg)![](./images/88ff40a006f0169bc655ec57769b3d0b.jpg)
+![](./images/88ff40a006f0169bc655ec57769b3d0b.jpg)
 
 AMD永远是神奇的公司。
 
-![](./images/f77291db280328dbb4cdd703332e221f.jpg)![](./images/f77291db280328dbb4cdd703332e221f.jpg)
+![](./images/f77291db280328dbb4cdd703332e221f.jpg)
 
 ---
 

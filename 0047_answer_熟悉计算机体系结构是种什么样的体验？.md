@@ -38,7 +38,7 @@
 
 ╮（╯＿╰）╭
 
-![](./images/9f2457ed1169b563ab9a8591918f2da9.jpg)![](./images/9f2457ed1169b563ab9a8591918f2da9.jpg)
+![](./images/9f2457ed1169b563ab9a8591918f2da9.jpg)
 
 ---
 

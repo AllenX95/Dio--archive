@@ -48,7 +48,7 @@
 
 NN并没有什么不好解释的，如果用HPC的术语描述，NN每一层的Tensor运算等价于一次HPC的谱变换，就像下图，时域上的复杂信号组合，在FFT之后变成了若干零碎信息，即信息进行了一次高强度的压缩和重定位。
 
-![](./images/380cd011df04109b74e54cd36e126988.jpg)![](./images/380cd011df04109b74e54cd36e126988.jpg)
+![](./images/380cd011df04109b74e54cd36e126988.jpg)
 
 所以，Tensor是可以等价成线性FFT叠加一个具有进化选择意义的非线性激活的，即：***FFT（连续+线性） ~= Tensor = Matrix（离散化+线性）+ Activation（非线性）***
 
@@ -112,7 +112,7 @@ ChatGPT有传言其逻辑能力是基于代码学习获得的，这也很容易�
 
 因为逻辑能力也许就代表了一个人的意识本身了。记得小说《风云》、最近的漫画《拳愿》都有讲类似的故事。
 
-![](./images/8915a71ab1d13a43cee2f8fe0af6870c.jpg)![](./images/8915a71ab1d13a43cee2f8fe0af6870c.jpg)![](./images/96687c207d8443ba3fb9d997ba4f3ac5.jpg)![](./images/96687c207d8443ba3fb9d997ba4f3ac5.jpg)
+![](./images/8915a71ab1d13a43cee2f8fe0af6870c.jpg)![](./images/96687c207d8443ba3fb9d997ba4f3ac5.jpg)
 
 ---
 
@@ -152,7 +152,7 @@ ChatGPT所拥有的数学推导，我认为就是遍历的逻辑推理能力。�
 
 所以，我是做硬件的，我并不想做广告，但追赶者你可能真需要更多硬件和范围的探索来暴力地把随机性变成确定性。。。。。。。就像《神的九十亿个名字》那样
 
-![](./images/1d66a926920ac866b93ef88d535a1ef1.jpg)![](./images/1d66a926920ac866b93ef88d535a1ef1.jpg)
+![](./images/1d66a926920ac866b93ef88d535a1ef1.jpg)
 
 ---
 

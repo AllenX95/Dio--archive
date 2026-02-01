@@ -27,7 +27,7 @@
 
 Sora的基本原理发出来了，这也藏不住。
 
-![](./images/e132e3ad1002d91358ae487dbb833604.jpg)![](./images/e132e3ad1002d91358ae487dbb833604.jpg)
+![](./images/e132e3ad1002d91358ae487dbb833604.jpg)
 
 Diffusion Transformer的机理有很多介绍了，还是很让人耳目一新。哇，我们都明白Token的向量化是NLP的关键，但是图像用Patch的方式向量化，然后也通过向量的各种距离计算，得到下一个时隙最大概率Patch向量，想一想还真是Reasonable的路径。
 
@@ -37,7 +37,7 @@ Diffusion Transformer的机理有很多介绍了，还是很让人耳目一新�
 
 **所以Sora的“understand and simulate the physical world”，不能说假，但不真实。**
 
-![](./images/79b9d323cfde6db2b85fab6fe8aa4818.jpg)![](./images/79b9d323cfde6db2b85fab6fe8aa4818.jpg)
+![](./images/79b9d323cfde6db2b85fab6fe8aa4818.jpg)
 
 上图这个视频，存在非常明显的穿模效应，而看完所有的视频，你会发现都在有意地减少物理碰撞，包括那两艘船，运动，但相互之间各自安好。  
  Sora有基于当前状态的下一步物理预测，但是不能产生符合物理的衍生变化。  
@@ -70,7 +70,7 @@ Diffusion Transformer的机理有很多介绍了，还是很让人耳目一新�
 
 它放出来的主Video，这个妹纸的周边，地上的水，有明显的镜面反射特征，阴影是可以用NN猜出来的，但是光的镜面反射，是一个物理特征，而前一节推导Sora是没有学到物理的。
 
-![](./images/41ce61ad64c389216bce1a2f230cfaa4.jpg)![](./images/41ce61ad64c389216bce1a2f230cfaa4.jpg)
+![](./images/41ce61ad64c389216bce1a2f230cfaa4.jpg)
 
 所以镜像应该是调用了Ray Tracing，但是前一节又猜测Sora只有点云信息，没有Triangle，没有Texture，咋做光追？
 

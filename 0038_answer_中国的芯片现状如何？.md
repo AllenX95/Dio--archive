@@ -19,7 +19,7 @@
 
 若是你今天帮了我，一定设计最好的CPU来报道你。
 
-![](./images/d9f6875654eccd96589ddef5465d390e.jpg)![](./images/d9f6875654eccd96589ddef5465d390e.jpg)  
+![](./images/d9f6875654eccd96589ddef5465d390e.jpg)  
 
 刷新补充一下信息(ಡωಡ)
 

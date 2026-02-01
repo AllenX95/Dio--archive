@@ -19,7 +19,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 投片太贵了，如果要做一个成功的DSA，你必须找到一个足够大的蛋糕（市场空间），毕竟杀人的生意有人做，赔钱的生意没人做。
 
-![](./images/08d33e95f6bf72c063b4219c172b57cd.jpg)![](./images/08d33e95f6bf72c063b4219c172b57cd.jpg)
+![](./images/08d33e95f6bf72c063b4219c172b57cd.jpg)
 
 当下这个世界上最大的DSA市场是什么？
 
@@ -37,7 +37,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 事物的变化也许不合理，但必有原因。
 
-![](./images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)![](./images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)
+![](./images/dfdcbb1008941d7b7f5ff4153c40a2df.jpg)
 
 同样的故事，PC的发展、手机的发展，是不是都似曾相识?
 
@@ -75,7 +75,7 @@ patterson大佬曾经说，这是DSA的黄金十年。
 
 不过真要走向互联网这个级别，可能还需要一点时间，需要自动驾驶真正解放乘客的注意力，还有，乘客不能晕车……
 
-![](./images/b431079e72cc981e012732a3a19cb3c6.jpg)![](./images/b431079e72cc981e012732a3a19cb3c6.jpg)
+![](./images/b431079e72cc981e012732a3a19cb3c6.jpg)
 
 ---
 

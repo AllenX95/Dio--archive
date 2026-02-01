@@ -19,23 +19,23 @@ HC31可以说是近几年HC大会的巅峰了，摩尔定律末期的群星闪�
 
 不过，华为达芬奇也参与了HC大会，作为作者之一………… ┐(‘～`；)┌ 聊聊这个？
 
-![](./images/ea385c1b5170e373ccc987e6744a6a5a.jpg)![](./images/ea385c1b5170e373ccc987e6744a6a5a.jpg)
+![](./images/ea385c1b5170e373ccc987e6744a6a5a.jpg)
 
 这胶片几乎是泄密的纬度展现了我国最顶尖级别的东西（说是国之重器真不为过），不知道为啥没啥人气………相当 π\_π 伤心
 
 特别是昇腾910，刚发布的。
 
-![](./images/d8b013534375d4d92f5459b86dc35a59.jpg)![](./images/d8b013534375d4d92f5459b86dc35a59.jpg)
+![](./images/d8b013534375d4d92f5459b86dc35a59.jpg)
 
 4TB的mesh，这是所有CORE可获得的真实带宽而不是交换带宽，相比NVIDIA最顶尖的VOLTA V100也就2.6TB。还有片间240G的HCCS接口，就算中必输也罢，没人和NVLINK对比一下差距么？
 
-![](./images/7e4282d6fd0f0e7178e83f8522c3b28f.jpg)![](./images/7e4282d6fd0f0e7178e83f8522c3b28f.jpg)
+![](./images/7e4282d6fd0f0e7178e83f8522c3b28f.jpg)
 
 算了-\_-|| 继续讲下去真的泄密了，讲点不涉密的逸闻吧。
 
 不知道多少人注意到下面的两个单词，nimbus和vitruvian，这是啥？
 
-![](./images/0529d20414f0c9f041be2ee049bd9282.jpg)![](./images/0529d20414f0c9f041be2ee049bd9282.jpg)
+![](./images/0529d20414f0c9f041be2ee049bd9282.jpg)
 
 这个是code name，在项目被正式发布之前，芯片开发团队都是以code name描述项目的。典型的intel的skylake、icelake，AMD的rome、naples均是。ARM也是，有时候有人问我A77、A76等CPU的事，我往往没法快速回答，因为我接触的都是ares、zeus、enyo的code name，当Axx的数字发布的时候，这个CORE对我已经是过去式了，我需要推算一遍A的编号，映射出code name，然后回忆过去……
 
@@ -49,7 +49,7 @@ HC31可以说是近几年HC大会的巅峰了，摩尔定律末期的群星闪�
 
 命名vitruvian当然是源于达芬奇架构，以及芯片架构以JJ为中心的绝对对称(你把上面的die shot的HBM去掉看看像不像JJ？)，但单词太长要发三个音，写代码的namespace也太长，还担心很多人不接受，结果项目群大家都很忙，征求意见时没人鸟我 (´;︵;`)，那好吧，既成事实。
 
-![](./images/1a1aac97f0d0bf5230b4e7b4215bdcee.jpg)![](./images/1a1aac97f0d0bf5230b4e7b4215bdcee.jpg)
+![](./images/1a1aac97f0d0bf5230b4e7b4215bdcee.jpg)
 
 上面这五颗DIE，在一定的架构和工程的约束下，可以比较灵活地进行两两拼接，组合成一颗独立形态的SOC芯片。当然某些组合可能缺乏组合的意义，但这种思路发散性就很大了。假设，以后IC公司对外不卖IP，卖DIE，会怎样？
 
@@ -57,7 +57,7 @@ HC31可以说是近几年HC大会的巅峰了，摩尔定律末期的群星闪�
 
 下一个die正在规划，我打算命名为snow-white，哇哈哈哈(ಡωಡ)hiahiahia，不知道能否搞成既成事实。
 
-![](./images/baa1d68145278a47f64fb5b0d07ba043.jpg)![](./images/baa1d68145278a47f64fb5b0d07ba043.jpg)
+![](./images/baa1d68145278a47f64fb5b0d07ba043.jpg)
 
 ---
 

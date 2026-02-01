@@ -11,7 +11,7 @@
 
 要关注胶片中的关键词。
 
-![](./images/e02b62253adf49b9ba28ccfb489747b6.jpg)![](./images/e02b62253adf49b9ba28ccfb489747b6.jpg)
+![](./images/e02b62253adf49b9ba28ccfb489747b6.jpg)
 
 第二条，扩展ARM原有的IP license策略，看上去未来的license会有更加紧耦合的形式，类似于CPU+GPU+NIC全家桶的策略？
 

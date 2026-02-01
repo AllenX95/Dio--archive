@@ -36,7 +36,7 @@
 
 **卷起来，好吗？ 这个行业，卷卷更健康。**
 
-![](./images/a45b48c09c2842828ceeba5fac794115.jpg)![](./images/a45b48c09c2842828ceeba5fac794115.jpg)
+![](./images/a45b48c09c2842828ceeba5fac794115.jpg)
 
 ---
 

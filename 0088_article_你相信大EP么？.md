@@ -13,7 +13,7 @@
 
 当前金主爸爸们对扩大Scale-Up的域还是存有疑虑的，包括可靠性、还有成本。虽然Nvidia也还在吹嘘大机霸NVL512和盾牌芯片，也是个大ep的卖点。
 
-![](./images/9527a629ecbfb915b7de7c2b89a30717.jpg)![](./images/9527a629ecbfb915b7de7c2b89a30717.jpg)
+![](./images/9527a629ecbfb915b7de7c2b89a30717.jpg)
 
 ---
 
@@ -23,7 +23,7 @@
 
 其实大数量MoE的部署甜点是一个浴盆曲线，最高效率的部署策略是：一体机 or 大EP部署。
 
-![](./images/bc9c82294b69b2526c4d1207bf8717a4.jpg)![](./images/bc9c82294b69b2526c4d1207bf8717a4.jpg)
+![](./images/bc9c82294b69b2526c4d1207bf8717a4.jpg)
 
 如果一定要比喻一下的话，像DeepSeekV3，有256个Expert，每次需要激活8个Expert，此时你可以把每个Expert当成一个科目。
 
@@ -59,7 +59,7 @@ MoE架构毫无疑问截止到今天看上去是正确的，典型的，一个70
 
 喔，原来这就是清华啊。
 
-![](./images/9ed5fa3f5b0d51d55bf32d261065063c.jpg)![](./images/9ed5fa3f5b0d51d55bf32d261065063c.jpg)
+![](./images/9ed5fa3f5b0d51d55bf32d261065063c.jpg)
 
 ---
 

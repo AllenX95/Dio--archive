@@ -17,41 +17,41 @@
 
 我下面截图的一些东西都是我写的，主要是不想再写一遍所以截图了，但内容本身都是general的姿势以及本来就希望推广的生态本身，并不涉及什么公司或芯片的秘密。
 
-![](./images/67c4888bac03e863fdd16a444eae1807.jpg)![](./images/67c4888bac03e863fdd16a444eae1807.jpg)
+![](./images/67c4888bac03e863fdd16a444eae1807.jpg)
 
 没有人比我更懂锁的硬件实现了。
 
-![](./images/314d96bd2630d5d1fe8716cf0d3301b8.jpg)![](./images/314d96bd2630d5d1fe8716cf0d3301b8.jpg)![](./images/bc80a0f199706f2384e55d8c6804686f.jpg)![](./images/bc80a0f199706f2384e55d8c6804686f.jpg)
+![](./images/314d96bd2630d5d1fe8716cf0d3301b8.jpg)![](./images/bc80a0f199706f2384e55d8c6804686f.jpg)
 
 锁的行为在于读改写的原子性，而是否对读数据进行条件判断则再引入了一个变化量。
 
 然后，作为ARM处理器架构师，遇到的最大困难就是ARM架构又引入一层变量。
 
-![](./images/1d2188f5ee1f179a77be39fa81d4c9ca.jpg)![](./images/1d2188f5ee1f179a77be39fa81d4c9ca.jpg)
+![](./images/1d2188f5ee1f179a77be39fa81d4c9ca.jpg)
 
 exclusive操作是ARM架构的一个经典杰作，它的投机机制在ARM的主战场，包括IOT、mobile等小型系统里面，有非常杰出的表现。
 
 但可惜，ARM要做server，做更大的系统，此时exclusive每次都要把数据读取到L1 cache导致的数据频繁搬运就成为了性能的累赘。
 
-![](./images/1f6e766621fcae917a4496d98d133ac0.jpg)![](./images/1f6e766621fcae917a4496d98d133ac0.jpg)
+![](./images/1f6e766621fcae917a4496d98d133ac0.jpg)
 
 atomic我记得是在ARMv8.2定义的，软件能够快速地用起来嘛，答案是不能。
 
-![](./images/14411ac6995b97af3a380d61a4e16d37.jpg)![](./images/14411ac6995b97af3a380d61a4e16d37.jpg)
+![](./images/14411ac6995b97af3a380d61a4e16d37.jpg)
 
 再其次，即使在某些地方能，也让我这种直肠子的硬件人员非常蛋疼。
 
-![](./images/79e500a196c968c4a6f667c21bfbd782.jpg)![](./images/79e500a196c968c4a6f667c21bfbd782.jpg)
+![](./images/79e500a196c968c4a6f667c21bfbd782.jpg)
 
 CAS（atomic compare）本身就的语意就包含了写-判-改-读，四重意义了，只是顺序上和原子语意不一致，为啥程序员还要读一次？ 明明atomic已经让计算发生在冲突的memory层次上了，为啥要再读到L1 cache ?
 
-![](./images/e0126d77446ee004058fb19a15aa4cbc.jpg)![](./images/e0126d77446ee004058fb19a15aa4cbc.jpg)
+![](./images/e0126d77446ee004058fb19a15aa4cbc.jpg)
 
 看到楼上这样的atomic抢锁代码的时候，真的，我是崩溃的。
 
 只能自我安慰一下，美女程序员写的代码都是对的✧ (ˊωˋ\*) ✧
 
-![](./images/33dcac2859095a79e3f59bb8638183db.jpg)![](./images/33dcac2859095a79e3f59bb8638183db.jpg)
+![](./images/33dcac2859095a79e3f59bb8638183db.jpg)
 
 综上。ARM多核处理器锁的性能需要软件的生态同步调优才能优化好（还有很多硬件优化的策略就不能讲了）。
 
@@ -63,7 +63,7 @@ CAS（atomic compare）本身就的语意就包含了写-判-改-读，四重意
 
 4、用timeout WFE替代spin N-time动作，WFE结束时转mutex。
 
-![](./images/0f9c05b729012af37c3a3378595cf40f.jpg)![](./images/0f9c05b729012af37c3a3378595cf40f.jpg)
+![](./images/0f9c05b729012af37c3a3378595cf40f.jpg)
 
 ---
 

@@ -19,7 +19,7 @@
 
 随着工艺的演进，foundry是变得越来越少，到16nm之后就只剩TSMC、三星、GF和intel了，而到7nm就只剩TAMC、三星、intel了。
 
-![](./images/9f91baad55b71524a8f3be229e3f67a6.jpg)![](./images/9f91baad55b71524a8f3be229e3f67a6.jpg)
+![](./images/9f91baad55b71524a8f3be229e3f67a6.jpg)
 
 从目前的一些仿真数据和信息来看。TSMC和三星的制造方向也就是库的情况是相似的，而GF和intel具有很多相似性。
 
@@ -35,7 +35,7 @@ AMD的ZEN2是TSMC的，ZEN1是GF的。有兴趣的同学可以在网上仔细对
 
 关于AMD的歌也很好玩呢，表达了很多。
 
-![](./images/922b8cb3571b108fd666811dd2ca7e83.jpg)![](./images/922b8cb3571b108fd666811dd2ca7e83.jpg)
+![](./images/922b8cb3571b108fd666811dd2ca7e83.jpg)
 
 ---
 

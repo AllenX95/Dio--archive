@@ -9,7 +9,7 @@
 
 ---
 
-![](./images/0153dcc5840337b86fe0403d1350d4ad.jpg)![](./images/0153dcc5840337b86fe0403d1350d4ad.jpg)
+![](./images/0153dcc5840337b86fe0403d1350d4ad.jpg)
 
 今天腾讯没有预期的跌停，也是挺诡异的。
 
@@ -29,7 +29,7 @@
 
 特别是看完这个电影……（怎样才能让领导也去看看这些充满想象力的电影啊）
 
-![](./images/8ef7af33c182cdb91b61b50c2bdf9490.jpg)![](./images/8ef7af33c182cdb91b61b50c2bdf9490.jpg)
+![](./images/8ef7af33c182cdb91b61b50c2bdf9490.jpg)
 
 最后的场景让我回忆起曾经养电子鸡的时代……
 
@@ -43,7 +43,7 @@
 
 没有什么障碍能阻止人对快乐的追求呢……
 
-![](./images/9634e6f07679632effe2250aca67f322.jpg)![](./images/9634e6f07679632effe2250aca67f322.jpg)
+![](./images/9634e6f07679632effe2250aca67f322.jpg)
 
 ---
 

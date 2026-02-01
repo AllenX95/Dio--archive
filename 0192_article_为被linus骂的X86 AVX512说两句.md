@@ -19,7 +19,7 @@
 
 最多再过一代也就推出来了，期待Linus评价。
 
-[The x86 Advanced Matrix Extension (AMX) Brings Matrix Operations; To Debut with Sapphire Rapids](http://link.zhihu.com/?target=https%3A//fuse.wikichip.org/news/3600/the-x86-advanced-matrix-extension-amx-brings-matrix-operations-to-debut-with-sapphire-rapids/)![](./images/f9ff0e7ce902aaebd5c0839b3c28f516.jpg)![](./images/f9ff0e7ce902aaebd5c0839b3c28f516.jpg)
+[The x86 Advanced Matrix Extension (AMX) Brings Matrix Operations; To Debut with Sapphire Rapids](http://link.zhihu.com/?target=https%3A//fuse.wikichip.org/news/3600/the-x86-advanced-matrix-extension-amx-brings-matrix-operations-to-debut-with-sapphire-rapids/)![](./images/f9ff0e7ce902aaebd5c0839b3c28f516.jpg)
 
 对于AVX或ARM的SVE，像Linus的评论，从相当多软件架构师交流中我都听到类似的表达。聊得多了我也逐渐理解了软件视角的逻辑，喜欢大一统嘛，都不想要碎片化嘛，说得好像硬件就不想统一一样。嗨，但我还是想从处理器硬件的角度把整个逻辑说一遍。
 
@@ -37,7 +37,7 @@ patterson其实很早就说过，在处理器体系结构里，only performance 
 
 这种集成到CPU的DSA，与linus喜欢的在外部的DPU、FPGA、GPGPU有什么区别呢？ 为啥他会喜欢后者？我曾经也是百思不得其解。后来慢慢明白了。我先用一张图说明DSA的不同层级。
 
-![](./images/9b623b1fb97c613d7e1ec06c0afc54fb.jpg)![](./images/9b623b1fb97c613d7e1ec06c0afc54fb.jpg)
+![](./images/9b623b1fb97c613d7e1ec06c0afc54fb.jpg)
 
 X86的AVX与ARM的SVE是最couple的，直接运行在pipeline内部，可以在Instruction级别调用，但是它确实不是软件无感知的，AVX扩大了原有的regfile和state，导致了一旦使用，上下文需要倍数扩展，此外还可能造成频率下降。
 

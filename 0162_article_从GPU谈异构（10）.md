@@ -19,7 +19,7 @@
 
 想想当年的云计算(￣ε(#￣)
 
-![](./images/68a08ffc4da08d97a3b144851ae49dcf.jpg)![](./images/68a08ffc4da08d97a3b144851ae49dcf.jpg)
+![](./images/68a08ffc4da08d97a3b144851ae49dcf.jpg)
 
 要解决算力不足的问题，其实很多人都看到了，说得最多的topic是端云协同、以存代算。
 
@@ -31,7 +31,7 @@
 
 那么，我看到的答案是什么?
 
-![](./images/7a13b13807d18c80bf0d165c9c002c9d.jpg)![](./images/7a13b13807d18c80bf0d165c9c002c9d.jpg)
+![](./images/7a13b13807d18c80bf0d165c9c002c9d.jpg)
 
 上一篇很多同学已经给出答案了。
 
@@ -45,7 +45,7 @@
 
 不理解这个感觉的同学，也没法读懂原神，还是不要做metaverse的好（最初的metaverse大概率是二次元起手的，为了低算力开销）。
 
-![](./images/d4cc1dc553ba54de63f7abe614a1616b.jpg)![](./images/d4cc1dc553ba54de63f7abe614a1616b.jpg)
+![](./images/d4cc1dc553ba54de63f7abe614a1616b.jpg)
 
 **解决metaverse算力答案一：per stage AI化**
 
@@ -63,13 +63,13 @@ intel的解决思路巧妙而又直接，graphic的每一个stage都是一个独
 
 举一个例子，守望屁股。
 
-![](./images/00f445da11200082ddac2a6e5901f3b6.jpg)![](./images/00f445da11200082ddac2a6e5901f3b6.jpg)
+![](./images/00f445da11200082ddac2a6e5901f3b6.jpg)
 
 众所周知metaverse里面的屁股都是圆的（不圆没人玩），那既然是圆的，何必再用tessellation去曲面细分成圆呢？ 画圆天生就是一个可微函数而已。
 
 再举一个例子，原神的草地。
 
-![](./images/7aaf9427218c049db63fc19b61fa131f.jpg)![](./images/7aaf9427218c049db63fc19b61fa131f.jpg)
+![](./images/7aaf9427218c049db63fc19b61fa131f.jpg)
 
 这种东西，你能分辨用tesselation画和用NN画的差异吗？
 
@@ -83,7 +83,7 @@ intel的解决思路巧妙而又直接，graphic的每一个stage都是一个独
 
 基于NN的多视角场景表达和渲染。
 
-![](./images/d7f59520e85916da331a73c6a6d11817.jpg)![](./images/d7f59520e85916da331a73c6a6d11817.jpg)
+![](./images/d7f59520e85916da331a73c6a6d11817.jpg)
 
 原则上这是有一定成熟度的技术了，很多体育节目，例如：【哔哩哔哩】[https://b23.tv/DKqTen](http://link.zhihu.com/?target=https%3A//b23.tv/DKqTen) 都采用了这样的算力。
 
@@ -109,7 +109,7 @@ intel的解决思路巧妙而又直接，graphic的每一个stage都是一个独
 
 taichi编程范式，是模拟metaverse中各种效果最佳的神器。
 
-![](./images/fafabc2f9a29ccd953a1243057b14952.jpg)![](./images/fafabc2f9a29ccd953a1243057b14952.jpg)
+![](./images/fafabc2f9a29ccd953a1243057b14952.jpg)
 
 其实上一个帖子有不少人说得对，用欺骗人眼的魔法，是实现metaverse世界算力的唯一路径，而这个魔法，是**AI+Graphic**。
 

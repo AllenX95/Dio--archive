@@ -11,13 +11,13 @@
 
 何必呢……
 
-![](./images/d1c337e634b1ebccd518c6dd14990259.jpg)![](./images/d1c337e634b1ebccd518c6dd14990259.jpg)
+![](./images/d1c337e634b1ebccd518c6dd14990259.jpg)
 
 当下这个时代，计算机体系结构方向的，有大芯片架构经验的，市场上的机会也不比AI的大牛们差太多吧……
 
 看看最近tesla从裤裆里掏出的大家伙，还有hotchips那么多奇技淫巧的姿势可以玩，怎么也不该卷成这样啊。
 
-![](./images/d42ea511293c26b24349f77ae922f1fc.jpg)![](./images/d42ea511293c26b24349f77ae922f1fc.jpg)
+![](./images/d42ea511293c26b24349f77ae922f1fc.jpg)
 
 ---
 
